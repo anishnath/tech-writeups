@@ -16,6 +16,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>documentaion</finalName>
+    <finalName>docs</finalName>
   </build>
 </project>
