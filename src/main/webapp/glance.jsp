@@ -105,6 +105,7 @@
           <img class="img-fluid rounded" src="http://placehold.it/900x300" alt="">
           -->
            <%@ include file="footer_adsense.jsp"%>
+           <%@ include file="analytics.jsp"%>
 
           <hr>
 
