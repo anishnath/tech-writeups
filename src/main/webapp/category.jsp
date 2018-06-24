@@ -5,7 +5,7 @@
                 <div class="col-lg-6">
                   <ul class="list-unstyled mb-0">
                     <li>
-                      <a href="8gwifi.org">Cryptogpahy</a>
+                      <a href="https://8gwifi.org">Cryptogpahy</a>
                     </li>
                     <li>
                       <a href="#">Openstack</a>
