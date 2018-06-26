@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Openstack Client Installation, pip installation of openstack client">
+    <meta name="description" content="Creating centos/rhel7 Cloud Images using qemu-img and virt-install">
     <meta name="author" content="Anish nath">
     <meta name="robots" content="index,follow" />
 	<meta name="googlebot" content="index,follow" />
@@ -13,7 +13,7 @@
 	<meta name="classification" content="tools" />
 	<meta name="language" content="en" />
 
-    <title>Openstack Client Installation </title>
+    <title>Creating centos/rhel7 Cloud Images using qemu-img and virt-install </title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -34,19 +34,19 @@
   "@type" : "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://8gwifi.org/docs/"
+    "@id": "https://8gwifi.org/docs/creating-cloud-images.jsp"
   },
-  "name" : "Install the OpenStack command-line clients on Centos/Rhel/Fedora Like System",
+  "name" : "Creating centos/rhel7 Cloud Images using qemu-img and virt-install",
   "author" : {
     "@type" : "Person",
     "name" : "Anish"
   },
   "headline": "Install the OpenStack command-line clients on Centos/Rhel/Fedora Like System",
-  "image":"https://8gwifi.org/docs/img/openstack_client.jpg",
-  "datePublished" : "2018-06-25",
-  "dateModified": "2018-06-25",
-  "articleSection" : "Openstack client Installation",
-  "articleBody" : [ "Install the prerequisite software", "Install the python-openstackclient", "Source the project credentials </STRONG> to gain access to project-only CLI commands:", "Verify Openstack </STRONG> client operation", "if you need to install an individual client project, replace the <STRONG>PROJECT</STRONG> name in this pip install command using the list below." ],
+  "image":"https://8gwifi.org/docs/img/boot.jpg",
+  "datePublished" : "2018-06-26",
+  "dateModified": "2018-06-26",
+    "articleSection" : "Cloud Image Manual Creation",
+  "articleBody" : [ "Install the CPU checker", "Check for <STRONG> kvm support", "Install the <STRONG> qemu-img and virt-install </STRONG> packages", "Verify <STRONG> Network is Active", "Download the Centos ISO image from <STRONG>centos7 Minimal image from  mirror site", "Create the <STRONG> qemu </STRONG> centos img example 3G", "qemu-img create -f qcow2 centos7-minimal-cloud.qcow2 3G", "Run the <STRONG> osinfo-query os  </STRONG> command to see a range of allowed <STRONG> --os-variant options", "Install the Centos7 using  <STRONG> virt-install", "Connect through the VNC server  VNC password can be found at", "Login to the System with the configured user", "Update the <STRONG> /etc/sysconfig/network-scripts/ifcfg-eth0 </STRONG> file so it only contains the following values", "Disable the  <STRONG> zeroconf </STRONG> route", "Configure the  <STRONG> Console </STRONG>  Edit the File <STRONG> /etc/default/grub </STRONG> and add the console tty", "Generate Grub Configuration file", "Install the ACPI service , cloud-init  &amp; cloud-utils-growpart", "ENable the ACPI service", "Poweroff the Machine", "Finally cleanup the Machine remove MAC address", "virt-sysprep -d centos" ]
   "publisher" : {
     "@type" : "Organization",
     "name" : "8gwifi.org Tech Blog",
