@@ -15,6 +15,9 @@
                     <li>
                       <a href="openstack-client.jsp">Openstack Client Installation</a>
                     </li>
+                     <li>
+                      <a href="debug-guestname-virsh.jsp">virt-install Error Guest name is already in use</a>
+                    </li>
                   </ul>
                 </div>
                <div class="col-lg-6">

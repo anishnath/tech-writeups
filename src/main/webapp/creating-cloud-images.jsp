@@ -105,7 +105,7 @@
           <hr>
 
           <!-- Date/Time -->
-          <p>Posted on Monday June 26</p>
+          <p>Posted on Tuesday June 26</p>
 
           <hr>
 
