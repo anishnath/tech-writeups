@@ -31,6 +31,10 @@
 {
   "@context" : "http://schema.org",
   "@type" : "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://8gwifi.org/docs/"
+  },
   "name" : "Openstack glance Adding/Deleting Images",
   "author" : {
     "@type" : "Person",

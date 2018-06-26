@@ -32,6 +32,10 @@
 {
   "@context" : "http://schema.org",
   "@type" : "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://8gwifi.org/docs/"
+  },
   "name" : "Install the OpenStack command-line clients on Centos/Rhel/Fedora Like System",
   "author" : {
     "@type" : "Person",
