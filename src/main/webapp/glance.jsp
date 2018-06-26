@@ -39,6 +39,7 @@
   "headline": "Openstack glance tutorial",
   "image":"https://8gwifi.org/docs/img/glance.jpg",
   "datePublished" : "2018-06-25",
+  "dateModified": "2018-06-25",
   "articleSection" : "Openstack Image Service",
   "articleBody" : [ "Download the Cirros for Testing Image", "Upload the image to the Image service using the <B>QCOW2</B> disk format, <B>bare</B> container format, and public visibility so all projects can access it:", "Upload the image to the Image service using the <B>vmdk</B> disk format, <B>ova</B> container format, and public visibility so all projects can access", "Upload the image to the Image service using the <B>ISO</B> disk format, <B>bare</B> container format, and public visibility so all projects can access it", "Openstack List Images", "Openstack delete Images", "Openstack delete <B>protected</B> Images", "Openstack glance upload image with default disk requirement", "Glance Disks and Container Formats" ],
   "publisher" : {

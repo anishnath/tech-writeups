@@ -40,6 +40,7 @@
   "headline": "Install the OpenStack command-line clients on Centos/Rhel/Fedora Like System",
   "image":"https://8gwifi.org/docs/img/openstack_client.jpg",
   "datePublished" : "2018-06-25",
+  "dateModified": "2018-06-25",
   "articleSection" : "Openstack client Installation",
   "articleBody" : [ "Install the prerequisite software", "Install the python-openstackclient", "Source the project credentials </STRONG> to gain access to project-only CLI commands:", "Verify Openstack </STRONG> client operation", "if you need to install an individual client project, replace the <STRONG>PROJECT</STRONG> name in this pip install command using the list below." ],
   "publisher" : {
