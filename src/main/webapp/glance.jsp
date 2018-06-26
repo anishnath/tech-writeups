@@ -333,7 +333,7 @@ openstack image delete 50fc1d8b-7f7f-41d5-9ec8-8762d377a612</code></pre>
          <%@ include file="footer_adsense.jsp"%> 
 
           <!-- Categories Widget -->
-         <%@ include file="category.jsp"%>
+         <%@ include file="related-openstack.jsp"%>
          
          
 

@@ -196,7 +196,7 @@ Please enter your OpenStack Password for project security-ops as user orchestrat
          <%@ include file="footer_adsense.jsp"%> 
 
           <!-- Categories Widget -->
-         <%@ include file="category.jsp"%>
+         <%@ include file="related-openstack.jsp"%>
          
          
 
