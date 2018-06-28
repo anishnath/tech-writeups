@@ -63,26 +63,7 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">8gwifi.org- Tech Blog</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://8gwifi.org">Services</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+   <%@ include file="navigation.jsp"%> 
 
     <!-- Page Content -->
     <div class="container">
@@ -332,8 +313,14 @@ openstack image delete 50fc1d8b-7f7f-41d5-9ec8-8762d377a612</code></pre>
           <!-- Ad Widget -->
          <%@ include file="footer_adsense.jsp"%> 
 
-          <!-- Categories Widget -->
+          <!-- Article Widget -->
          <%@ include file="related-openstack.jsp"%>
+         
+         <!-- Topic Widget -->
+         <%@ include file="side.jsp"%>
+         
+         <!-- Add Comments Support -->
+         <%@ include file="addcomments.jsp"%>
          
          
 

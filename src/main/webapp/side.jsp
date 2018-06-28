@@ -1,9 +1,44 @@
- <!-- Side Widget 
+ <!-- Side Widget  -->
           <div class="card my-4">
-            <h5 class="card-header">Side Widget</h5>
+            <h5 class="card-header">Topics</h5>
             <div class="card-body">
-              You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
+              <ul class="list-unstyled mb-0">
+                  <li>
+                      <a href="https://8gwifi.org">Cryptogpahy</a>
+                    </li>
+                    <li>
+                      <a href="glance.jsp">Openstack</a>
+                    </li>
+                    <li>
+                      <a href="ansible-manage-users.jsp">Ansible</a>
+                    </li>
+                    <li>
+                      <a href="https://8gwifi.org">Security</a>
+                    </li>
+                  </ul>
             </div>
+            <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5b349bb63fa2380011f769b0&product=inline-share-buttons' async='async'></script>   
+ <div class="sharethis-inline-share-buttons"></div>
 </div>
 
+ 
+ <!--
+
+               <div class="col-lg-6">
+                  <ul class="list-unstyled mb-0">
+                  <li>
+                      <a href="https://8gwifi.org">Cryptogpahy</a>
+                    </li>
+                    <li>
+                      <a href="glance.jsp">Openstack</a>
+                    </li>
+                    <li>
+                      <a href="ansible-manage-users.jsp">Ansible</a>
+                    </li>
+                    <li>
+                      <a href="https://8gwifi.org">Security</a>
+                    </li>
+                  </ul>
+                </div>
+                
 -->
