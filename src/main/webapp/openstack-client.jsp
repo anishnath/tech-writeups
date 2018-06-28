@@ -190,6 +190,7 @@ Please enter your OpenStack Password for project security-ops as user orchestrat
 
       </div>
       <!-- /.row -->
+      <%@ include file="addcomments.jsp"%>
 
     </div>
     <!-- /.container -->

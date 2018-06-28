@@ -156,6 +156,7 @@ Domain centos has been undefined</code></pre>
 
       </div>
       <!-- /.row -->
+      <%@ include file="addcomments.jsp"%>
 
     </div>
     <!-- /.container -->

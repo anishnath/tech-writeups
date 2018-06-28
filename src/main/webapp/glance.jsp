@@ -319,15 +319,11 @@ openstack image delete 50fc1d8b-7f7f-41d5-9ec8-8762d377a612</code></pre>
          <!-- Topic Widget -->
          <%@ include file="side.jsp"%>
          
-         <!-- Add Comments Support -->
-         <%@ include file="addcomments.jsp"%>
-         
-         
-
         </div>
 
       </div>
       <!-- /.row -->
+      <%@ include file="addcomments.jsp"%>
 
     </div>
     <!-- /.container -->

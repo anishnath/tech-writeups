@@ -243,10 +243,13 @@ Done
  
 
           <!-- Comment with nested comments -->
+        
           
 
         </div>
 
+		
+        
         <!-- Sidebar Widgets Column -->
         <div class="col-md-4">
 
@@ -260,7 +263,7 @@ Done
          <%@ include file="side.jsp"%>
          
            <!-- Add Comments Support -->
-         <%@ include file="addcomments.jsp"%>
+         
          
          
 
@@ -269,7 +272,14 @@ Done
       </div>
       <!-- /.row -->
 
+
+	<%@ include file="addcomments.jsp"%>
+    
     </div>
+    
+    
+    
+    
     <!-- /.container -->
 
     <!-- Footer -->
@@ -279,10 +289,13 @@ Done
       </div>
       <!-- /.container -->
     </footer>
+    
+    Here
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 
   </body>
 
