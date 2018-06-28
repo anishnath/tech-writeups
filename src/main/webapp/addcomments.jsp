@@ -6,8 +6,8 @@
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
 var disqus_config = function () {
-this.page.url = <%=request.getRequestURL() %>;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = <%=request.getContextPath() %>; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+this.page.url = "<%=request.getRequestURI() %>";  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "<%=request.getRequestURI().substring(request.getRequestURI().lastIndexOf("/")+1) %>";
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE
@@ -20,4 +20,3 @@ s.setAttribute('data-timestamp', +new Date());
 <noscript>Please enable JavaScript to view 
 
 <script id="dsq-count-scr" src="js/disqus/count.js" async></script>
-<a href="http://foo.com/bar.html#disqus_thread">Link</a>
