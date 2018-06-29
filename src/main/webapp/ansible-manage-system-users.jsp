@@ -46,36 +46,8 @@
   "image":"https://8gwifi.org/docs/img/ansible-manage-system-users.jpg",
   "datePublished" : "2018-06-28",
   "dateModified": "2018-06-28",
-  "articleBody" : "Introduction"
-}, {
-  "@context" : "http://schema.org",
-  "@type" : "Article",
-  "name" : "Ansible User Management, Managing system users using ansible",
-  "author" : {
-    "@type" : "Person",
-    "name" : "Anish"
-  },
-  "articleBody" : "Ansible User Setup in Controller Node"
-}, {
-  "@context" : "http://schema.org",
-  "@type" : "Article",
-  "name" : "Ansible User Management, Managing system users using ansible",
-  "author" : {
-    "@type" : "Person",
-    "name" : "Anish"
-  },
-  "articleBody" : "Ansible User Setup in Target Node"
-}, {
-  "@context" : "http://schema.org",
-  "@type" : "Article",
-  "name" : "Ansible User Management, Managing system users using ansible",
-  "author" : {
-    "@type" : "Person",
-    "name" : "Anish"
-  },
-  "articleSection" : [ "Managing System Users Operations Perspective", "Managing System User Using Ansible", "Adding System Users using Ansible user module" ],
-  "articleBody" : "Run the playbook"
-} ],
+  "articleSection" : "Ansible User Management, Managing system users using ansible, Ansible User Setup in Controller Node, Ansible User Setup in Target Node, Ansible User Module",
+  "articleBody" : [ "Managing System Users Operations Perspective", "Managing System User Using Ansible", "Adding System Users using Ansible user module" ,"Removing System Users using Ansible"],
   "publisher" : {
     "@type" : "Organization",
     "name" : "8gwifi.org Tech Blog",
