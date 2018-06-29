@@ -10,7 +10,7 @@
                       <a href="glance.jsp">Openstack</a>
                     </li>
                     <li>
-                      <a href="ansible-manage-users.jsp">Ansible</a>
+                      <a href="ansible-manage-system-users.jsp">Ansible</a>
                     </li>
                     <li>
                       <a href="https://8gwifi.org">Security</a>
