@@ -14,7 +14,7 @@
 	<meta name="classification" content="tools" />
 	<meta name="language" content="en" />
 
-    <title>Creating centos/rhel7 Cloud Images using qemu-img and virt-install </title>
+    <title>Ansible User Management, Managing system users using ansible, Ansible Controller,Target Node setup</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
