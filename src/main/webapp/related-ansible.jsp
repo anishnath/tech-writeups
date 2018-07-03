@@ -7,7 +7,10 @@
                       <a href="ansible-manage-system-users.jsp">Manage System users (sudo/Non sudo)</a>
                     </li>
                     <li>
-                      <a href="ansible-sudo-ssh-password.jsp">Passing sudo and ssh password without prompting</a>
+                      <a href="ansible-roles.jsp">Ansible Variables Explained in Roles</a>
+                    </li>
+                    <li>
+                      <a href="ansible-sudo-ssh-password.jsp">Passing sudo/ssh password without prompting</a>
                     </li>
                 </div>
               </div>
