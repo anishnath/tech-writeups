@@ -14,7 +14,7 @@
 	<meta name="classification" content="tools" />
 	<meta name="language" content="en" />
 
-    <title>Ansible passing sudo and ssh password without prompting ansible_ssh_pass,ansible_become_pass </title>
+    <title>How to use Ansible variables, Using Ansible variables, overidding ansible variables, ansible role hiereachy</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
