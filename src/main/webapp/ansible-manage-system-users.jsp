@@ -103,7 +103,7 @@
           <!-- Post Content -->
           <h3 class="mt-4">Introduction </h3>
 
-          <p>In this section we will learn how to manage users using Ansible in Alicloud environment , we will start by defining the architecture, as shown in this diagram, Ansible controller node is managing various nodes using SSH protocol, extending this diagram we are going to create playbooks which will manage different users with their sudoers privilege in the target node</p>
+          <p>In this section we will learn how to manage users using Ansible in cloud environment , we will start by defining the architecture, as shown in this diagram, Ansible controller node is managing various nodes using SSH protocol, extending this diagram we are going to create playbooks which will manage different users with their sudoers privilege in the target node</p>
 		  <img class="img-fluid rounded" src="img/ansible-manage-system-users.png" alt="">
 		  
 		 <p> <b> A quick recap of creating and setting up ansible user in controller and target node</b></p>
@@ -151,7 +151,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAgEApeDUYGwaMfHd7/Zo0nzHA69uF/f99BYktwp82qA8+osp
 		  <pre><code class="html">bin/ssh-copy-id: WARNING: All keys were skipped because they already exist on the remote system.</code></pre>
 
 		  <h3 class="mt-4">Managing System Users Operations Perspective</h3>
-          <p>Managing user in the cloud environment like Alicloud is security as well as Infrastructure requirement, In general we deal with these set of users
+          <p>Managing user in the cloud environment like cloud is security as well as Infrastructure requirement, In general we deal with these set of users
           <ul>
    <li>	sudo users</li> 
    <li>	non sudoers users </li>
@@ -160,7 +160,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAgEApeDUYGwaMfHd7/Zo0nzHA69uF/f99BYktwp82qA8+osp
 </p>
 
 	 
-<p>For security hardening the servers running on Alicloud should only accept password less logins, through change management process like (git) all the users have submitted their public key and they are ready to deployed in respective nodes through Ansible controller</p>
+<p>For security hardening the servers running on cloud should only accept password less logins, through change management process like (git) all the users have submitted their public key and they are ready to deployed in respective nodes through Ansible controller</p>
      
      <h4 class="mt-4">Managing System User Using Ansible</h4>
      <p>In the first section we will add the users , in the next section we will learn how to delete the users </p>
@@ -317,7 +317,7 @@ node3                      : ok=5    changed=1    unreachable=0    failed=0
 </code></pre>
 <hr>
 <h5 class="mt-4">Removing System Users using Ansible </h5>
-<p>In the Alicloud cloud environment, user has a lifecycle, if the user is no longer required to be present in the system the user must be deleted, and this should happen proactivaley, for an example  "user2" user needs to deleted, then from the change management process, users.yml files needs to edited to remove the entry of user2</p>
+<p>In the cloud cloud environment, user has a lifecycle, if the user is no longer required to be present in the system the user must be deleted, and this should happen proactivaley, for an example  "user2" user needs to deleted, then from the change management process, users.yml files needs to edited to remove the entry of user2</p>
 
 <p> Before </p>
 <pre><code class="html">[ansible@controller]$ cat ssh/vars/users.yml 
@@ -344,7 +344,7 @@ users:
     use_sudo: no
 </code></pre>
 
-<p> Now this user needs to be delete across the Alicloud environment which is managed by Ansible controller, to do this create a file deleteusers.yml in the vars directory and maintain a set of users which needs to be removed from the target node </p>
+<p> Now this user needs to be delete across the cloud environment which is managed by Ansible controller, to do this create a file deleteusers.yml in the vars directory and maintain a set of users which needs to be removed from the target node </p>
 <pre><code class="html">[ansible@controller ~]$ cat ssh/vars/deleteusers.yml 
 ---
 users:
@@ -368,7 +368,7 @@ changed: [node2] => (item={u'username': u'user2'})
 changed: [node1] => (item={u'username': u'user2'})
 changed: [node3] => (item={u'username': u'user2'})</code></pre>
 
-<p><strong> Thanku for reading !!!</strong></p>
+<p><strong> Thanku for reading !!! Give a Share for Support</strong></p>
 
 
 <hr>
