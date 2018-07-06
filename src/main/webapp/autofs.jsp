@@ -199,8 +199,8 @@ Jul  6 04:22:40 host-172-16-9-16 automount[20421]: mounted /home/test
 Run automount in the foreground with verbose information
 <code>sudo automount -f -v</code></p>
 
-          
-
+<hr>
+<p><strong> Thanku for reading !!! Give a Share for Support</strong></p>
           <!-- Comments Form -->
     
 
