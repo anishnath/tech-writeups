@@ -5,7 +5,7 @@
 <web-app>
 	<display-name>Documentation Project</display-name>
 	<welcome-file-list>
-		<welcome-file>glance.jsp</welcome-file>
+		<welcome-file>ansible-manage-system-users.jsp</welcome-file>
 	</welcome-file-list>
 </web-app>
 

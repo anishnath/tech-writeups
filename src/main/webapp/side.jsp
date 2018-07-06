@@ -15,6 +15,9 @@
                     <li>
                       <a href="https://8gwifi.org">Security</a>
                     </li>
+                     <li>
+                      <a href="autofs.jsp">Linux</a>
+                    </li>
                   </ul>
             </div>
             <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a04129f05073300123e3782&product=inline-share-buttons"></script>   
