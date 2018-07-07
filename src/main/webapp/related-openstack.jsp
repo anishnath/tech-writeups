@@ -13,6 +13,9 @@
                     <li>
                       <a href="openstack-client.jsp">Openstack Client Installation</a>
                     </li>
+                    <li>
+                      <a href="openstack-nfs.jsp">FreeNas installation in Openstack </a>
+                    </li>
                      <li>
                       <a href="debug-guestname-virsh.jsp">virt-install Error Guest name is already in use</a>
                     </li>
