@@ -255,6 +255,8 @@ ok: [localhost] => {
           <!-- Article Widget -->
          <%@ include file="related-ansible.jsp"%>
          
+         <%@ include file="related-kube.jsp"%>
+         
          <!-- Topic Widget -->
          <%@ include file="side.jsp"%>
          

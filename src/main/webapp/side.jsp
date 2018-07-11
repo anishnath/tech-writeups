@@ -13,6 +13,9 @@
                       <a href="ansible-manage-system-users.jsp">Ansible</a>
                     </li>
                     <li>
+                      <a href="kube-install.jsp">Kubernetes</a>
+                    </li>
+                    <li>
                       <a href="https://8gwifi.org">Security</a>
                     </li>
                      <li>

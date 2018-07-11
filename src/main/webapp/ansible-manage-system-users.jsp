@@ -397,6 +397,8 @@ changed: [node3] => (item={u'username': u'user2'})</code></pre>
           <!-- Article Widget -->
          <%@ include file="related-ansible.jsp"%>
          
+         <%@ include file="related-kube.jsp"%>
+         
          <!-- Topic Widget -->
          <%@ include file="side.jsp"%>
          

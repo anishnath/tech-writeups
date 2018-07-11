@@ -85,7 +85,10 @@
             <p>Posted on Sunday July 8, 2018</p>
           </p>
           
-          <img class="img-fluid rounded" src="img/ansible-kube-install.png" alt="Referefce ">
+          <img class="img-fluid rounded" src="img/ansible-kube-install.png" alt="8gwifi.org ">
+          
+           <%@ include file="footer_adsense.jsp"%>
+           <%@ include file="analytics.jsp"%>
           <hr>
 
           <!-- Date/Time -->
@@ -319,6 +322,9 @@ kubernetes   10.254.0.1   &lt;none&gt;        443/TCP   1h
 
           <!-- Article Widget -->
          <%@ include file="related-ansible.jsp"%>
+         
+         <!-- Kubernnetes related Widget -->
+         <%@ include file="related-kube.jsp"%>
          
          <!-- Topic Widget -->
          <%@ include file="side.jsp"%>

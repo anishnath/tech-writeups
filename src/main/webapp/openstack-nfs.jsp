@@ -86,6 +86,9 @@
           </p>
 
           <hr>
+          
+          <%@ include file="footer_adsense.jsp"%>
+           <%@ include file="analytics.jsp"%>
 
           <!-- Date/Time -->
           <p>Posted on Saturday July 7 2018</p>
