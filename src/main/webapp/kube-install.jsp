@@ -82,7 +82,7 @@
           <p class="lead">
             by
             <a href="https://www.linkedin.com/in/anishnath">Anish</a>
-            <p>Posted on Sunday July 8, 2018</p>
+            <p>Posted on Wednesday July 11, 2018</p>
           </p>
           
           <img class="img-fluid rounded" src="img/kube-install.png" height="400" width="500" alt="Referefce ">
