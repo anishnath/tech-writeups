@@ -7,7 +7,10 @@
                       <a href="ansible-kube-install.jsp">kubernetes install on using ansible</a>
                     </li>
                      <li>
-                      <a href="kube-install.jsp">kubernetes install on in rhel7/centos7/ubuntu7</a>
+                      <a href="kube-install.jsp">kube install on in centos7/ubuntu7</a>
+                    </li>
+                     <li>
+                      <a href="kube-dash.jsp">kubernetes Dashbaord Setup</a>
                     </li>
                 </div>
               </div>
