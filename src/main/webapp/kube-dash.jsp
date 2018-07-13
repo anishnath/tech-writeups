@@ -5,8 +5,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="How to setup kubernetes dashbaord">
-    <meta name="keywords" content="kubernetes dashbaord installation, Verify kubernetes dashboard Service, accessing  kubernetes dashboard ,edit kubernetes dashboard Service,delete kubernetes dashboard Servcie">
+    <meta name="description" content="How to setup kubernetes dashbaord and login with token">
+    <meta name="keywords" content="kubernetes dashbaord installation, Verify kubernetes dashboard Service, accessing  kubernetes dashboard ,edit kubernetes dashboard Service,delete kubernetes dashboard Servcie, kubernetes dashbaord login with token">
     <meta name="author" content="Anish nath">
     <meta name="robots" content="index,follow" />
 	<meta name="googlebot" content="index,follow" />
@@ -171,9 +171,32 @@ clusterrolebinding.rbac.authorization.k8s.io/kubernetes-dashboard created
 <p><code>kubectl proxy --address 0.0.0.0 --accept-hosts '.*'</code></p>
 <p><code>Starting to serve on [::]:8001</code></p>
 
-<p>Acess the Kubernetes dashboard </p>
+<p>Access the Kubernetes dashboard </p>
 
 <p><code>http://&lt;IP&gt;:&lt;PORT&gt;/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/login</code></p>
+
+
+<h2 id="kubernetesdashbaordaccess">Kubernetes Dashbaord Authentication using Token</h2>
+
+<p>Create a new ServiceAccount</p>
+<pre><code class="html">kubectl create serviceaccount k8sadmin -n kube-system
+serviceaccount/k8sadmin created
+</code></pre>
+<p>Create a ClusterRoleBinding with Cluster Admin Privileges</p>
+<pre><code class="html">kubectl create clusterrolebinding k8sadmin --clusterrole=cluster-admin --serviceaccount=kube-system:k8sadmin
+clusterrolebinding.rbac.authorization.k8s.io/k8sadmin created</code></pre>
+<p>Get the token</p>
+<pre><code class="html">kubectl get secret -n kube-system | grep k8sadmin | cut -d " " -f1 | xargs -n 1 | xargs kubectl get secret  -o 'jsonpath={.data.token}' -n kube-system | base64 --decode</code></pre>
+<strong>The outout will be base64 decoded Token</strong>
+<code>eyJhbGciOiJSUzI1NiIsImtpZCI6IiJ9.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9</code>
+
+<br>
+<p> Use this <strong>token</strong>  to login to kubernetes dashbaord </p>
+
+<img class="img-fluid rounded" src="img/kube-dash2.png" height="400" width="600" alt="Referefce ">
+<img class="img-fluid rounded" src="img/kube-dash3.png" height="400" width="600" alt="Referefce ">
+
+<hr>
 
 <h2 id="deletekubernetesdashboardservcie">Delete Kubernetes dashboard Servcie</h2>
 
@@ -184,6 +207,8 @@ kubectl delete svc/kubernetes-dashboard -n kube-system
 kubectl delete deployments/kubernetes-dashboard -n kube-system
 kubectl -n kube-system delete $(kubectl -n kube-system get pod -o name | grep dashboard)
 </code></pre>
+
+<hr>
 
 <h2 id="editkubernetesdashboardservice">Edit Kubernetes dashboard Service</h2>
 
