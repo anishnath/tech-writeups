@@ -12,6 +12,9 @@
                      <li>
                       <a href="kube-dash.jsp">kubernetes Dashbaord Setup</a>
                     </li>
+                    <li>
+                      <a href="kube-pods.jsp">Pod,Cluster,Deploy,ReplicaSet Light Dive</a>
+                    </li>
                 </div>
               </div>
             </div>
