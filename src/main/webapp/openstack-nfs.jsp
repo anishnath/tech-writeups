@@ -167,13 +167,12 @@ Password: setup during the freenas Installation</code>
           <!-- Categories Widget -->
          <%@ include file="related-openstack.jsp"%>
          
+         <%@ include file="related-cryptography.jsp"%>
+         
           <!-- Side Widget -->
          <%@ include file="side.jsp"%>
          
-           <!-- Add Comments Support -->
-         <%@ include file="addcomments.jsp"%>
          
-
         </div>
 
       </div>

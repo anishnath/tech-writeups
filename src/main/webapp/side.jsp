@@ -4,7 +4,7 @@
             <div class="card-body">
               <ul class="list-unstyled mb-0">
                   <li>
-                      <a href="https://8gwifi.org">Cryptogpahy</a>
+                      <a href="gpg.jsp">Cryptography</a>
                     </li>
                     <li>
                       <a href="glance.jsp">Openstack</a>
