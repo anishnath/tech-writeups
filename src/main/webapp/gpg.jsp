@@ -5,8 +5,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="gpg commands list keys,Generating Master keys,Expert Mode,Encrypting Messages with PGP Public Key,Decrypting Messages with PGP Public Key,Delete Keys,Sign Key,Create Authenticated Subkey (SSH),GnuPG for SSH authentication">
-    <meta name="keywords" content="gpg commands list keys,Generating Master keys,Expert Mode,Encrypting Messages with PGP Public Key,Decrypting Messages with PGP Public Key,Delete Keys,Sign Key,Create Authenticated Subkey (SSH),GnuPG for SSH authentication">
+    <meta name="description" content="gpg commands list keys,Generating Master keys,Expert Mode,Encrypting Messages with PGP Public Key,Decrypting Messages with PGP Public Key,Delete Keys,Sign Key,Create Authenticated Subkey (SSH),GnuPG for SSH authentication,GPG Character Code and Descriptions, restore keys,export keys">
+    <meta name="keywords" content="gpg commands list keys,Generating Master keys,Expert Mode,Encrypting Messages with PGP Public Key,Decrypting Messages with PGP Public Key,Delete Keys,Sign Key,Create Authenticated Subkey (SSH),GnuPG for SSH authentication,GPG Character Code and Descriptions,restore keys,export keys">
     <meta name="author" content="Anish nath">
     <meta name="robots" content="index,follow" />
 	<meta name="googlebot" content="index,follow" />
@@ -47,7 +47,7 @@
   "datePublished" : "2018-07-27",
   "dateModified": "2018-07-27",
   "articleSection" : "Light Dive to GPG",
-  "articleBody" : [ "GPG Installation", "Setting up GPG store","OPenPGP Pem Formats","GPG Conventions","GPG Commands","gpg list keys","Generating Master keys (Basic Mode)","Generating Master keys (Expert Mode)","Export PGP public key from PGP private key","Sign Key","Delete Keys","Create Signature file","Detach Signature","Editing key Adding uid","Revoking key","Create Authenticated Subkey (SSH)","Gnu pg for SSH authentication"],
+  "articleBody" : [ "GPG Installation", "GPG Character Code and Descriptions" "Setting up GPG store","OPenPGP Pem Formats","GPG Conventions","GPG Commands","gpg list keys","Generating Master keys (Basic Mode)","Generating Master keys (Expert Mode)","Export PGP public key from PGP private key","Sign Key","Delete Keys","Create Signature file","Detach Signature","Editing key Adding uid","Revoking key","Create Authenticated Subkey (SSH)","Gnu pg for SSH authentication"],
   "publisher" : {
     "@type" : "Organization",
     "name" : "8gwifi.org Tech Blog",
@@ -92,11 +92,37 @@
            
           <hr>
 
-<h1 class="mt-4" id="gpg">GPG</h1>
+<h1 class="mt-4" id="gpg">GPG <mark>Celebrating 20 years </mark></h1>
 
-<p>GPG GNU Privacy Guard (GPG, also GnuPG), the GNU project’s free alternative to PGP, is encryption software that’s compliant with the OpenPGP (RFC4880) standard which helps people ensure the confidentiality, integrity and assurance of their data.</p>
+<p><mark>GPG</mark> the GNU project is a free alternative to PGP, is encryption software that is compliant with the <mark>OpenPGP (RFC4880) </mark> standard which helps people ensure the confidentiality, integrity and assurance of their data.</p>
 
 <p>For more reference around this project visit <a href="https://www.gnupg.org/">GNU</a></p>
+
+
+
+<h2 class="mt-4" id="beforeyoubegin">Before you Begin</h2>
+
+<p>The example shown in this document will only work on <strong>UNIX-based (Linux &amp; OS X) machines</strong>, </p>
+
+<h2 class="mt-4" id="littlebackground">Little Background</h2>
+
+<p>Understanding GPG is complex as many terms used which create confusion, The Idea of this writeup is keep things simple and aligned with the use cases which we deals in our environment. </p>
+
+<p>GPG is fun learning, and once you understand the key concept, you will be amazed !!! how it's differ from TLS. </p>
+
+<p>PGP is based on an <mark>introducer-model</mark> which depends on the integrity of a chain of authenticators, the <strong>users themselves</strong> which build a <strong> <mark>web-of-trust</mark></strong></p>
+
+<p>You might found these terms <strong>OpenPGP</strong>, <strong>PGP</strong>, <strong>GPG</strong>,  <strong>GPG2</strong> when you google it which is used relatively, </p>
+
+<ol>
+<li>OpenPGP is Standard is defined in <a href="https://tools.ietf.org/html/rfc4880">IETF RFC4880</a></li>
+
+<li>The <a href="http://www.gnupg.org/">GPG</a> software is an independent implementation of the OpenPGP standards</li>
+
+<li>The GPG2 is a redesigned version of GPG</li>
+
+<li>PGP : A proprietary encryption solution owned by Symantec.</li>
+</ol>
 
 <h2 class="mt-4" id="keyconceptexplainedinthisarticle">Key Concept Explained in this Article</h2>
 
@@ -110,6 +136,8 @@
 <li>OPenPGP Pem Formats </li>
 
 <li>GPG Conventions</li>
+
+<li>GPG Character Code and Descriptions</li>
 
 <li>GPG Commands</li>
 <ul>
@@ -146,30 +174,6 @@
 <li>GnuPG for SSH authentication </li>
 </ul>
 
-<h2 class="mt-4" id="beforeyoubegin">Before you Begin</h2>
-
-<p>The example shown in this document will only work on <strong>UNIX-based (Linux &amp; OS X) machines</strong>, </p>
-
-<h2 class="mt-4" id="littlebackground">Little Background</h2>
-
-<p>Understanding GPG is complex as many terms used which create confusion, The Idea of this writeup is keep things simple and aligned with the use cases which we deals in our environment. </p>
-
-<p>GPG is fun learning, and once you understand the key concept, you will be amazed !!! how it's differ from TLS. </p>
-
-<p>PGP is based on an <mark>introducer-model</mark> which depends on the integrity of a chain of authenticators, the <strong>users themselves</strong> which build a <strong> <mark>web-of-trust</mark></strong></p>
-
-<p>You might found these terms <strong>OpenPGP</strong>, <strong>PGP</strong>, <strong>GPG</strong>,  <strong>GPG2</strong> when you google it which is used relatively, </p>
-
-<ol>
-<li>OpenPGP is Standard is defined in <a href="https://tools.ietf.org/html/rfc4880">IETF RFC4880</a></li>
-
-<li>The <a href="http://www.gnupg.org/">GPG</a> software is an independent implementation of the OpenPGP standards</li>
-
-<li>The GPG2 is a redesigned version of GPG</li>
-
-<li>PGP : A proprietary encryption solution owned by Symantec.</li>
-</ol>
-
 <h2 class="mt-4" id="gpginstallation">GPG Installation</h2>
 
 <h3 id="ubuntu">Ubuntu</h3>
@@ -196,17 +200,8 @@ sudo apt-get install rng-tools
 <pre><code class="html">yum install gpg
 </code></pre>
 
-<h2 class="mt-4" id="settingupgpgstore">Setting up GPG store</h2>
 
-<p>The directory <code>~/.gnupg</code> is where configuration files for GnuPG, the GNU Privacy Guard, reside</p>
-
-<p><strong>setting up  ~/.gnupg</strong> : This can be done by issues and gpg command</p>
-
-<pre><code class="html">$ gpg --list-keys
-gpg: /Users/anish/.gnupg/trustdb.gpg: trustdb created
-</code></pre>
-
-<h2 class="mt-4" id="pemformats">PEM formats</h2>
+<h2 class="mt-4" id="pemformats">OpenPGP PEM formats</h2>
 
 <p>whenever you see message in the below formats, it's considered as PGP Messages, it contains <strong>base64 (armor)</strong> encoded messages
 
@@ -242,6 +237,8 @@ PGP Message
 </td>
 </tr>
 </table>
+
+
 
 
 <p><strong>Examples</strong> </p>
@@ -308,8 +305,80 @@ QpL0dUFB8BqxVRu5vFimOpc/TPtGYeeDqs7D8mSnRNyzA4wru9t/T6uy/72mjGzy
 <li><strong>sub</strong> your public subkey info.</li>
 </ul>
 
-<h2 class="mt-4" id="gpglistkeys">GPG List Keys</h2>
+<h2 class="mt-4" id="pemformats">GPG Character Code and Descriptions</h2>
+Few Important flags, which will be output during the <code>gpg --list-keys </code> or <code>gpg --list-secret-keys </code>, lets have a quick summary of thoose
+<table class="table table-striped">
+<tr>
+<th>Flag</th>
+<th>Character</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+0x01
+</td>
+<td>
+C
+</td>
+<td>
+Key Certification
+</td>
+</tr>
 
+<tr>
+<td>
+0x02
+</td>
+<td>
+S
+</td>
+<td>
+Sign Data
+</td>
+</tr>
+
+<tr>
+<td>
+0x04
+</td>
+<td>
+E
+</td>
+<td>
+Encrypted Communication
+</td>
+</tr>
+
+<tr>
+<td>
+0x20
+</td>
+<td>
+A
+</td>
+<td>
+Authentication
+</td>
+</tr>
+</table>
+
+<h2 class="mt-4" id="settingupgpgstore">Setting up GPG store</h2>
+
+<p>The directory <code>~/.gnupg</code> is where configuration files for GnuPG, the GNU Privacy Guard, reside</p>
+
+<p><strong>setting up  ~/.gnupg</strong> : This can be done by issues and gpg command</p>
+
+<pre><code class="html">$ gpg --list-keys
+gpg: /Users/anish/.gnupg/trustdb.gpg: trustdb created
+</code></pre>
+
+For Any doubt check take the help <code>gpg</code> command
+<pre><code class="html">$ gpg -h
+</code></pre>
+
+<h2 class="mt-4" id="gpglistkeys">GPG List Keys</h2>
+<p> Well this command server two purpose, if you are running it for the first time, it will create a <strong>db </strong>  for you in your home folder location <code>~/.gnupg/</code> where all the keys,certificate will be stored</p>
+<p> if the directory <code>~/.gnupg/</code>  exists, it will fetch the all the <mark>public keys only </mark>
 <pre><code class="html">$ gpg --list-key
 /Users/anish/.gnupg/pubring.kbx
 pub   rsa1024 2018-07-25 [SCEA]
@@ -317,13 +386,17 @@ pub   rsa1024 2018-07-25 [SCEA]
 uid           [ unknown] zarigatongy@gmail.com
 </code></pre>
 
-<p>Run <code>gpg --list-keys 'your uid'</code> to list the keys you currently have</p>
+<p>Run <code>gpg --list-keys 'your uid'</code> to list the keys associated with the given <strong>uid</strong></p>
 
 <pre><code class="html">vm2-$ gpg --list-keys 'anish'
 pub   rsa2048 2018-07-25 [SC] [expires: 2020-07-24]
       8120745E3C9D01A498850EC3548E99438838675A
 uid           [ultimate] Anish &lt;zarigatongy@gmail.com&gt;
 sub   rsa2048 2018-07-25 [E] [expires: 2020-07-24]
+</code></pre>
+<p> Ok what <mark> about my private keys  </mark> where it's stored </p>
+
+<pre><code class="html">vm2-$ gpg --list-secret-keys
 </code></pre>
 
 <p>Use the <code>gpg --list-secret-keys --keyid-format LONG</code> command to list GPG keys for which you have both a public and private key. </p>
@@ -472,10 +545,10 @@ zB5XDTtHXiLpkwZQdOI=
 <pre><code class="html">vm2-$ gpg --output decrypted.txt --no-tty pgpencypted.txt 
 </code></pre>
 
-<p><img src="https://8gwifi.org/docs/img/gpg.png" alt="enter image description here" />
-    gpg: WARNING: no command supplied.  Trying to guess what you mean ...
-    gpg: encrypted with 2048-bit RSA key, ID 1AFA5B35FAA8D03B, created 2018-07-25
-          "Anish <a href="&#109;&#97;&#105;l&#116;o:&#x7a;&#x61;&#x72;&#x69;&#103;a&#x74;o&#x6e;g&#x79;&#64;&#x67;m&#97;&#x69;&#108;.&#x63;&#x6f;&#109;">&#x7a;&#x61;&#x72;&#x69;&#103;a&#x74;o&#x6e;g&#x79;&#64;&#x67;m&#97;&#x69;&#108;.&#x63;&#x6f;&#109;</a>"</p>
+<p><img src="/img/gpg.png" alt="Pasword Prompt" /></p>
+<pre><code class="html">gpg: WARNING: no command supplied.  Trying to guess what you mean ...
+gpg: encrypted with 2048-bit RSA key, ID 1AFA5B35FAA8D03B, created 2018-07-25
+"Anish <a href="&#109;&#97;&#105;l&#116;o:&#x7a;&#x61;&#x72;&#x69;&#103;a&#x74;o&#x6e;g&#x79;&#64;&#x67;m&#97;&#x69;&#108;.&#x63;&#x6f;&#109;">&#x7a;&#x61;&#x72;&#x69;&#103;a&#x74;o&#x6e;g&#x79;&#64;&#x67;m&#97;&#x69;&#108;.&#x63;&#x6f;&#109;</a>"</code></pre>
 
 <p>Verify the output of the file </p>
 
@@ -489,14 +562,14 @@ Hello 8gwifi
 vm2-$ gpg --import privkey.pem 
 </code></pre>
 
-<p><img src="https://8gwifi.org/docs/img/gpg.png" alt="enter image description here" />
-    gpg: key B4509E0E3FA658BF: public key "zarigatongy@gmail.com" imported
-    gpg: key B4509E0E3FA658BF: secret key imported
-    gpg: Total number processed: 1
-    gpg:               imported: 1
-    gpg:       secret keys read: 1
-    gpg:   secret keys imported: 1</p>
-
+<p><img src="https://8gwifi.org/docs/img/gpg.png" alt="enter image description here" /> </p>
+<pre><code class="html">gpg: key B4509E0E3FA658BF: public key "zarigatongy@gmail.com" imported
+gpg: key B4509E0E3FA658BF: secret key imported
+gpg: Total number processed: 1
+gpg:               imported: 1
+gpg:       secret keys read: 1
+gpg:   secret keys imported: 1    
+</code></pre>
 <h2 class="mt-4" id="exportpgppublickeyfrompgpprivatekey">Export PGP public key from PGP private key</h2>
 
 <p>use the <code>gpg --export &lt;fingerprint&gt;</code> or <code>gpg --export &lt;uid&gt;</code> option to export public key </p>
@@ -530,6 +603,20 @@ vm2-$ cat pub.asc
 
 <p><em>Now using this PGP Public key Message can be encrypted</em> </p>
 
+<h2 class="mt-4" id="backup">Use Export Option to Backup PGP keys </h2>
+<p>generate base64-encoded <mark>armored</mark> backups</p>
+<pre><code class="html">
+gpg --armor --export > pgp-public-keys.asc
+gpg --armor --export-secret-keys > pgp-private-keys.asc
+gpg --export-ownertrust > pgp-ownertrust.asc
+</code></pre>
+
+<p><strong> To restore it</strong></p>
+
+<pre><code class="html">gpg --import pgp-public-keys.asc
+gpg --import pgp-private-keys.asc
+gpg --import-ownertrust pgp-ownertrust.asc</code></pre>
+
 <h2 class="mt-4" id="uploadthekeytothekeyservernetwork">Upload the key to the key server network</h2>
 
 <p>Usually, keys are distributed using the key server network. Uploading your public key is very easy using the <code>--send-key</code> command.</p>
@@ -555,6 +642,7 @@ gpg --recv-key [key-id]
 <p>Few example of performing -<strong>-edit-key</strong> operation </p>
 
 <h3 id="addinganotheruid">Adding Another UID</h3>
+In this example we are <mark>associating an email with your GPG key id name D3CEAB0F </mark>
 
 <pre><code class="html">gpg&gt; adduid
 Real name: anish2
@@ -664,13 +752,13 @@ gpg&gt; save
 <h2 class="mt-4" id="deletekeys">Delete Keys</h2>
 
 <p>use option <code>gpg --delete-secret-keys</code> to delete the secret key first 
-use the <code>gpg --delete-key &lt;fingerprint&gt;</code> or <code>gpg --export &lt;uid&gt;</code> to delete the key </p>
+use the <code>gpg --delete-key &lt;fingerprint&gt;</code> or <code>gpg --delete-key &lt;uid&gt;</code> to delete the key </p>
 
 <pre><code class="html">vm2-$ gpg --delete-secret-keys  zarigatongy@gmail.com
 </code></pre>
 
 <p>It will prompt for confirmation <br />
-<img src="https://8gwifi.org/docs/img/gpg5.png" alt="enter image description here" />
+<img src="/img/gpg5.png" alt="enter image description here" />
    Then delete the key 
     vm2-$ gpg --delete-key zarigatongy@gmail.com</p>
 
