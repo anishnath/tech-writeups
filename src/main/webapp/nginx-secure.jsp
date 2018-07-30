@@ -42,7 +42,7 @@
     "@type" : "Person",
     "name" : "Anish"
   },
-  "headline": "How to install kubernetes in centos7,fedora,rhel7,ubuntu",
+  "headline": "How to secure nginx in production environment",
   "image":"https://8gwifi.org/docs/img/nginx.png",
   "datePublished" : "2018-07-12",
   "dateModified": "2018-07-12",
