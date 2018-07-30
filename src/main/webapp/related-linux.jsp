@@ -7,7 +7,7 @@
                       <a href="autofs.jsp">Auto-mounting an NFS share using autofs</a>
                     </li>
                     <li>
-                      <a href="autofs.jsp">Adding Native Ipv6 Support to ECS Instances</a>
+                      <a href="he-ipv6.jsp">Add Ipv6 Support to ECS Instances</a>
                     </li>
                 </div>
               </div>
