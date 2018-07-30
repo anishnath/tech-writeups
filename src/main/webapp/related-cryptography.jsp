@@ -6,6 +6,9 @@
                    <li>
                       <a href="gpg.jsp">Anatomy of GPG</a>
                     </li>
+                    <li>
+                      <a href="nginx-secure.jsp">Secure Nginx Configuration</a>
+                    </li>
                 </div>
               </div>
             </div>
