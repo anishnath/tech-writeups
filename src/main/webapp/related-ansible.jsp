@@ -10,7 +10,7 @@
                       <a href="ansible-roles.jsp">Ansible Variables Explained in Roles</a>
                     </li>
                      <li>
-                      <a href="ansible-sudo-ssh-password.jsp">Passing sudo/ssh password without prompting</a>
+                      <a href="ansible-sudo-ssh-password.jsp">Pass sudo/ssh password without prompt</a>
                     </li>
                 </div>
               </div>
