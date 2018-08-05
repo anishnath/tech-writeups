@@ -391,13 +391,18 @@ changed: [node3] => (item={u'username': u'user2'})</code></pre>
         <!-- Sidebar Widgets Column -->
         <div class="col-md-4">
 
-          <!-- Ad Widget -->
          <%@ include file="footer_adsense.jsp"%> 
 
           <!-- Article Widget -->
          <%@ include file="related-ansible.jsp"%>
          
          <%@ include file="related-kube.jsp"%>
+         
+         <%@ include file="related-cryptography.jsp"%>
+         
+         <%@ include file="related-linux.jsp"%>
+         
+         <%@ include file="related-openstack.jsp"%>
          
          <!-- Topic Widget -->
          <%@ include file="side.jsp"%>

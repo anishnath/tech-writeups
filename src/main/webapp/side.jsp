@@ -23,6 +23,12 @@
                     </li>
                   </ul>
             </div>
+            
+                      <div class="card my-4">
+                      <h5 class="card-header">Buy  Cryptography CookBook</h5>
+            <p><iframe class="embed-responsive-item" width='160' height='400' src='https://leanpub.com/crypto/embed' frameborder='0' allowtransparency='true'></iframe></p>
+            </div>
+            
             <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a04129f05073300123e3782&product=inline-share-buttons"></script>   
  			<div class="sharethis-inline-share-buttons"></div>
 </div>
