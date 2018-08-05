@@ -145,6 +145,19 @@ Domain centos has been undefined</code></pre>
          <!-- Article Widget -->
          <%@ include file="related-openstack.jsp"%>
          
+         
+          <!-- Article Widget -->
+         <%@ include file="related-linux.jsp"%>
+         
+           <!-- Article Widget -->
+         <%@ include file="related-ansible.jsp"%>
+         
+         <%@ include file="related-kube.jsp"%>
+         
+         
+         
+         <%@ include file="related-cryptography.jsp"%>
+         
          <!-- Topic Widget -->
          <%@ include file="side.jsp"%>
          

@@ -25,7 +25,7 @@
             </div>
             
                       <div class="card my-4">
-                      <h5 class="card-header">Buy  Cryptography CookBook</h5>
+                      <h5 class="card-header">For Coffee/ Beer/ Amazon Bill Support by Purchasing Cryptography CookBook</h5>
             <p><iframe class="embed-responsive-item" width='160' height='400' src='https://leanpub.com/crypto/embed' frameborder='0' allowtransparency='true'></iframe></p>
             </div>
             

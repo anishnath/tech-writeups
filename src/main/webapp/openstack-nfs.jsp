@@ -161,11 +161,16 @@ Password: setup during the freenas Installation</code>
         <!-- Sidebar Widgets Column -->
         <div class="col-md-4">
 
-          <!-- Ad Widget -->
-         <%@ include file="footer_adsense.jsp"%> 
-
-          <!-- Categories Widget -->
          <%@ include file="related-openstack.jsp"%>
+          <!-- Categories Widget -->
+          <%@ include file="related-kube.jsp"%>
+          
+          <!-- Article Widget -->
+         <%@ include file="related-linux.jsp"%>
+         
+           <!-- Article Widget -->
+         <%@ include file="related-ansible.jsp"%>
+         
          
          <%@ include file="related-cryptography.jsp"%>
          

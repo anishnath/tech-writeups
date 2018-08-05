@@ -176,8 +176,18 @@ Please enter your OpenStack Password for project security-ops as user orchestrat
           <!-- Ad Widget -->
          <%@ include file="footer_adsense.jsp"%> 
 
+		<%@ include file="related-openstack.jsp"%>
           <!-- Categories Widget -->
-         <%@ include file="related-openstack.jsp"%>
+          <%@ include file="related-kube.jsp"%>
+          
+          <!-- Article Widget -->
+         <%@ include file="related-linux.jsp"%>
+         
+           <!-- Article Widget -->
+         <%@ include file="related-ansible.jsp"%>
+         
+         
+         <%@ include file="related-cryptography.jsp"%>
          
           <!-- Side Widget -->
          <%@ include file="side.jsp"%>

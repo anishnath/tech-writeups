@@ -361,10 +361,19 @@ d49l0d.mheeem1dkrw3n436
           <!-- Ad Widget -->
          <%@ include file="footer_adsense.jsp"%> 
 
+          
+          <%@ include file="related-kube.jsp"%>
+          
           <!-- Article Widget -->
+         <%@ include file="related-linux.jsp"%>
+         
+           <!-- Article Widget -->
          <%@ include file="related-ansible.jsp"%>
          
-         <%@ include file="related-kube.jsp"%>
+         
+         <%@ include file="related-openstack.jsp"%>
+         
+         <%@ include file="related-cryptography.jsp"%>
          
          <!-- Topic Widget -->
          <%@ include file="side.jsp"%>

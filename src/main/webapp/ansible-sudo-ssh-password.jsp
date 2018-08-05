@@ -207,9 +207,15 @@ PLAY RECAP *********************************************************************
          <%@ include file="footer_adsense.jsp"%> 
 
           <!-- Article Widget -->
-         <%@ include file="related-ansible.jsp"%>
+        <%@ include file="related-ansible.jsp"%>
          
          <%@ include file="related-kube.jsp"%>
+         
+         <%@ include file="related-cryptography.jsp"%>
+         
+         <%@ include file="related-linux.jsp"%>
+         
+         <%@ include file="related-openstack.jsp"%>
          
          <!-- Topic Widget -->
          <%@ include file="side.jsp"%>

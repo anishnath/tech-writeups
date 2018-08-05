@@ -316,6 +316,18 @@ openstack image delete 50fc1d8b-7f7f-41d5-9ec8-8762d377a612</code></pre>
           <!-- Article Widget -->
          <%@ include file="related-openstack.jsp"%>
          
+         
+          <!-- Article Widget -->
+         <%@ include file="related-linux.jsp"%>
+         
+           <!-- Article Widget -->
+         <%@ include file="related-ansible.jsp"%>
+         
+         <%@ include file="related-kube.jsp"%>
+         
+         
+         <%@ include file="related-cryptography.jsp"%>
+         
          <!-- Topic Widget -->
          <%@ include file="side.jsp"%>
          

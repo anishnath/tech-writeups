@@ -257,6 +257,12 @@ ok: [localhost] => {
          
          <%@ include file="related-kube.jsp"%>
          
+         <%@ include file="related-linux.jsp"%>
+         
+         <%@ include file="related-openstack.jsp"%>
+         
+         <%@ include file="related-cryptography.jsp"%>
+         
          <!-- Topic Widget -->
          <%@ include file="side.jsp"%>
          
