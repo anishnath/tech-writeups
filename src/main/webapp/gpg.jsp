@@ -102,6 +102,8 @@
 
 <h2 class="mt-4" id="beforeyoubegin">Before you Begin</h2>
 
+<p>This writeup is extracted from the book, <a href="https://leanpub.com/crypto">The Modern Cryptograhy CookBook </a>. The Book theme is<mark>Cryptography is for EveryOne. Learn from Crypto Principle to Applied Cryptography With Practical Example</mark> </p>
+
 <p>The example shown in this document will only work on <strong>UNIX-based (Linux &amp; OS X) machines</strong>, </p>
 
 <h2 class="mt-4" id="littlebackground">Little Background</h2>

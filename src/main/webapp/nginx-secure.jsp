@@ -94,7 +94,9 @@
 
 <h2 class="mt-4"class="mt-4">Introduction </h3>
 
-<p>In this example we will go through all the <a href="https://www.nginx.com/resources/wiki/">NGNIX</a> <strong>Advanced</strong> secure configuration, The example shown in this document is for <strong>nginx.conf</strong> file and can be downloaded from <a href="https://goo.gl/btEbR9">here</a></p>
+<p>This writeup is extracted from the book, <a href="https://leanpub.com/crypto">The Modern Cryptograhy CookBook </a>. The Book theme is<mark>Cryptography is for EveryOne. Learn from Crypto Principle to Applied Cryptography With Practical Example</mark> </p>
+
+<p>In this article we will go through all the <a href="https://www.nginx.com/resources/wiki/">NGNIX</a> <strong>Advanced</strong> secure configuration, The example shown in this document is for <strong>nginx.conf</strong> file and can be downloaded from <a href="https://goo.gl/btEbR9">here</a></p>
 
 <h3 class="mt-4"class="mt-4">What we will cover </h3>
 

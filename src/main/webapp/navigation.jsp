@@ -11,6 +11,9 @@
                 <span class="sr-only">(current)</span>
               </a>
             </li>
+             <li class="nav-item ">
+              <a class="nav-link" href="https://8gwifi.org/docs/st.jsp">Perform SpeedTest</a>
+            </li>
             <li class="nav-item active">
               <a class="nav-link" href="https://8gwifi.org">Services</a>
             </li>
