@@ -102,7 +102,11 @@
 
 <h2 class="mt-4" id="beforeyoubegin">Before you Begin</h2>
 
-<p>This writeup is extracted from the book, <a href="https://leanpub.com/crypto">The Modern Cryptograhy CookBook </a>. The Book theme is<mark>Cryptography is for EveryOne. Learn from Crypto Principle to Applied Cryptography With Practical Example</mark> </p>
+<p><mark>This sample chapter </mark> extracted from the book, <a href="https://leanpub.com/crypto">The Modern Cryptograhy CookBook </a>. The Book theme is<mark>Cryptography is for EveryOne. Learn from Crypto Principle to Applied Cryptography With Practical Example</mark> </p>
+<p><mark>Get 20% discount Coupon on this book </mark> By Commenting and Sharing this Article </p>
+<p><iframe class="embed-responsive-item" width='160' height='400' src='https://leanpub.com/crypto/embed' frameborder='0' allowtransparency='true'></iframe></p>
+
+<hr>
 
 <p>The example shown in this document will only work on <strong>UNIX-based (Linux &amp; OS X) machines</strong>, </p>
 

@@ -92,13 +92,16 @@
            
           <hr>
 
-<h2 class="mt-4"class="mt-4">Introduction </h3>
+<h2 class="mt-4">Introduction </h3>
 
-<p>This writeup is extracted from the book, <a href="https://leanpub.com/crypto">The Modern Cryptograhy CookBook </a>. The Book theme is<mark>Cryptography is for EveryOne. Learn from Crypto Principle to Applied Cryptography With Practical Example</mark> </p>
+<p><mark>This sample chapter </mark> extracted from the book, <a href="https://leanpub.com/crypto">The Modern Cryptograhy CookBook </a>. The Book theme is<mark>Cryptography is for EveryOne. Learn from Crypto Principle to Applied Cryptography With Practical Example</mark> </p>
+<p><mark>Get 20% discount Coupon on this book </mark> By Commenting and Sharing this Article </p>
+<p><iframe class="embed-responsive-item" width='160' height='400' src='https://leanpub.com/crypto/embed' frameborder='0' allowtransparency='true'></iframe></p>
 
+<hr>
 <p>In this article we will go through all the <a href="https://www.nginx.com/resources/wiki/">NGNIX</a> <strong>Advanced</strong> secure configuration, The example shown in this document is for <strong>nginx.conf</strong> file and can be downloaded from <a href="https://goo.gl/btEbR9">here</a></p>
 
-<h3 class="mt-4"class="mt-4">What we will cover </h3>
+<h3 class="mt-4">What we will cover </h3>
 
 
 <table class="table table-striped table-bordered">
