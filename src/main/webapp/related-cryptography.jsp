@@ -10,6 +10,9 @@
                       <a href="pki.jsp">PKI in Nutshell</a>
                     </li>
                     <li>
+                      <a href="ocsp.jsp">OCSP in Nutshell</a>
+                    </li>
+                    <li>
                       <a href="nginx-secure.jsp">Secure Nginx Configuration</a>
                     </li>
                 </div>

@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="pki concepts, Certification Authority (CA),Registration Authority (RA),PKI Users,PKI Architecture, openssl Generating hierarchical CA structure, PKI Data Structure,X.509 certificates, CRL, Implement CERTIFICATION REVOCATION LIST, Adding CRL distribution point">
-    <meta name="keywords" content="pki tutorial,pki concepts, Certification Authority (CA),Registration Authority (RA),PKI Users,PKI Architecture, openssl Generating hierarchical CA structure, PKI Data Structure,X.509 certificates, CRL, Implement CERTIFICATION REVOCATION LIST, Adding CRL distribution point, openssl commands crl, openssl adding distribution points, openssl crl commands">
+    <meta name="keywords" content="pki tutorial,pki concepts, Certification Authority (CA),Registration Authority (RA),PKI Users,PKI Architecture, openssl Generating hierarchical CA structure, PKI Data Structure,X.509 certificates, CRL, Implement CERTIFICATION REVOCATION LIST, Adding CRL distribution point, openssl commands crl, openssl adding distribution points, openssl crl generate">
     <meta name="author" content="Anish nath">
     <meta name="robots" content="index,follow" />
 	<meta name="googlebot" content="index,follow" />
@@ -82,10 +82,10 @@
           <p class="lead">
             by
             <a href="https://www.linkedin.com/in/anishnath">Anish</a>
-            <p>Posted on Monday July 30, 2018</p>
+            <p>Posted on Saturday August 11, 2018</p>
           </p>
           
-          <img class="img-fluid rounded" src="img/pki.png" height="400" width="600" alt="Referefce ">
+          <img class="img-fluid rounded" src="img/pki.png" height="400" width="600" alt="Refrence 8gwifi ">
           
           <%@ include file="footer_adsense.jsp"%>
            <%@ include file="analytics.jsp"%>
@@ -101,7 +101,7 @@
 <hr>
 <p>A public key infrastructure (PKI) binds public keys to entities, enables other entities to verify public key bindings, and provides the services needed for ongoing management of keys in a distributed system</p>
 
-<h2 class="mt-4"><a id="Certification_Authority_CA_8"></a>Certification Authority (CA)</h2>
+<h2 class="mt-4">Certification Authority (CA)</h2>
 <p>The CA issues a public key certificate for each identity, confirming that the identity has the appropriate credentials.</p>
 <p><strong>Main Functions of CA</strong></p>
 <ul>
@@ -110,7 +110,7 @@
 <li>Attach CRL  for Certificate revocation</li>
 <li>Publish it’s current (Expired Certificate ) and CRL’s</li>
 </ul>
-<h2 class="mt-4"><a id="Registration_Authority_RA_18"></a>Registration Authority (RA)</h2>
+<h2 class="mt-4">Registration Authority (RA)</h2>
 <p>An RA is designed to verify certificate contents for the CA. Each CA will maintain a list of accredited RAs; that is a list of RAs determined to be trustworthy</p>
 <h2 class="mt-4"><a id="PKI_Users_21"></a>PKI Users</h2>
 <p>PKI Users are organizations or individuals that use the PKI, but do not issue certificates.</p>
@@ -119,10 +119,10 @@
 <li>Generate the Certificate Signing Request.</li>
 <li>Maintain the Certificate obtain by the CA.</li>
 </ul>
-<h2 class="mt-4"><a id="PKI_Architecture_29"></a>PKI Architecture</h2>
+<h2 class="mt-4">PKI Architecture</h2>
 <p>CAs may be linked in a number of ways. Most enterprises that deploy a PKI will choose either a <strong>mesh</strong> or a <strong>hierarchical</strong> architecture, This is an example of <strong>hierarchical</strong> Structure</p>
 <p><img src="img/pki2.png" alt="PKI"></p>
-<h2 class="mt-4"><a id="Generating_hierarchical_CA_structure_35"></a>Generating hierarchical CA structure</h2>
+<h2 class="mt-4">Generating hierarchical CA structure</h2>
 <ul>
 <li>
 <p><strong>rootCA</strong>  will generate <strong>self signed certificate</strong> and <strong>key</strong> with longer validity</p>
@@ -423,8 +423,8 @@ Certificate Revocation List (CRL):
         CRL extensions:
             X509v3 CRL Number: 
                 0
-No Revoked Certificates.
-    Signature Algorithm: sha256WithRSAEncryption
+<mark>No Revoked Certificates.
+    Signature Algorithm: sha256WithRSAEncryption </mark>
 </code></pre>
 <p>if the CRL is DER Encoded then issue the below command</p>
 <pre><code class="html">openssl crl -inform DER -text -noout -in mycrl.crl
@@ -436,8 +436,8 @@ No Revoked Certificates.
   Using configuration from crl_openssl.conf
   Enter pass phrase for intCA.key:
   Adding Entry with serial number AC12C39820C69327 to DB for /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd/CN=8gwifi.org
-  Revoking Certificate AC12C39820C69327.
-  Data Base Updated
+ <mark> Revoking Certificate AC12C39820C69327.
+  Data Base Updated </mark>
 </code></pre>
 </li>
 <li>
@@ -445,7 +445,7 @@ No Revoked Certificates.
 <pre><code class="html">  openssl ca -revoke client.crt -keyfile intCA.key -cert intCA.crt -config crl_openssl.conf 
   Using configuration from crl_openssl.conf
   Enter pass phrase for intCA.key:
-  ERROR:Already revoked, serial number AC12C39820C69327
+  <mark>ERROR:Already revoked, serial number AC12C39820C69327</mark>
 </code></pre>
 </li>
 <li>
@@ -470,7 +470,7 @@ Certificate Revocation List (CRL):
         CRL extensions:
             X509v3 CRL Number: 
                 2
-Revoked Certificates:
+<mark>Revoked Certificates: </mark>
     Serial Number: AC12C39820C69327
         Revocation Date: Aug  8 07:01:07 2018 GMT
 </code></pre>
@@ -479,9 +479,9 @@ Revoked Certificates:
 <li>
 <p>Edit the file <strong>crl_openssl.conf</strong> and point out the <strong>PEM</strong> and <strong>DER</strong></p>
 <pre><code class="html">  crlDistributionPoints=@crl_section
-  [crl_section]
+  <mark>[crl_section]
   URI.1 = https://8gwifi.org/intCA.crl
-  URI.2 = https://8gwifi.org/intCA.der
+  URI.2 = https://8gwifi.org/intCA.der </mark>
 </code></pre>
 </li>
 <li>
@@ -494,15 +494,18 @@ Revoked Certificates:
 <pre><code class="html">  openssl x509 -text -in client.crt
  ......
  X509v3 extensions:
-      X509v3 CRL Distribution Points: 
+      <mark>X509v3 CRL Distribution Points: 
           Full Name:
             URI:https://8gwifi.org/intCA.crl
           Full Name:
-            URI:https://8gwifi.org/intCA.der
+            URI:https://8gwifi.org/intCA.der </mark>
 </code></pre>
 </li>
 </ul>
+<p>Continue Reading  <a href="ocsp.jsp">OCSP in Nutshell</a> </p>
 
+<p><a href="https://8gwifi.org/cafunctions.jsp"> Generate TestCA Online </a></p>
+<img class="img-fluid rounded" src="img/genCA.png" height="400" width="600" alt="Refrence 8gwifi ">
 
 <%@ include file="footer_adsense.jsp"%> 
 <p><strong> Thanku for reading !!! Give a Share for Support</strong></p>
