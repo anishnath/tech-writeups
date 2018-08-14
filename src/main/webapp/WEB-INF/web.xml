@@ -3,9 +3,9 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-	<display-name>Documentation Project</display-name>
+	<display-name>8gwifi Documentation Project</display-name>
 	<welcome-file-list>
-		<welcome-file>ansible-manage-system-users.jsp</welcome-file>
+		<welcome-file>pki.jsp</welcome-file>
 	</welcome-file-list>
 </web-app>
 
