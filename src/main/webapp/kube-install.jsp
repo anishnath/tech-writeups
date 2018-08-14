@@ -136,7 +136,7 @@
 </code></pre>
 </p>
 
-<p><strong>Step-1</strong> Disable system swap <code>run swapoff -a</code> this will immediately disable swap and remove any swap entry from <code>/etc/fstab</code></p>
+<p><strong>Step-1</strong> Disable system swap run <code> swapoff -a</code> this will immediately disable swap and remove any swap entry from <code>/etc/fstab</code></p>
 
 <p><strong>Step-2</strong> Disable SE Linux by <code>setenforce 0</code></p>
 
