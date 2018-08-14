@@ -182,7 +182,7 @@ systemctl status docker
 
 <p><strong>kubernetes installation on centos7/rhel7</strong></p>
 
-<p>Setting up Kubernetes yum repository </p>
+<p>Setting up Kubernetes yum repository on centos6.x/rhel7.x </p>
 
 <pre><code class="html">cat &lt;&lt;EOF &gt; /etc/yum.repos.d/kubernetes.repo
 [kubernetes]
