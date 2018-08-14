@@ -103,7 +103,7 @@
 <h2 class="mt-4" id="beforeyoubegin">Before you Begin</h2>
 
 <p><mark>This sample chapter </mark> extracted from the book, <a href="https://leanpub.com/crypto">The Modern Cryptograhy CookBook </a>. The Book theme is<mark>Cryptography is for EveryOne. Learn from Crypto Principle to Applied Cryptography With Practical Example</mark> </p>
-<p><mark>Get 20% discount Coupon on this book </mark> By Commenting and Sharing this Article </p>
+<p><mark>Get this book on Just  <a href="http://leanpub.com/crypto/c/NPsT3TZmqrNS" target="_blank" rel="noopener">  $9 </a> by availing coupon discount </mark>   </p>
 <p><iframe class="embed-responsive-item" width='160' height='400' src='https://leanpub.com/crypto/embed' frameborder='0' allowtransparency='true'></iframe></p>
 
 <hr>

@@ -95,7 +95,7 @@
 <h2 class="mt-4">Introduction </h3>
 
 <p><mark>This sample chapter </mark> extracted from the book, <a href="https://leanpub.com/crypto">The Modern Cryptograhy CookBook </a>. The Book theme is<mark>Cryptography is for EveryOne. Learn from Crypto Principle to Applied Cryptography With Practical Example</mark> </p>
-<p><mark>Get 20% discount Coupon on this book </mark> By Commenting and Sharing this Article </p>
+<p><mark>Get this book on Just  <a href="http://leanpub.com/crypto/c/NPsT3TZmqrNS" target="_blank" rel="noopener">  $9 </a> by availing coupon discount </mark>   </p>
 <p><iframe class="embed-responsive-item" width='160' height='400' src='https://leanpub.com/crypto/embed' frameborder='0' allowtransparency='true'></iframe></p>
 
 <hr>
@@ -112,7 +112,7 @@
 </ul>
 <h2 class="mt-4">Registration Authority (RA)</h2>
 <p>An RA is designed to verify certificate contents for the CA. Each CA will maintain a list of accredited RAs; that is a list of RAs determined to be trustworthy</p>
-<h2 class="mt-4"><a id="PKI_Users_21"></a>PKI Users</h2>
+<h2 class="mt-4">PKI Users</h2>
 <p>PKI Users are organizations or individuals that use the PKI, but do not issue certificates.</p>
 <p><strong>Main Functions of PKI user</strong></p>
 <ul>
