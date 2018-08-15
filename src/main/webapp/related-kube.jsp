@@ -18,6 +18,9 @@
                     <li>
                       <a href="kube-nginx.jsp">kubernetes secure nginx deployment</a>
                     </li>
+                    <li>
+                      <a href="kube-nginx.jsp">kubernetes Port, Targetport and NodePort</a>
+                    </li>
                 </div>
               </div>
             </div>
