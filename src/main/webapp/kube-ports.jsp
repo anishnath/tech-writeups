@@ -117,8 +117,9 @@ spec:
 <hr>
 <ul>
 <li><strong>Port</strong>: Port is the port number which makes a  <a href="https://kubernetes.io/docs/concepts/services-networking/service/">service</a>  visible to other services running within the same K8s cluster.</li>
-<li><strong>Target Port</strong>: Target port is the port on the POD where the service is running.</li>
-<li><strong>Nodeport</strong>: Node port is the port on which the service can be accessed from external world using  <a href="https://kubernetes.io/docs/admin/kube-proxy/">Kube-Proxy</a>. </li>
+<li><strong>Target Port</strong>: Target port is the port on the POD where the service is running.Service can map an incoming port to any targetPort. By default the targetPort will be set to the same value as the port field</li>
+<li><strong>Nodeport</strong>: Node port is the port on which the service can be accessed from external world using through  <a href="https://kubernetes.io/docs/admin/kube-proxy/">Kube-Proxy</a>.In NodePort, the Kubernetes master will allocate a port from a range specified by <code>--service-node-port-range flag (default: 30000-32767) </code>, and each Node will proxy that port (the same port number on every Node) into your Service
+ </li>
 </ul>
 </li>
 <li>
