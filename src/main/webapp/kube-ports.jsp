@@ -14,7 +14,7 @@
 	<meta name="classification" content="tools" />
 	<meta name="language" content="en" />
 
-    <title>Deploying Secure HTTPS NGINX in Kubernetes</title>
+    <title>Kubernetes  Port, Targetport and NodePort</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
