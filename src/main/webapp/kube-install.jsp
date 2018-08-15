@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="How to install kubernetes in centos7,fedora,rhel7,ubuntu">
-    <meta name="keywords" content="kubernetes installation, ansible kubernetes instalaltion, kubernetes dashbaords, kubernetes UI,linux,fedora,rhel7,ubuntu,centos7,kubectl get services -n kube-system.kubeadm token create">
+    <meta name="keywords" content="kubernetes installation, ansible kubernetes instalaltion, kubernetes dashbaords, kubernetes UI,linux,fedora,rhel7,ubuntu,centos7,kubectl get services -n kube-system.kubeadm token create,kubernetes interview questions">
     <meta name="author" content="Anish nath">
     <meta name="robots" content="index,follow" />
 	<meta name="googlebot" content="index,follow" />

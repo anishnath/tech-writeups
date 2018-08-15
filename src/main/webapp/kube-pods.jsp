@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="kubernetes pod,cluster,Deployment,Replica Set DeepDive , adding new node to cluster, token expire">
-    <meta name="keywords" content="kubernetes Pod,cluster,Deployment,Replica Set DeepDive, kubernetes tutorial,kubectl get pods ,kubectl scale, kubectl get events, Scale Down the Pods, Adding New Node to Cluster, token expire, creating new token, discovering discovery-token-ca-cert-hash" >
+    <meta name="keywords" content="kubernetes Pod,cluster,Deployment,Replica Set DeepDive, kubernetes tutorial,kubectl get pods ,kubectl scale, kubectl get events, Scale Down the Pods, Adding New Node to Cluster, token expire, creating new token, discovering discovery-token-ca-cert-hash,kubernetes interview questions" >
     <meta name="author" content="Anish nath">
     <meta name="robots" content="index,follow" />
 	<meta name="googlebot" content="index,follow" />

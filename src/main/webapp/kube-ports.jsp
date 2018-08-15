@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="what is Kubernetes port, targetport and nodePort">
-    <meta name="keywords" content="Kubernetes port,Kubernetes targetport , port,Kubernetes nodePort, port,Kubernetes iptables,Service kubernetes">
+    <meta name="keywords" content="Kubernetes port,Kubernetes targetport , port,Kubernetes nodePort, port,Kubernetes iptables,Service kubernetes, kubernetes interview questions">
     <meta name="author" content="Anish nath">
     <meta name="robots" content="index,follow" />
 	<meta name="googlebot" content="index,follow" />

@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Deploying Secure HTTPS NGINX in Kubernetes">
-    <meta name="keywords" content="kubernetes nginx https, setting up ssl in kubernetes nginx, tls1.2 kubernetes, kubernetes configmap, kubernetes secret keys, kubertenes proxy,inotifywait,kubectl get service, edit kubectl service ">
+    <meta name="keywords" content="kubernetes nginx https, setting up ssl in kubernetes nginx, tls1.2 kubernetes, kubernetes configmap, kubernetes secret keys, kubertenes proxy,inotifywait,kubectl get service, edit kubectl service,kubernetes interview questions ">
     <meta name="author" content="Anish nath">
     <meta name="robots" content="index,follow" />
 	<meta name="googlebot" content="index,follow" />

@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="How to setup kubernetes dashbaord and login with token">
-    <meta name="keywords" content="kubernetes dashbaord installation, Verify kubernetes dashboard Service, accessing  kubernetes dashboard ,edit kubernetes dashboard Service,delete kubernetes dashboard Servcie, kubernetes dashbaord login with token">
+    <meta name="keywords" content="kubernetes dashbaord installation, Verify kubernetes dashboard Service, accessing  kubernetes dashboard ,edit kubernetes dashboard Service,delete kubernetes dashboard Servcie, kubernetes dashbaord login with token,kubernetes interview questions">
     <meta name="author" content="Anish nath">
     <meta name="robots" content="index,follow" />
 	<meta name="googlebot" content="index,follow" />
