@@ -16,7 +16,7 @@
                       <a href="kube-pods.jsp">Pod,Cluster,Deploy,ReplicaSet Light Dive</a>
                     </li>
                     <li>
-                      <a href="kube-pods.jsp">kubernetes secure nginx deployment</a>
+                      <a href="kube-nginx.jsp">kubernetes secure nginx deployment</a>
                     </li>
                 </div>
               </div>
