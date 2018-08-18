@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="How to secure nginx in production environment">
-    <meta name="keywords" content="nginx secure configuration,Run NGNIX as non root, letsencrypt nginx directory,ngnix Header Security,Ngnix TLS Config,nginx http2 Support,OCSP Stapling,Handling Buffer Overflow,nginx Redirect http to Https,Subdomain Redirect,nginx Rate Limiting,nginx SELinux,nginx Basic Auth, nginx Syslog Configuration,nginx IPv6 Listen,Configure nginx for PHP,Configure nginx for wordpress,Configure nginx for Drupal,Organize your nginx configuration file in most optimal way">
+    <meta name="keywords" content="nginx secure configuration,Run nginx as non root, letsencrypt nginx directory,nginx Header Security,nginx TLS Config,nginx http2 Support,OCSP Stapling,Handling Buffer Overflow,nginx Redirect http to Https,Subdomain Redirect,nginx Rate Limiting,nginx SELinux,nginx Basic Auth, nginx Syslog Configuration,nginx IPv6 Listen,Configure nginx for PHP,Configure nginx for wordpress,Configure nginx for Drupal,Organize your nginx configuration file in most optimal way">
     <meta name="author" content="Anish nath">
     <meta name="robots" content="index,follow" />
 	<meta name="googlebot" content="index,follow" />
@@ -99,7 +99,7 @@
 <p><iframe class="embed-responsive-item" width='160' height='400' src='https://leanpub.com/crypto/embed' frameborder='0' allowtransparency='true'></iframe></p>
 
 <hr>
-<p>In this article we will go through all the <a href="https://www.nginx.com/resources/wiki/">NGNIX</a> <strong>Advanced</strong> secure configuration, The example shown in this document is for <strong>nginx.conf</strong> file and can be downloaded from <a href="https://goo.gl/btEbR9">here</a></p>
+<p>In this article we will go through all the <a href="https://www.nginx.com/resources/wiki/">nginx</a> <strong>Advanced</strong> secure configuration, The example shown in this document is for <strong>nginx.conf</strong> file and can be downloaded from <a href="https://goo.gl/btEbR9">here</a></p>
 
 <h3 class="mt-4">What we will cover </h3>
 
@@ -107,26 +107,26 @@
 <table class="table table-striped table-bordered">
 <thead>
 <tr>
-<th>Ngnix Security</th>
+<th>nginx Security</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Least Privilege</td>
-<td>Run NGNIX as non root</td>
+<td>Run nginx as non root</td>
 </tr>
 <tr>
 <td>Lets encrypt</td>
 <td>ACME Directory Creation</td>
 </tr>
 <tr>
-<td>Ngnix Header Security</td>
+<td>nginx Header Security</td>
 <td>List of HTTP header and Security Configuration</td>
 </tr>
 <tr>
-<td>Ngnix TLS Config</td>
-<td>Nginx <strong>Modern TSL</strong> Ciphersuites and Setting</td>
+<td>nginx TLS Config</td>
+<td>Nginx <strong>Modern TLS</strong> Ciphersuites and Setting</td>
 </tr>
 <tr>
 <td>HTTP2 Support</td>
@@ -874,7 +874,7 @@ include fastcgi_params;
 
 <h2 class="mt-4"id="ngninxmodularizedfilestructure">Nginx Modularized File Structure</h2>
 
-<p>Maintaining <strong>ngnix</strong> configuration in a single file become cumbersome, if more rules is added , Separate the config file in <strong>modularized way</strong> </p>
+<p>Maintaining <strong>nginx</strong> configuration in a single file become cumbersome, if more rules is added , Separate the config file in <strong>modularized way</strong> </p>
 
 <ul>
 <li><strong>/etc/nginx/nginx.conf</strong></li>
