@@ -104,6 +104,7 @@
           
 <p>IPtables is the firewall service that is available in a lot of different Linux Distributions. While modifying it might seem difficult to dealt with at first, this writeup should be able to show you just how easy it is to use and how quickly you can be on your way mucking around with your firewall</p>
 <h2 class="mt-4">iptables CHAINS</h2>
+<p>Iptables is made up of 5 tables, each associated to specific functionalities of the net filter and each split into several "chains", specifying the functionalities of each table further</p>
 <ul>
 <li>
 <p><strong>INPUT</strong> - Used to control the behavior of INCOMING connections.</p>
@@ -146,6 +147,18 @@ Chain OUTPUT (policy ACCEPT)
 iptables --policy OUTPUT ACCEPT
 iptables --policy FORWARD DROP
 </code></pre>
+
+
+<h2 class="mt-4">iptables main command options</h2>
+<p>Get familiar you self with iptables rules  <code>iptables -h</code> , this is great place to start, some tips</p>
+<ul>
+<li><p><code class="html">iptables -A</code> will add the rule at the end</p></li>
+<li><p><code class="html">iptables -I</code> will add the rule at the top by default</p></li>
+<li><p><code class="html">iptables -D</code> will delete a rule (specify a rule number or specify the whole rule you want to remove for this option to work)</p></li>
+<li><p><code class="html">iptables -C</code> will check for the existence of a rule</p></li>
+<li><p><code class="html">iptables -F</code> Delete all rules in  chain or all chains</p></li>
+</ul>
+
 <h2 class="mt-4">Most common IPtables rules</h2>
 <ul>
 <li>
