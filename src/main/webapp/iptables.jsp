@@ -277,8 +277,11 @@ This will block http service any incoming traffic</p>
 <ul>
 <li>
 <p><strong>How to flush clear all iptables rules</strong></p>
+This command will not clear NAT rules
 <pre><code class="html">  iptables -F
 </code></pre>
+<p>Note if there are NAT rule, then to flush it </p>
+<pre><code class="html">  iptables -t nat -F</code></pre>
 </li>
 <li>
 <p><strong>iptables: How to delete PREROUTING NAT rule</strong></p>
