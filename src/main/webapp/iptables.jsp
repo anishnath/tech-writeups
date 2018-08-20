@@ -100,7 +100,12 @@
           <hr>
 
           <!-- Post Content -->
-          
+        <h2 class="mt-4">Introduction </h3>
+
+<p><mark>This sample chapter </mark> extracted from the book, <a href="https://leanpub.com/crypto">The Modern Cryptograhy CookBook </a>. The Book theme is<mark>Cryptography is for EveryOne. Learn from Crypto Principle to Applied Cryptography With Practical Example</mark> </p>
+<p><mark>Get this book on Just  <a href="http://leanpub.com/crypto/c/NPsT3TZmqrNS" target="_blank" rel="noopener">  $9 </a> by availing  <a href="http://leanpub.com/crypto/c/NPsT3TZmqrNS" target="_blank" rel="noopener">coupon discount</a> </mark>   </p>
+<p><iframe class="embed-responsive-item" width='160' height='400' src='https://leanpub.com/crypto/embed' frameborder='0' allowtransparency='true'></iframe></p>
+           <hr>
           
 <p>IPtables is the firewall service that is available in a lot of different Linux Distributions. While modifying it might seem difficult to dealt with at first, this writeup should be able to show you just how easy it is to use and how quickly you can be on your way mucking around with your firewall</p>
 <h2 class="mt-4">iptables CHAINS</h2>
