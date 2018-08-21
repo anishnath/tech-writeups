@@ -153,6 +153,25 @@ Aug 21 05:17:41 host-192-0-2-74 systemd[1]: Started Kernel process accounting.
 <pre><code class="html">   chkconfig psacct on
 </code></pre>
 </li>
+
+<li>
+<p>Note: Logrotate file for psacct, other wise your system will fill-up immediately. In centos/rhel the daily rotation specified in the file <code> /etc/logrotate.d/psacct </code></p>
+<pre><code class="html">/var/account/pacct {
+    compress
+    delaycompress
+    notifempty
+    daily
+    rotate 31
+    create 0600 root root
+    postrotate
+       if /usr/bin/systemctl --quiet is-active psacct.service ; then
+           /usr/sbin/accton /var/account/pacct | /usr/bin/grep -v "Turning on process accounting, file set to '/var/account/pacct'." | /usr/bin/cat
+       fi
+    endscript
+}</code></pre>
+</li>
+
+
 </ul>
 
 <h2 class="mt-4"><a id="Summarizes_accounting_SA_77"></a>Summarizes accounting (SA)</h2>
