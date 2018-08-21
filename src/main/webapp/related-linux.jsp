@@ -10,7 +10,11 @@
                       <a href="he-ipv6.jsp">Add Ipv6 Support to ECS Instances</a>
                     </li>
                     <li>
-                      <a href="iptables.jsp">Top 20 IPtables Rules</a>
+                      <a href="iptables.jsp">IPtables Must Known Stuff</a>
+                    </li>
+                    
+                    <li>
+                      <a href="linux-monitor-commands.jsp">How to Monitor All executed Commands</a>
                     </li>
                 </div>
               </div>
