@@ -13,6 +13,9 @@
                       <a href="ocsp.jsp">OCSP in Nutshell</a>
                     </li>
                     <li>
+                      <a href="tlsv13.jsp">TLSv1.3 in Nutshell</a>
+                    </li>
+                    <li>
                       <a href="nginx-secure.jsp">Secure Nginx Configuration</a>
                     </li>
                 </div>
