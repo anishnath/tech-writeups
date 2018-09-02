@@ -35,9 +35,9 @@
   "@type" : "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "pki.jsp"
+    "@id": "tlsv13.jsp"
   },
-  "name" : "PKI Introduction X.509,CRL",
+  "name" : "TLSv1.3 in Nutshell",
   "author" : {
     "@type" : "Person",
     "name" : "Anish"
