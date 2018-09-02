@@ -226,7 +226,9 @@ ok: [localhost] => {
     "msg": "THIS ALWAYS GIVE FIRST PRIORITY"
 }</code></pre>
 
-<p><strong> Thanku for reading !!! Give a Share for Support</strong></p>
+<hr>
+
+<%@ include file="thanks.jsp"%>
 
 
 <hr>

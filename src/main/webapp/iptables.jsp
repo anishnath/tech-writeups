@@ -395,7 +395,7 @@ This command will not clear NAT rules
 <p> if i Missed out any rules, post a comment, I will add in the List </p>
 
 <hr>
-<p><strong> Thanku for reading !!! Give a Share for Support</strong></p>
+<%@ include file="thanks.jsp"%>
           <!-- Comments Form -->
     
 

@@ -216,7 +216,7 @@ kubectl -n kube-system delete $(kubectl -n kube-system get pod -o name | grep da
 </code></pre>
 
 
-<p><strong> Thanku for reading !!! Give a Share for Support</strong></p>
+<%@ include file="thanks.jsp"%>
 
 
 <hr>

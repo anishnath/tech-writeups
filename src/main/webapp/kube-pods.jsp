@@ -395,7 +395,7 @@ kube-minion2   Ready     &lt;none&gt;    2m        v1.11.0
 
 
 
-<p><strong> Thanku for reading !!! Give a Share for Support</strong></p>
+<%@ include file="thanks.jsp"%>
 
 
 <hr>

@@ -180,7 +180,7 @@ PLAY RECAP *********************************************************************
 172.16.9.4                 : ok=1    changed=0    unreachable=0    failed=0</code></pre>
 	 
 
-<p><strong> Thanku for reading !!! Give a Share for Support</strong></p>
+<%@ include file="thanks.jsp"%>
 
 
 <hr>

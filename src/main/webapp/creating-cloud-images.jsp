@@ -302,7 +302,6 @@ Done
       <!-- /.container -->
     </footer>
     
-    Here
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

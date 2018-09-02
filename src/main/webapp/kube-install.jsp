@@ -339,7 +339,7 @@ d49l0d.mheeem1dkrw3n436
 
 
 
-<p><strong> Thanku for reading !!! Give a Share for Support</strong></p>
+<%@ include file="thanks.jsp"%>
 
 
 <hr>

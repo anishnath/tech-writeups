@@ -294,8 +294,8 @@ NAME         CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
 kubernetes   10.254.0.1   &lt;none&gt;        443/TCP   1h
 </code></pre>
 
-<p><strong> Thanku for reading !!! Give a Share for Support</strong></p>
 
+<%@ include file="thanks.jsp"%> 
 
 <hr>
 

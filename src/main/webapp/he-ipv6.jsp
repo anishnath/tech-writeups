@@ -305,7 +305,7 @@ rtt min/avg/max/mdev = 76.515/76.563/76.653/0.343 ms
 <p>Alternatively you can use any <a href="https://8gwifi.org/pingfunctions.jsp">Online Ipv6 ping</a> the check Ipv6 address </p>
 
 <p><img class="img-fluid rounded"  src="img/Create_New_Tunnel3.png" alt="" /></p>
-<p><strong> Thanku for reading !!! Give a Share for Support</strong></p>
+<%@ include file="thanks.jsp"%>
 
 
 <hr>

@@ -507,11 +507,7 @@ Certificate Revocation List (CRL):
 <p><a href="https://8gwifi.org/cafunctions.jsp"> Generate TestCA Online </a></p>
 <img class="img-fluid rounded" src="img/genCA.png" height="400" width="600" alt="Refrence 8gwifi ">
 
-<%@ include file="footer_adsense.jsp"%> 
-<p><strong> Thanku for reading !!! Give a Share for Support</strong></p>
-<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a04129f05073300123e3782&product=inline-share-buttons"></script>   
-<div class="sharethis-inline-share-buttons"></div>
-<hr>
+<%@ include file="thanks.jsp"%>
 
 
       <!-- Comments Form -->

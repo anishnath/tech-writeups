@@ -1072,9 +1072,7 @@ enable-ssh-support
 write-env-file ~/.gpg-agent-info</p></li>
 </ol>
 
-<p>Thanks for reading .. </p>
-
-<p><strong> Thanku for reading !!! Give a Share for Support</strong></p>
+<%@ include file="thanks.jsp"%>
 
 
 <hr>

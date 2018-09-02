@@ -368,7 +368,9 @@ changed: [node2] => (item={u'username': u'user2'})
 changed: [node1] => (item={u'username': u'user2'})
 changed: [node3] => (item={u'username': u'user2'})</code></pre>
 
-<p><strong> Thanku for reading !!! Give a Share for Support</strong></p>
+<hr>
+
+<%@ include file="thanks.jsp"%>
 
 
 <hr>

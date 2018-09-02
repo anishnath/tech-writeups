@@ -136,9 +136,7 @@ Password: setup during the freenas Installation</code>
           <img class="img-fluid rounded" src="img/freenas15.png" alt="">
           
           <hr>
-<p><strong> Thanku for reading !!! Give a Share for Support</strong></p>
-           <%@ include file="footer_adsense.jsp"%>
-           <%@ include file="analytics.jsp"%>
+<%@ include file="thanks.jsp"%>
 
           <hr>
 
