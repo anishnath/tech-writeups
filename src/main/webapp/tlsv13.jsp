@@ -272,6 +272,30 @@ SSL-Session:
     TLS session ticket lifetime hint: 7200 (seconds)
     TLS session ticket:
 </code></pre>
+
+<h2 class="mt-4"></a>TLSv1.3 server with Preshared Key</h2>
+
+First generate a PSK key, and use this PSK to start TLSv1.3 server
+<pre><code class="html">PSK=b2c9b9f57ef2fbbba8b624070b301d7f278f1b39c352d5fa849f85a3e7a3f77b 
+openssl s_server -accept 443  -tls1_3 -ciphersuites TLS_AES_256_GCM_SHA384 -key key.pem -cert cert.pem -psk $PSK</code></pre>
+
+<p> Connect the TLSv1.3 server with same PSK</p>
+
+<pre><code class="html">PSK=b2c9b9f57ef2fbbba8b624070b301d7f278f1b39c352d5fa849f85a3e7a3f77b
+openssl s_client -connect 127.0.0.1:443 -tls1_3 -psk $PSK</code></pre>
+
+<p>On the server side , By using PSK the server authentication is not done with a certificate but with a pre-shared key</p>
+<pre><code class="html">
+-----BEGIN SSL SESSION PARAMETERS-----
+MFUCAQECAgMEBAITAgQABDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAChBgIEW4wIbaIEAgIcIKQGBAQBAAAA
+-----END SSL SESSION PARAMETERS-----
+<mark>Shared ciphers:TLS_AES_256_GCM_SHA384
+Signature Algorithms: ECDSA+SHA256:ECDSA+SHA384:ECDSA+SHA512:Ed25519:Ed448:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA+SHA256:RSA+SHA384:RSA+SHA512
+Shared Signature Algorithms: ECDSA+SHA256:ECDSA+SHA384:ECDSA+SHA512:Ed25519:Ed448:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA+SHA256:RSA+SHA384:RSA+SHA512
+Supported Elliptic Groups: X25519:P-256:X448:P-521:P-384
+Shared Elliptic groups: X25519:P-256:X448:P-521:P-384</mark></code></pre>
+
 <h2 class="mt-4"><a id="Browser_Support_141"></a>Browser Support</h2>
 <p>Checkout the browser compatibility for TLS 1.3  here : <a href="https://caniuse.com/#feat=tls1-3">https://caniuse.com/#feat=tls1-3</a></p>
 <p><img class="img-fluid rounded" src="img/tls1.3_10.png" alt="enter image description here"></p>
