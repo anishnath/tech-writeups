@@ -14,8 +14,13 @@
              <li class="nav-item ">
               <a class="nav-link" href="https://8gwifi.org/docs/st.jsp">Perform SpeedTest</a>
             </li>
+            
+             <li class="nav-item ">
+              <a class="nav-link" href="https://goo.gl/forms/xEnirtbVoLCRtCRo2">Submit Your tutorial Here</a>
+            </li>
+            
             <li class="nav-item active">
-              <a class="nav-link" href="https://8gwifi.org">Services</a>
+              <a class="nav-link" href="https://8gwifi.org">Cryptography Services</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link"  href="https://www.linkedin.com/in/anishnath">Hire Me!</a>
