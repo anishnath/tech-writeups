@@ -407,6 +407,7 @@ kubectl edit service/nginxsvc
          <%@ include file="related-openstack.jsp"%>
          
          <%@ include file="related-cryptography.jsp"%>
+         <%@ include file="related-window-crypto.jsp"%>
          
          <!-- Topic Widget -->
          <%@ include file="side.jsp"%>

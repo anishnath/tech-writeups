@@ -157,6 +157,7 @@ Domain centos has been undefined</code></pre>
          
          
          <%@ include file="related-cryptography.jsp"%>
+         <%@ include file="related-window-crypto.jsp"%>
          
          <!-- Topic Widget -->
          <%@ include file="side.jsp"%>

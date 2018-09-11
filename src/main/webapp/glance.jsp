@@ -327,6 +327,7 @@ openstack image delete 50fc1d8b-7f7f-41d5-9ec8-8762d377a612</code></pre>
          
          
          <%@ include file="related-cryptography.jsp"%>
+         <%@ include file="related-window-crypto.jsp"%>
          
          <!-- Topic Widget -->
          <%@ include file="side.jsp"%>

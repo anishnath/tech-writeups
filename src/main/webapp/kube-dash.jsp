@@ -248,8 +248,10 @@ kubectl -n kube-system delete $(kubectl -n kube-system get pod -o name | grep da
          <%@ include file="related-kube.jsp"%>
          
          <%@ include file="related-cryptography.jsp"%>
+         <%@ include file="related-window-crypto.jsp"%>
          
          <%@ include file="related-linux.jsp"%>
+         <%@ include file="related-openstack.jsp"%>
          
          <!-- Topic Widget -->
          <%@ include file="side.jsp"%>

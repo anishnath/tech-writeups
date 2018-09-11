@@ -334,6 +334,8 @@ kubernetes   10.254.0.1   &lt;none&gt;        443/TCP   1h
          
          <%@ include file="related-cryptography.jsp"%>
          
+         <%@ include file="related-window-crypto.jsp"%>
+         
          <!-- Topic Widget -->
          <%@ include file="side.jsp"%>
          

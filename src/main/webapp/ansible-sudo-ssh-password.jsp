@@ -212,6 +212,7 @@ PLAY RECAP *********************************************************************
          <%@ include file="related-kube.jsp"%>
          
          <%@ include file="related-cryptography.jsp"%>
+         <%@ include file="related-window-crypto.jsp"%>
          
          <%@ include file="related-linux.jsp"%>
          

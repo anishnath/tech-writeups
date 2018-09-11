@@ -177,13 +177,19 @@ Using <mark>yandex.com</mark> speedometer
         <!-- Sidebar Widgets Column -->
         <div class="col-md-4">
 
-         <%@ include file="footer_adsense.jsp"%>
-         
+        <%@ include file="footer_adsense.jsp"%> 
 
+		 <%@ include file="related-cryptography.jsp"%>
+		 <%@ include file="related-window-crypto.jsp"%>
           <!-- Article Widget -->
          <%@ include file="related-ansible.jsp"%>
          
          <%@ include file="related-kube.jsp"%>
+         
+         
+         
+         <%@ include file="related-openstack.jsp"%>
+         <%@ include file="related-linux.jsp"%>
          
         </div>
 

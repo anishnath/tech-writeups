@@ -430,9 +430,12 @@ kube-minion2   Ready     &lt;none&gt;    2m        v1.11.0
          <%@ include file="related-ansible.jsp"%>
          
          
-         <%@ include file="related-openstack.jsp"%>
+        
          
          <%@ include file="related-cryptography.jsp"%>
+         <%@ include file="related-window-crypto.jsp"%>
+         
+          <%@ include file="related-openstack.jsp"%>
          
          <!-- Topic Widget -->
          <%@ include file="side.jsp"%>

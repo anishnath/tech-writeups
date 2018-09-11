@@ -1099,6 +1099,7 @@ write-env-file ~/.gpg-agent-info</p></li>
          <%@ include file="footer_adsense.jsp"%> 
          
          <%@ include file="related-cryptography.jsp"%>
+         <%@ include file="related-window-crypto.jsp"%>
          
          <%@ include file="related-linux.jsp"%>
 

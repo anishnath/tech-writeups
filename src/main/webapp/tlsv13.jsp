@@ -330,6 +330,7 @@ Shared Elliptic groups: X25519:P-256:X448:P-521:P-384</mark></code></pre>
          <%@ include file="footer_adsense.jsp"%> 
 
 		 <%@ include file="related-cryptography.jsp"%>
+		 <%@ include file="related-window-crypto.jsp"%>
           <!-- Article Widget -->
          <%@ include file="related-ansible.jsp"%>
          

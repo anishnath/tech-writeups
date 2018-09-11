@@ -171,6 +171,7 @@ Password: setup during the freenas Installation</code>
          
          
          <%@ include file="related-cryptography.jsp"%>
+         <%@ include file="related-window-crypto.jsp"%>
          
           <!-- Side Widget -->
          <%@ include file="side.jsp"%>

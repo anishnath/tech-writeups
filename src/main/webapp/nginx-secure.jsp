@@ -1042,6 +1042,7 @@ For EL 7.x </p>
          <%@ include file="footer_adsense.jsp"%> 
 
 		 <%@ include file="related-cryptography.jsp"%>
+		 <%@ include file="related-window-crypto.jsp"%>
           <!-- Article Widget -->
          <%@ include file="related-ansible.jsp"%>
          

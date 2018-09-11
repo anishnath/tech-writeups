@@ -401,6 +401,7 @@ changed: [node3] => (item={u'username': u'user2'})</code></pre>
          <%@ include file="related-kube.jsp"%>
          
          <%@ include file="related-cryptography.jsp"%>
+         <%@ include file="related-window-crypto.jsp"%>
          
          <%@ include file="related-linux.jsp"%>
          

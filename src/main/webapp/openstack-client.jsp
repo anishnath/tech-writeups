@@ -177,6 +177,7 @@ Please enter your OpenStack Password for project security-ops as user orchestrat
          <%@ include file="footer_adsense.jsp"%> 
 
 		<%@ include file="related-openstack.jsp"%>
+		
           <!-- Categories Widget -->
           <%@ include file="related-kube.jsp"%>
           
@@ -188,6 +189,7 @@ Please enter your OpenStack Password for project security-ops as user orchestrat
          
          
          <%@ include file="related-cryptography.jsp"%>
+         <%@ include file="related-window-crypto.jsp"%>
          
           <!-- Side Widget -->
          <%@ include file="side.jsp"%>
