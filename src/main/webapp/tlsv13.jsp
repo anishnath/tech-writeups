@@ -207,7 +207,7 @@ This write-up mostly focus on TLSv 1.3.  TLS 1.3 was defined in <a href="https:/
 </ol>
 <p><img class="img-fluid rounded" src="img/tls1.3_08.png" alt="enter image description here"></p>
 <ol start="3">
-<li>Upon receiving the server’s messages, the client responds with its Authentication messages, namely Certificate and CertificateVerify (if requested), and Finished.</li>
+<li>Upon receiving the server's messages, the client responds with its Authentication messages, namely Certificate and CertificateVerify (if requested), and Finished.</li>
 </ol>
 <p><img class="img-fluid rounded" src="img/tls1.3_09.png" alt="enter image description here"></p>
 <h2 class="mt-4">TLSv1.3 Ciphersuites</h2>
