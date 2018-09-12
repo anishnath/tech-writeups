@@ -60,6 +60,23 @@
 </script>
 
 
+<script>
+genRandomNumbers = function getRandomNumbers() {
+  if (window.crypto || window.msCrypto) 
+  {
+  var array = new Uint32Array(10);
+  window.crypto.getRandomValues(array);
+ 
+  var randText = document.getElementById("myRandText");
+  randText.innerHTML = "The random numbers are: "
+  for (var i = 0; i < array.length; i++) {
+    randText.innerHTML += array[i] + " \n";
+  }
+} 
+	else throw new Error("Your browser can't generate secure random numbers");
+}
+</script>
+
   </head>
 
   <body>
@@ -116,8 +133,13 @@ genRandomNumbers = function getRandomNumbers() {
 &lt;button type=&quot;button&quot; onClick='genRandomNumbers()'&gt;Generate 10 random numbers&lt;/button&gt;
 </code></pre>
 <h2 class="mt-4">The Result</h2>
-<img class="img-fluid rounded"  src="img/getrandom00.png" alt="enter image description here"></img>
-<h2 class="mt-4">Broswer Support</h2>
+
+<p id="myRandText">The random numbers are: </p>
+<button type="button" class="btn btn-primary" onClick='genRandomNumbers()'>Generate 10 random numbers</button>
+
+
+<h2 class="mt-4">Broswer Support for window.crypto </h2>
+<p>The following browser has the support of window.crypto </p>
 <p><img class="img-fluid rounded"  src="img/getrandom01.png" alt="enter image description here"></p>
 
 <hr>
