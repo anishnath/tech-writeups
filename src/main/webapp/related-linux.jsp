@@ -16,6 +16,10 @@
                     <li>
                       <a href="linux-monitor-commands.jsp">How to Monitor All executed Commands</a>
                     </li>
+                    
+                    <li>
+                      <a href="linux-ps-commands.jsp"> ps command to monitor linux process and troubleshooting</a>
+                    </li>
                 </div>
               </div>
             </div>
