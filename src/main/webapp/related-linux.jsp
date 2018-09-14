@@ -18,7 +18,7 @@
                     </li>
                     
                     <li>
-                      <a href="linux-ps-commands.jsp"> ps command to monitor linux process and troubleshooting</a>
+                      <a href="linux-ps-commands.jsp">Top ps command for Monitor/Troubleshoot</a>
                     </li>
                 </div>
               </div>
