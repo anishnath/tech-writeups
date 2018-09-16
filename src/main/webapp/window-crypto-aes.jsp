@@ -227,31 +227,33 @@ function failAndLog(error)
 <hr>
 <h3 class="mt-4">The Demo</h3>
 
+<p>AES key is hardcoded in the javascript code.</p>
 <p>
 <div>
-        Plain Text: <input type="text" id="plainTextGCM" value="Hello, World!">
+        Plain Text: <input class="form-control" type="text" id="plainTextGCM" value="Hello, 8gwifi.org">
         <br>
-        <button  class="btn btn-primary" type="button" onclick="AES_GCM_encrypt()">encryptGCM</button>
-        <button class="btn btn-primary" type="button" onclick="AES_CBC_encrypt()">encryptCBC</button>
-        <button class="btn btn-primary" type="button" onclick="AES_CTR_encrypt()">encryptCTR</button>
+        <button  class="btn btn-primary" type="button" onclick="AES_GCM_encrypt()">Encrypt-GCM</button>
+        <button class="btn btn-primary" type="button" onclick="AES_CBC_encrypt()">Encrypt-CBC</button>
+        <button class="btn btn-primary" type="button" onclick="AES_CTR_encrypt()">Encrypt-CTR</button>
     </div>
 </p>
+<p>
     <div>
-        Cipher Text: <input type="text" id="cipherTextGCM" size="50">
+        Cipher Text: <input class="form-control" type="text" id="cipherTextGCM" size="50">
         <br/>
-        <button class="btn btn-primary" type="button" onclick="AES_GCM_decrypt()">decryptGCM</button>
-        <button class="btn btn-primary" type="button" onclick="AES_CBC_decrypt()">decryptCBC</button>
-        <button class="btn btn-primary" type="button" onclick="AES_CTR_decrypt()">decryptCTR</button>
+        <button class="btn btn-primary" type="button" onclick="AES_GCM_decrypt()">Decrypt-GCM</button>
+        <button class="btn btn-primary" type="button" onclick="AES_CBC_decrypt()">Decrypt-CBC</button>
+        <button class="btn btn-primary" type="button" onclick="AES_CTR_decrypt()">Decrypt-CTR</button>
     </div>
     <div id="resultGCM">
         Result:
     </div>
-    
+</p>
     <hr>
 
 <p><strong>The importKey method</strong></p>
 <p>The SubtleCrypto.importKey() method returns a Promise of the CryptoKey generated from the data given in parameters.</p>
-<pre><code class="html"> var _result_ = _crypto_.subtle.importKey(_format_, _keyData_, _algo_, _extractable_, _usages_);
+<pre><code class="html"> var result = crypto.subtle.importKey(_format_, keyData, algo, extractable, usages);
 </code></pre>
 <p><strong>The Web Cryptography javascript code</strong></p>
 <pre><code class="html">&lt;script type=&quot;text/javascript&quot;&gt;
@@ -322,7 +324,7 @@ function failAndLog(error)
 </code></pre>
 <p><strong>The HTML</strong></p>
 <pre><code class="html">&lt;div&gt;
-        Plain Text: &lt;input type=&quot;text&quot; id=&quot;plainTextGCM&quot; value=&quot;Hello, World!&quot;&gt;
+        Plain Text: &lt;input type=&quot;text&quot; id=&quot;plainTextGCM&quot; value=&quot;Hello, 8gwifi.org&quot;&gt;
         &lt;button type=&quot;button&quot; onclick=&quot;AES_GCM_encrypt()&quot;&gt;encryptGCM&lt;/button&gt;
         &lt;button type=&quot;button&quot; onclick=&quot;AES_CBC_encrypt()&quot;&gt;encryptCBC&lt;/button&gt;
         &lt;button type=&quot;button&quot; onclick=&quot;AES_CTR_encrypt()&quot;&gt;encryptCTR&lt;/button&gt;
