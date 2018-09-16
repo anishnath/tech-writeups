@@ -9,6 +9,9 @@
                     <li>
                       <a href="window-crypto-aes.jsp">How to perform aes encryption/decryption</a>
                     </li>
+                     <li>
+                      <a href="window-crypto-digest.jsp">How to digest/hash a message</a>
+                    </li>
                 </div>
               </div>
             </div>
