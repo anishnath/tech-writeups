@@ -6,6 +6,9 @@
                     <li>
                       <a href="window-crypto-random.jsp">How to generate random Numbers</a>
                     </li>
+                    <li>
+                      <a href="window-crypto-aes.jsp">How to perform aes encryption/decryption</a>
+                    </li>
                 </div>
               </div>
             </div>
