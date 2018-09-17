@@ -1,5 +1,5 @@
   <div class="card my-4">
-            <h5 class="card-header">Window.crypto Topics</h5>
+            <h5 class="card-header">Web Crypto API Topics</h5>
             <div class="card-body">
               <div class="row">
                 <div>
@@ -13,7 +13,7 @@
                       <a href="window-crypto-aes2.jsp">AES-GCM - generateKey/Encrypt/Decrypt</a>
                     </li>
                      <li>
-                      <a href="window-crypto-aes3.jsp">AES-GCM ExportKey in JWK format</a>
+                      <a href="window-crypto-aes3.jsp">AES (CTR/CBC/GCM) ExportKey in JWK format</a>
                     </li>
                      <li>
                       <a href="window-crypto-digest.jsp">How to digest/hash a message</a>

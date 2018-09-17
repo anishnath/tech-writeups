@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Web Crypto API AES-GCM Export Keys with JWK format ">
+    <meta name="description" content="Web Crypto API AES GCM cbc ctr Export Keys with JWK format ">
     <meta name="keywords" content="Web Crypto API AES-GCM AES-GCM Export Keys with JWK format , windo.crypto javascript examples, Web Cryptography API">
     <meta name="author" content="Anish nath">
     <meta name="robots" content="index,follow" />
@@ -14,7 +14,7 @@
 	<meta name="classification" content="tools" />
 	<meta name="language" content="en" />
 
-    <title>Web Crypto AES-GCM Export Keys with JWK format </title>
+    <title>Web Crypto Export aes cbc,gcm.ctr Keys with JWK format </title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -85,10 +85,54 @@
         .catch(function(err) {
             console.error(err);
         });
-
-        
-
     }
+    
+    function AESCTR_EXPORT_KEYS() {
+        var iv = crypto.getRandomValues(new Uint8Array(16));
+        window.crypto.subtle.generateKey({
+                name: "AES-CTR",
+                length: 256, //can be  128, 192, or 256
+            },
+            true, // the key is extractable (i.e. can be used in exportKey)
+            ["encrypt", "decrypt", "wrapKey", "unwrapKey"] //can "encrypt", "decrypt" or  "wrapKey", or "unwrapKey"
+        ).then(function(aesgcmkey) {
+            var secretKey = aesgcmkey;
+            return crypto.subtle.exportKey("jwk", secretKey).then(function(result) {
+            key = result;
+            document.getElementById("kty").value = key.kty;
+            document.getElementById("key_ops").value = key.key_ops;
+            document.getElementById("key_algo").value = key.alg
+            document.getElementById("key").value = btoa(key.k);
+        }, failAndLog);
+        })
+        .catch(function(err) {
+            console.error(err);
+        });
+    }
+
+    function AESCBC_EXPORT_KEYS() {
+        var iv = crypto.getRandomValues(new Uint8Array(16));
+        window.crypto.subtle.generateKey({
+                name: "AES-CBC",
+                length: 256, //can be  128, 192, or 256
+            },
+            true, // the key is extractable (i.e. can be used in exportKey)
+            ["encrypt", "decrypt", "wrapKey", "unwrapKey"] //can "encrypt", "decrypt" or  "wrapKey", or "unwrapKey"
+        ).then(function(aesgcmkey) {
+            var secretKey = aesgcmkey;
+            return crypto.subtle.exportKey("jwk", secretKey).then(function(result) {
+            key = result;
+            document.getElementById("kty").value = key.kty;
+            document.getElementById("key_ops").value = key.key_ops;
+            document.getElementById("key_algo").value = key.alg
+            document.getElementById("key").value = btoa(key.k);
+        }, failAndLog);
+        })
+        .catch(function(err) {
+            console.error(err);
+        });
+    }
+    
     
     function failAndLog(error) {
         console.log(error);
@@ -116,7 +160,7 @@
         <div class="col-lg-8">
 
           <!-- Title -->
-          <h1 class="mt-4">Web Crypto API AES-GCM Export Keys with JWK format</h1>
+          <h1 class="mt-4">Web Crypto API AES (CBC/GCM/CTR) Export Keys with JWK format</h1>
 
           <!-- Author -->
           <p class="lead">
@@ -162,7 +206,17 @@
 <p>
 <div>
         <button class="btn btn-primary" type="button" onclick="AESGCM_EXPORT_KEYS()">AES256-GCM-GENERATE KEY AND EXPORT IN JWK</button>
-    </div>
+</div>
+</p>
+<p>
+<div>
+        <button class="btn btn-primary" type="button" onclick="AESCTR_EXPORT_KEYS()">AES256-CTR-GENERATE KEY AND EXPORT IN JWK</button>
+</div>
+</p>
+<p>
+<div>
+        <button class="btn btn-primary" type="button" onclick="AESCBC_EXPORT_KEYS()">AES256-CBC-GENERATE KEY AND EXPORT IN JWK</button>
+</div>
 </p>
 <p>
     <div>
