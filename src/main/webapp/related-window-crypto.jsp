@@ -13,6 +13,9 @@
                       <a href="window-crypto-aes2.jsp">AES-GCM - generateKey/Encrypt/Decrypt</a>
                     </li>
                      <li>
+                      <a href="window-crypto-aes3.jsp">AES-GCM ExportKey in JWK format</a>
+                    </li>
+                     <li>
                       <a href="window-crypto-digest.jsp">How to digest/hash a message</a>
                     </li>
                 </div>
