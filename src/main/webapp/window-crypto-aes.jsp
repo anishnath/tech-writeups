@@ -43,7 +43,7 @@
     "name" : "Anish"
   },
   "headline": "web crypto api aes encryption decryption example aes-ctr,aes-gcm,aes-cbc,aes-ctr ",
-  "image":"https://8gwifi.org/docs/img/getrandom00.png",
+  "image":"https://8gwifi.org/docs/img/window.crypto.aes.png",
   "datePublished" : "2018-09-16",
   "dateModified": "2018-08-16",
   "articleSection" : "web crypto api aes encryption decryption example aes-ctr,aes-gcm,aes-cbc,aes-ctr ",
@@ -339,6 +339,10 @@ function failAndLog(error)
         Result:
     &lt;/div&gt;
 </code></pre>
+<hr>
+<hr>
+Next Reading <a href="window-crypto-aes2.jsp">Perform AES-GCM Encryption Using generateKey Method </a>
+
 <hr>
 Download the sample code <a href="https://drive.google.com/file/d/1RTbIUaIa1qbi0lSL777sxW3nAgEpXy4S/view?usp=sharing">here </a>
 

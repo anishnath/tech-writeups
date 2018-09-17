@@ -7,7 +7,10 @@
                       <a href="window-crypto-random.jsp">How to generate random Numbers</a>
                     </li>
                     <li>
-                      <a href="window-crypto-aes.jsp">How to perform aes encryption/decryption</a>
+                      <a href="window-crypto-aes.jsp">AES importKey/encrypt/decrypt</a>
+                    </li>
+                    <li>
+                      <a href="window-crypto-aes2.jsp">AES-GCM - generateKey/Encrypt/Decrypt</a>
                     </li>
                      <li>
                       <a href="window-crypto-digest.jsp">How to digest/hash a message</a>
