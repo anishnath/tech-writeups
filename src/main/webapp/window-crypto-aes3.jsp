@@ -35,7 +35,7 @@
   "@type" : "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://8gwifi.org/docs/window-crypto-aes2.jsp"
+    "@id": "https://8gwifi.org/docs/window-crypto-aes3.jsp"
   },
   "name" : "Web Crypto API AES-GCM Export Keys with JWK format",
   "author" : {
