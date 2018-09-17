@@ -43,7 +43,7 @@
     "name" : "Anish"
   },
   "headline": "Web Crypto API AES-GCM - generateKey/Encrypt/Decrypt ",
-  "image":"https://8gwifi.org/docs/img/window.crypto.aes.png",
+  "image":"https://8gwifi.org/docs/img/window-crypto-aes2.png",
   "datePublished" : "2018-09-17",
   "dateModified": "2018-08-17",
   "articleSection" : "web crypto api aes encryption decryption example aes-ctr,aes-gcm,aes-cbc,aes-ctr ",
