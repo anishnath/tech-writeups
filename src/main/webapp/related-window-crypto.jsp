@@ -3,6 +3,9 @@
             <div class="card-body">
               <div class="row">
                 <div>
+                	<li>
+                      <a href="window-crypto-algos.jsp">Web Cryptography Algorithms</a>
+                    </li>
                     <li>
                       <a href="window-crypto-random.jsp">How to generate random Numbers</a>
                     </li>
