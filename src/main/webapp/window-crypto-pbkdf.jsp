@@ -43,7 +43,7 @@
     "name" : "Anish"
   },
   "headline": "Web Crypto API AES-GCM Export Keys with JWK format ",
-  "image":"https://8gwifi.org/docs/img/window-crypto-aes3.png",
+  "image":"https://8gwifi.org/docs/img/pbkdf.png",
   "datePublished" : "2018-09-20",
   "dateModified": "2018-09-20",
   "articleSection" : "Web Crypto API PBKDF2 Generate Password example ",
