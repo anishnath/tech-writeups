@@ -215,6 +215,11 @@ kubectl -n kube-system delete $(kubectl -n kube-system get pod -o name | grep da
 <pre><code class="html">kubectl edit svc/kubernetes-dashboard -n kube-system
 </code></pre>
 
+<p><h2>Video Demo </h2> </p>
+<iframe width="420" height="315"
+src="https://youtube.com/embed/M6mHy0Cx2jE">
+</iframe>
+
 
 <%@ include file="thanks.jsp"%>
 
