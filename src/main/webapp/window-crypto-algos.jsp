@@ -340,7 +340,7 @@
               <td></td>
             </tr>
             <tr>
-              <td><a href="#pbkdf2">PBKDF2</a></td>
+              <td><a href="window-crypto-pbkdf.jsp">PBKDF2</a></td>
               <td></td>
               <td></td>
               <td></td>
