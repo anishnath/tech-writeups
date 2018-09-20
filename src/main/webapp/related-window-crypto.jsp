@@ -10,6 +10,9 @@
                       <a href="window-crypto-random.jsp">How to generate random Numbers</a>
                     </li>
                     <li>
+                      <a href="window-crypto-digest.jsp">How to digest/hash a message</a>
+                    </li>
+                    <li>
                       <a href="window-crypto-aes.jsp">AES importKey/encrypt/decrypt</a>
                     </li>
                     <li>
@@ -19,8 +22,9 @@
                       <a href="window-crypto-aes3.jsp">AES (CTR/CBC/GCM) ExportKey in JWK format</a>
                     </li>
                      <li>
-                      <a href="window-crypto-digest.jsp">How to digest/hash a message</a>
+                      <a href="window-crypto-pbkdf.jsp">PBKDF2 Derive Keys</a>
                     </li>
+
                 </div>
               </div>
             </div>
