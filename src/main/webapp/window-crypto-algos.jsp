@@ -145,7 +145,7 @@
               <td></td>
             </tr>
             <tr>
-              <td><a href="#rsa-oaep">RSA-OAEP</a></td>
+              <td><a href="window-crypto-rsaoaep.jsp">RSA-OAEP</a></td>
               <td>Y</td>
               <td>Y</td>
               <td></td>
