@@ -175,7 +175,7 @@
               <td></td>
             </tr>
             <tr>
-              <td><a href="#ecdh">ECDH</a></td>
+              <td><a href="window-crypto-ecdh.jsp">ECDH</a></td>
               <td></td>
               <td></td>
               <td></td>
