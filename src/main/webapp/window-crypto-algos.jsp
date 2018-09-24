@@ -115,7 +115,7 @@
           </thead>
           <tbody>
             <tr>
-              <td><a href="#rsassa-pkcs1">RSASSA-PKCS1-v1_5</a></td>
+              <td><a href="window-crypto-rsassa.jsp">RSASSA-PKCS1-v1_5</a></td>
               <td></td>
               <td></td>
               <td>Y</td>
@@ -160,7 +160,7 @@
               <td>Y</td>
             </tr>
             <tr>
-              <td><a href="#ecdsa">ECDSA</a></td>
+              <td><a href="window-crypto-ecdsa.jsp">ECDSA</a></td>
               <td></td>
               <td></td>
               <td>Y</td>
