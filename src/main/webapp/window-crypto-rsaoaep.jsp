@@ -109,7 +109,7 @@
                     function(keydata) {
                         privateKeyhold = keydata;
                         privateKeyJson = JSON.stringify(privateKeyhold);
-                        document.getElementById("rsaprivate").value = publicKeyJson;
+                        document.getElementById("rsaprivate").value = privateKeyJson;
                     }
                 );
 
@@ -278,7 +278,7 @@ window.crypto.subtle.exportKey(&quot;jwk&quot;, key.privateKey).then(
                     function(keydata) {
                         privateKeyhold = keydata;
                         privateKeyJson = JSON.stringify(privateKeyhold);
-                        document.getElementById(&quot;rsaprivate&quot;).value = publicKeyJson;
+                        document.getElementById(&quot;rsaprivate&quot;).value = privateKeyJson;
                     }
                 );
 </code></pre>
