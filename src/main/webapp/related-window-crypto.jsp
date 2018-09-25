@@ -21,8 +21,11 @@
                      <li>
                       <a href="window-crypto-aes3.jsp">AES (CTR/CBC/GCM) ExportKey in JWK format</a>
                     </li>
-                     <li>
+                    <li>
                       <a href="window-crypto-pbkdf.jsp">PBKDF2 Derive Keys</a>
+                    </li>
+                    <li>
+                      <a href="window-crypto-ds.jsp">PBKDF2,HMAC Digital Signature (sign/Verify) </a>
                     </li>
                     <li>
                       <a href="window-crypto-rsaoaep.jsp">RSA-OAEP generateKey/Encrypt/Decrypt </a>

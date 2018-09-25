@@ -250,7 +250,7 @@
               <td>Y</td>
             </tr>
             <tr>
-              <td><a href="#hmac">HMAC</a></td>
+              <td><a href="window-crypto-ds.jsp">HMAC</a></td>
               <td></td>
               <td></td>
               <td>Y</td>
