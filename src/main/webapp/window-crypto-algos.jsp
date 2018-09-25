@@ -130,7 +130,7 @@
               <td></td>
             </tr>
             <tr>
-              <td><a href="#rsa-pss">RSA-PSS</a></td>
+              <td><a href="window-crypto-rsapss.jsp">RSA-PSS</a></td>
               <td></td>
               <td></td>
               <td>Y</td>
