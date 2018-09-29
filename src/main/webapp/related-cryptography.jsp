@@ -18,6 +18,10 @@
                     <li>
                       <a href="nginx-secure.jsp">Secure Nginx Configuration</a>
                     </li>
+                    
+                     <li>
+                      <a href="jks.jsp">Java Keytool/Keystore in Nutshell</a>
+                    </li>
                 </div>
               </div>
             </div>
