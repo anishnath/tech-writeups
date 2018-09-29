@@ -43,7 +43,7 @@
     "name" : "Anish"
   },
   "headline": "Java Keytool Commands",
-  "image":"img/tls1.3_06.png",
+  "image":"img/jks.png",
   "datePublished" : "2018-09-29",
   "dateModified": "2018-09-29",
   "articleSection" : "Java Keytool Commands",
