@@ -108,6 +108,12 @@ genRandomNumbers = function getRandomNumbers() {
            <%@ include file="analytics.jsp"%>
            
           <hr>
+          
+          <p><mark>This sample chapter </mark> extracted from the book, <a href="https://leanpub.com/crypto">Cryptography for JavaScript Developers</a>. </p>
+<p><iframe width='160' height='400' src='https://leanpub.com/cryptojs/embed' frameborder='0' allowtransparency='true'></iframe></p>
+<hr>
+
+          
 <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/crypto" title="The Window.crypto read-only property returns the Crypto object associated to the global object. This object allows web pages access to certain cryptographic related services."><code>Window.crypto</code></a> read-only property returns the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Crypto" title="The Crypto interface represents basic cryptography features available in the current context. It allows access to a cryptographically strong random number generator and to cryptographic primitives."><code>Crypto</code></a> object associated to the global object. This object allows web pages access to certain cryptographic related services.</p>
 <p>Using the  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/crypto" title="The Window.crypto read-only property returns the Crypto object associated to the global object. This object allows web pages access to certain cryptographic related services."><code>Window.crypto</code></a>  property to access the  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RandomSource/getRandomValues">getRandomValues()</a> method.</p>
 <h2 class="mt-4">The Javascript Code </h2>

@@ -252,6 +252,11 @@
            <%@ include file="analytics.jsp"%>
            
           <hr>
+          
+          <p><mark>This sample chapter </mark> extracted from the book, <a href="https://leanpub.com/crypto">Cryptography for JavaScript Developers</a>. </p>
+<p><iframe width='160' height='400' src='https://leanpub.com/cryptojs/embed' frameborder='0' allowtransparency='true'></iframe></p>
+<hr>
+
 
 
 <p>The Web crypto api ECDSA algorithm identifier is used to perform signing and verification using the ECDSA algorithm specified in RFC6090 and using the SHA hash functions and elliptic curves defined in this specification.</p>

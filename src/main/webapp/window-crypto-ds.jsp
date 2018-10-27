@@ -240,6 +240,11 @@ function hexStringToUint8Array(hexString) {
            <%@ include file="analytics.jsp"%>
            
           <hr>
+          
+          <p><mark>This sample chapter </mark> extracted from the book, <a href="https://leanpub.com/crypto">Cryptography for JavaScript Developers</a>. </p>
+<p><iframe width='160' height='400' src='https://leanpub.com/cryptojs/embed' frameborder='0' allowtransparency='true'></iframe></p>
+<hr>
+
 
 
 <p>In this example we are going to produce the digital signature of the message by using pbkdf2 key derivation function, and then sign the message from the derived key using HMAC, then we are going to verify the message</p>

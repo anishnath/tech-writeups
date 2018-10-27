@@ -91,6 +91,11 @@
            <%@ include file="analytics.jsp"%>
            
           <hr>
+          
+          <p><mark>This sample chapter </mark> extracted from the book, <a href="https://leanpub.com/crypto">Cryptography for JavaScript Developers</a>. </p>
+<p><iframe width='160' height='400' src='https://leanpub.com/cryptojs/embed' frameborder='0' allowtransparency='true'></iframe></p>
+<hr>
+
 
 <p>Here is a table listing all algorithms that WebKit currently supports, and corresponding permitted operations of each algorithm</p>
 <div class="table-responsive">

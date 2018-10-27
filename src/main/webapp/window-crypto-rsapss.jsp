@@ -253,6 +253,11 @@
            <%@ include file="analytics.jsp"%>
            
           <hr>
+          
+          <p><mark>This sample chapter </mark> extracted from the book, <a href="https://leanpub.com/crypto">Cryptography for JavaScript Developers</a>. </p>
+<p><iframe width='160' height='400' src='https://leanpub.com/cryptojs/embed' frameborder='0' allowtransparency='true'></iframe></p>
+<hr>
+
 
 
 <p>The Web crypto api describes using The RSA-PSS algorithm identifier is used to perform signing and verification using the RSASSA-PSS algorithm specified in [RFC3447], using the SHA hash functions defined in this specification and the mask generation formula MGF1.</p>

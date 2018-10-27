@@ -169,6 +169,11 @@ function generateKey1() {
            <%@ include file="analytics.jsp"%>
            
           <hr>
+          
+          <p><mark>This sample chapter </mark> extracted from the book, <a href="https://leanpub.com/crypto">Cryptography for JavaScript Developers</a>. </p>
+<p><iframe width='160' height='400' src='https://leanpub.com/cryptojs/embed' frameborder='0' allowtransparency='true'></iframe></p>
+<hr>
+
 
 <p>Here's an example showing how to use <strong>deriveKey()</strong> to create a <strong>Secure Remote Password</strong> (also known as <strong>Proof of Secret</strong>) from a user's password using pbkdf2 algorithm </p>
 <h2 class="mt-4"><a id="The_Demo_4"></a>The PBKDF2 Demo</h2>

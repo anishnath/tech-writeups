@@ -203,6 +203,10 @@
            
           <hr>
 
+<p><mark>This sample chapter </mark> extracted from the book, <a href="https://leanpub.com/crypto">Cryptography for JavaScript Developers</a>. </p>
+<p><iframe width='160' height='400' src='https://leanpub.com/cryptojs/embed' frameborder='0' allowtransparency='true'></iframe></p>
+<hr>
+
 <p>The <a href="https://www.w3.org/TR/WebCryptoAPI/#dfn-Crypto">Crypto</a> interface represents an interface to general purpose cryptographic functionality including a cryptographically strong pseudo-random number generator seeded with truly random values.</p>
 <p>The <strong>SubtleCrypto.generateKey()</strong> method returns a Promise of a newly generated CryptoKey</p>
 <p>The Syntax</p>

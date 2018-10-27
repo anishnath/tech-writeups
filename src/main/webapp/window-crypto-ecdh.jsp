@@ -327,6 +327,11 @@ function ECDH_AES_CTR_Encrypt() {
            <%@ include file="analytics.jsp"%>
            
           <hr>
+          
+          <p><mark>This sample chapter </mark> extracted from the book, <a href="https://leanpub.com/crypto">Cryptography for JavaScript Developers</a>. </p>
+<p><iframe width='160' height='400' src='https://leanpub.com/cryptojs/embed' frameborder='0' allowtransparency='true'></iframe></p>
+<hr>
+
 
 <p>The Web crypto api describes using Elliptic Curve Diffie-Hellman (ECDH) for key generation and key agreement, as specified by RFC6090.</p>
 <p>The recognized algorithm name for this algorithm is "ECDH".</p>
