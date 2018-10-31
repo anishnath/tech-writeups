@@ -21,6 +21,10 @@
                      <li>
                       <a href="autofs.jsp">Linux</a>
                     </li>
+                    
+                     <li>
+                      <a href="go-hashing.jsp">Go Lang Cryptography</a>
+                    </li>
                   </ul>
             </div>
             
