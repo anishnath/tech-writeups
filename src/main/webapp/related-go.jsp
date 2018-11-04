@@ -3,6 +3,9 @@
             <div class="card-body">
               <div class="row">
                 <div>
+                <li>
+                      <a href="go-encoding.jsp">Base64 Encoding/Decoding Example</a>
+                    </li>
                    <li>
                       <a href="go-hashing.jsp">Hashing Example</a>
                     </li>
