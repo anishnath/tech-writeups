@@ -107,7 +107,8 @@
 <li>PYCA/Cryptography</li>
 <li>pycrypto</li>
 </ul>
-<h2><a id="pyca_Generate_RSA_Keys_9"></a>pyca Generate RSA Keys</h2>
+<hr>
+<h2 class="mt-4" ><a id="pyca_Generate_RSA_Keys_9"></a>pyca Generate RSA Keys</h2>
 <p>Generate RSA private/public Key and save in PEM format</p>
 <pre><code class="language-python"><span class="hljs-keyword">from</span> cryptography.hazmat.backends <span class="hljs-keyword">import</span> default_backend  
 <span class="hljs-keyword">from</span> cryptography.hazmat.primitives.asymmetric <span class="hljs-keyword">import</span> rsa  
@@ -141,7 +142,8 @@ public_key = private_key.public_key()
     )  
 )
 </code></pre>
-<h2><a id="pyca_RSAOAEP_encryption_decryption_example_47"></a>pyca RSA-OAEP encryption/ decryption example</h2>
+<hr>
+<h2 class="mt-4" ><a id="pyca_RSAOAEP_encryption_decryption_example_47"></a>pyca RSA-OAEP encryption/ decryption example</h2>
 <p>Optimal Asymmetric Encryption Padding is a padding scheme often used together with RSA encryption, standardized in PKCS#1 v2</p>
 <pre><code class="language-python"><span class="hljs-keyword">from</span> cryptography.hazmat.backends <span class="hljs-keyword">import</span> default_backend  
 <span class="hljs-keyword">from</span> cryptography.hazmat.primitives.asymmetric <span class="hljs-keyword">import</span> padding  
@@ -173,7 +175,9 @@ d = alicePrivKey.decrypt(
   
 <span class="hljs-keyword">assert</span> plaintextMessage, d 
 </code></pre>
-<h2><a id="pyca_RSA_Sign_Verify_Example_83"></a>pyca RSA Sign Verify Example</h2>
+<hr>
+<%@ include file="footer_adsense.jsp"%> 
+<h2 class="mt-4" ><a id="pyca_RSA_Sign_Verify_Example_83"></a>pyca RSA Sign Verify Example</h2>
 <p>Valid paddings for signatures are <a href="https://cryptography.io/en/latest/hazmat/primitives/asymmetric/rsa/#cryptography.hazmat.primitives.asymmetric.padding.PSS" title="cryptography.hazmat.primitives.asymmetric.padding.PSS"><code>PSS</code></a> and <a href="https://cryptography.io/en/latest/hazmat/primitives/asymmetric/rsa/#cryptography.hazmat.primitives.asymmetric.padding.PKCS1v15" title="cryptography.hazmat.primitives.asymmetric.padding.PKCS1v15"><code>PKCS1v15</code></a>. <code>PSS</code> is the recommended choice for any new protocols or applications, <code>PKCS1v15</code> should only be used to support legacy protocols.</p>
 <p><strong>Probabilistic Signature Scheme</strong> (<strong>PSS</strong>) is a <a href="https://en.wikipedia.org/wiki/Cryptography" title="Cryptography">cryptographic</a>  <a href="https://en.wikipedia.org/wiki/Digital_signature" title="Digital signature">signature scheme</a> designed by <a href="https://en.wikipedia.org/wiki/Mihir_Bellare" title="Mihir Bellare">Mihir Bellare</a> and <a href="https://en.wikipedia.org/wiki/Phillip_Rogaway" title="Phillip Rogaway">Phillip Rogaway</a></p>
 <pre><code class="language-python"><span class="hljs-keyword">from</span> cryptography.hazmat.backends <span class="hljs-keyword">import</span> default_backend  
@@ -206,12 +210,15 @@ ciphertext = alicePubKey.verify(
     hashes.SHA256()  
 ) 
 </code></pre>
-<h2><a id="pycrypto_122"></a>pycrypto</h2>
+<hr>
+<h2 class="mt-4" ><a id="pycrypto_122"></a>pycrypto</h2>
 <p>pycrypto  example of generating RSA keys in various format (PEM/DER)</p>
 <ul>
 <li><strong>RSA key size</strong> : 1024,2048,4096</li>
 </ul>
-<h3><a id="pycrypto_Generate__RSA__Keys_and_store_in_PEM_format_128"></a>pycrypto Generate  RSA  Keys and store in PEM format</h3>
+<%@ include file="footer_adsense.jsp"%>
+<hr>
+<h3 class="mt-4" ><a id="pycrypto_Generate__RSA__Keys_and_store_in_PEM_format_128"></a>pycrypto Generate  RSA  Keys and store in PEM format</h3>
 <pre><code class="language-python"><span class="hljs-keyword">from</span> Crypto.PublicKey <span class="hljs-keyword">import</span> RSA  
 <span class="hljs-keyword">from</span> Crypto.Util <span class="hljs-keyword">import</span> asn1  
 <span class="hljs-keyword">from</span> base64 <span class="hljs-keyword">import</span> b64decode  
@@ -228,27 +235,32 @@ pubKey =  key.publickey().exportKey(<span class="hljs-string">'PEM'</span>)
 <span class="hljs-keyword">with</span> open(<span class="hljs-string">'/tmp/rsapub.pem'</span>, <span class="hljs-string">'w'</span>) <span class="hljs-keyword">as</span> file:  
     file.write(pubKey)  
 </code></pre>
-<h3><a id="pycrypto_Generate_Encrypted_RSA_PEM_Keys_148"></a>pycrypto Generate Encrypted RSA PEM Keys</h3>
+
+<hr>
+<h3 class="mt-4" ><a id="pycrypto_Generate_Encrypted_RSA_PEM_Keys_148"></a>pycrypto Generate Encrypted RSA PEM Keys</h3>
 <pre><code class="language-python">encryptedpass = <span class="hljs-string">"myverystrongpassword"</span>  
 key = RSA.generate(<span class="hljs-number">2048</span>)  
 privKey = key.exportKey(passphrase=encryptedpass)  
 pubKey = key.publickey().exportKey()  
 <span class="hljs-keyword">print</span> privKey  
 </code></pre>
-<h3><a id="pycrypto_Generate_Encrypted_RSA_Keys_in_PKCS8_format_158"></a>pycrypto Generate Encrypted RSA Keys in PKCS8 format</h3>
+<hr>
+<h3 class="mt-4" ><a id="pycrypto_Generate_Encrypted_RSA_Keys_in_PKCS8_format_158"></a>pycrypto Generate Encrypted RSA Keys in PKCS8 format</h3>
 <pre><code class="language-python">encryptedpass = <span class="hljs-string">"myverystrongpassword"</span>  
 key = RSA.generate(<span class="hljs-number">2048</span>)  
 privKey = key.exportKey(passphrase=encryptedpass,pkcs=<span class="hljs-number">8</span>)  
 pubKey = key.publickey().exportKey()  
 <span class="hljs-keyword">print</span> privKey  
 </code></pre>
-<h3><a id="pycrypto_Generate_RSA_key_and_export_in_DER_Format_167"></a>pycrypto Generate RSA key and export in DER Format</h3>
+<hr>
+<h3 class="mt-4" ><a id="pycrypto_Generate_RSA_key_and_export_in_DER_Format_167"></a>pycrypto Generate RSA key and export in DER Format</h3>
 <pre><code class="language-python">key = RSA.generate(<span class="hljs-number">2048</span>)  
 <span class="hljs-comment">#Export RSA key in DER format  </span>
 privKey = key.exportKey(<span class="hljs-string">'DER'</span>)  
 pubKey =  key.publickey().exportKey(<span class="hljs-string">'DER'</span>)
 </code></pre>
-<h3><a id="pycrypto_Generate_RSA_Keys_and_Perform_Encryption_and_Decryption_177"></a>pycrypto Generate RSA Keys and Perform Encryption and Decryption</h3>
+<hr>
+<h3 class="mt-4" ><a id="pycrypto_Generate_RSA_Keys_and_Perform_Encryption_and_Decryption_177"></a>pycrypto Generate RSA Keys and Perform Encryption and Decryption</h3>
 <pre><code class="language-python"><span class="hljs-keyword">from</span> Crypto.PublicKey <span class="hljs-keyword">import</span> RSA  
 <span class="hljs-keyword">from</span> Crypto.Util <span class="hljs-keyword">import</span> asn1  
 <span class="hljs-keyword">from</span> base64 <span class="hljs-keyword">import</span> b64decode  
@@ -264,7 +276,7 @@ cipherText = pubKey.encrypt(plaintextMessage,<span class="hljs-number">32</span>
 <span class="hljs-comment">#RSA Decryption Using Private Key  </span>
 <span class="hljs-keyword">print</span> key.decrypt(cipherText)
 </code></pre>
-<h3><a id="pycrypto_Load_RSA_Keys_and_Perform_Encryption_and_Decryption_196"></a>pycrypto Load RSA Keys and Perform Encryption and Decryption</h3>
+<h3 class="mt-4" ><a id="pycrypto_Load_RSA_Keys_and_Perform_Encryption_and_Decryption_196"></a>pycrypto Load RSA Keys and Perform Encryption and Decryption</h3>
 <pre><code class="language-python"><span class="hljs-keyword">from</span> Crypto.PublicKey <span class="hljs-keyword">import</span> RSA
 f = open(<span class="hljs-string">'/tmp/rsakey.pem'</span>, <span class="hljs-string">'rb'</span>)  
 f1 = open(<span class="hljs-string">'/tmp/rsapub.pem'</span>, <span class="hljs-string">'rb'</span>)  
@@ -278,7 +290,8 @@ cipherText = pubKey.encrypt(plaintextMessage,<span class="hljs-number">32</span>
 <span class="hljs-comment">#RSA Decryption Using Private Key  </span>
 <span class="hljs-keyword">print</span> key.decrypt(cipherText)
 </code></pre>
-<h2><a id="pycrypto_PKCS1_OAEP_213"></a>pycrypto PKCS1_OAEP</h2>
+<hr>
+<h2 class="mt-4" ><a id="pycrypto_PKCS1_OAEP_213"></a>pycrypto PKCS1_OAEP</h2>
 <p>RSA encryption protocol according to PKCS#1 OAEP</p>
 <p>Load the RSA keys and then performing encryption/decryption using PKCS1_OAEP</p>
 <pre><code class="language-python"><span class="hljs-keyword">from</span> Crypto.PublicKey <span class="hljs-keyword">import</span> RSA  
@@ -299,7 +312,8 @@ cipherText = cipher.encrypt(plaintextMessage)
 cipher = PKCS1_OAEP.new(key)  
 <span class="hljs-keyword">print</span> cipher.decrypt(cipherText)
 </code></pre>
-<h3><a id="pycrypto_PKCS1_PSS__Sign_Verify_239"></a>pycrypto PKCS1_PSS  Sign Verify</h3>
+<hr>
+<h3 class="mt-4" ><a id="pycrypto_PKCS1_PSS__Sign_Verify_239"></a>pycrypto PKCS1_PSS  Sign Verify</h3>
 <pre><code class="language-python"><span class="hljs-keyword">from</span> Crypto.PublicKey <span class="hljs-keyword">import</span> RSA  
 <span class="hljs-keyword">from</span> Crypto.Signature <span class="hljs-keyword">import</span> PKCS1_PSS <span class="hljs-keyword">as</span> PKCS  
 <span class="hljs-keyword">from</span> Crypto.Hash <span class="hljs-keyword">import</span> SHA  
@@ -328,7 +342,8 @@ verifier = PKCS.new(pubKey)
 <span class="hljs-keyword">else</span>:  
     <span class="hljs-keyword">print</span> <span class="hljs-string">"The signature is not authentic."</span>
 </code></pre>
-<h2><a id="pycrypto_PKCS1_v1_5_EncryptDecrypt_271"></a>pycrypto PKCS1_v1_5 Encrypt/Decrypt</h2>
+<hr>
+<h2 class="mt-4" ><a id="pycrypto_PKCS1_v1_5_EncryptDecrypt_271"></a>pycrypto PKCS1_v1_5 Encrypt/Decrypt</h2>
 <p>A DER exported KEY used to perform encryption and decryption.</p>
 <pre><code class="language-python"><span class="hljs-keyword">from</span> Crypto.PublicKey <span class="hljs-keyword">import</span> RSA  
 <span class="hljs-keyword">from</span> Crypto.Cipher <span class="hljs-keyword">import</span> PKCS1_v1_5  
