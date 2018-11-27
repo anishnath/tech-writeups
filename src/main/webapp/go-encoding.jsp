@@ -90,6 +90,9 @@
           <%@ include file="footer_adsense.jsp"%>
            <%@ include file="analytics.jsp"%>
            
+           <p><mark>This sample chapter </mark> extracted from the book, <a href="https://leanpub.com/cryptog">Go Lang Cryptography for Developers </a>. The Book theme is<mark>Cryptography is for EveryOne. Learn from Crypto Principle to Applied Cryptography With Practical Example</mark> </p>
+		   <p><iframe class="embed-responsive-item" width='160' height='400' src='https://leanpub.com/cryptog/embed' frameborder='0' allowtransparency='true'></iframe></p>
+           
           <hr>
 <h3><a id="URL_EncodingDecoding_2"></a>URL Encoding/Decoding</h3>
 <p>URLs can only be sent over the Internet using the ASCII character set, Since URLs often contain characters outside the ASCII set, the URL has to be converted into a valid ASCII format.</p>

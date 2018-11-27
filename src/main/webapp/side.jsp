@@ -60,6 +60,12 @@
 		    <h5 class="card-header">Cryptography for JavaScript Developers</h5>
 		    <p><iframe width='160' height='400' src='https://leanpub.com/cryptojs/embed' frameborder='0' allowtransparency='true'></iframe></p>
 		</div>
+		
+		
+		<div class="card my-4">
+		    <h5 class="card-header">Go lang ryptography for Developers</h5>
+		    <p><iframe width='160' height='400' src='https://leanpub.com/cryptog/embed' frameborder='0' allowtransparency='true'></iframe></p>
+		</div>
             
             <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a04129f05073300123e3782&product=inline-share-buttons"></script>   
  			<div class="sharethis-inline-share-buttons"></div>
