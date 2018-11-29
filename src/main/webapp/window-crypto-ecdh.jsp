@@ -511,7 +511,7 @@ function ECDH_AES_CTR_Encrypt() {
         alert(bytesToASCIIString(cipherText));
     }, failAndLog);</code></pre>
 <hr>
-Download the sample code <a href="https://drive.google.com/open?id=1dsE6r_R1ENSR-IQqcSh9SzzoMNTa9fL0">here </a>
+Download the sample code <a href="https://leanpub.com/cryptojs">here </a>
 
 <hr>
 Next Reading <a href="window-crypto-ecdsa.jsp">Web Crypto API ECDSA Generate Keys Sign & verify Message </a>
@@ -542,6 +542,7 @@ Next Reading <a href="window-crypto-ecdsa.jsp">Web Crypto API ECDSA Generate Key
          <%@ include file="footer_adsense.jsp"%> 
          
          <%@ include file="related-window-crypto.jsp"%>
+         <%@ include file="related-go.jsp"%>
 
 		 <%@ include file="related-cryptography.jsp"%>
           <!-- Article Widget -->

@@ -350,7 +350,7 @@
     });
 </code></pre>
 <hr>
-Download the sample code <a href="https://drive.google.com/file/d/1LEuJXsMZR2VEo8A_LDHstcmj6_jI9BjO/view?usp=sharing">here </a>
+Download the sample code <a href="https://leanpub.com/cryptojs">here </a>
 
 <hr>
 Next Reading <a href="window-crypto-rsaoaep.jsp">RSA-OAEP generateKey/Encrypt/Decrypt </a>
@@ -381,6 +381,8 @@ Next Reading <a href="window-crypto-rsaoaep.jsp">RSA-OAEP generateKey/Encrypt/De
          <%@ include file="footer_adsense.jsp"%> 
          
          <%@ include file="related-window-crypto.jsp"%>
+         
+         <%@ include file="related-go.jsp"%>
 
 		 <%@ include file="related-cryptography.jsp"%>
           <!-- Article Widget -->

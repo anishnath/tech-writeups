@@ -405,6 +405,8 @@
          <%@ include file="footer_adsense.jsp"%> 
          
          <%@ include file="related-window-crypto.jsp"%>
+         
+         <%@ include file="related-go.jsp"%>
 
 		 <%@ include file="related-cryptography.jsp"%>
           <!-- Article Widget -->

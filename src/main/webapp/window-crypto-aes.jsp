@@ -347,7 +347,7 @@ function failAndLog(error)
 Next Reading <a href="window-crypto-aes2.jsp">Perform AES-GCM Encryption Using generateKey Method </a>
 
 <hr>
-Download the sample code <a href="https://drive.google.com/file/d/1RTbIUaIa1qbi0lSL777sxW3nAgEpXy4S/view?usp=sharing">here </a>
+Download the sample code <a href="https://leanpub.com/cryptojs">here </a>
 
 <%@ include file="thanks.jsp"%>
 
@@ -375,6 +375,8 @@ Download the sample code <a href="https://drive.google.com/file/d/1RTbIUaIa1qbi0
          <%@ include file="footer_adsense.jsp"%> 
          
          <%@ include file="related-window-crypto.jsp"%>
+         
+         <%@ include file="related-go.jsp"%>
 
 		 <%@ include file="related-cryptography.jsp"%>
           <!-- Article Widget -->

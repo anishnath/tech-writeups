@@ -149,7 +149,7 @@ genRandomNumbers = function getRandomNumbers() {
 <p><img class="img-fluid rounded"  src="img/getrandom01.png" alt="enter image description here"></p>
 
 <hr>
-Download the sample code <a href="https://drive.google.com/file/d/1S71nrE44QaUfiPRrVKKutSBBMjC8T-EK/view?usp=sharing">here </a>
+Download the sample code <a href="https://leanpub.com/cryptojs">here </a>
 
 <%@ include file="thanks.jsp"%>
 
@@ -177,6 +177,8 @@ Download the sample code <a href="https://drive.google.com/file/d/1S71nrE44QaUfi
          <%@ include file="footer_adsense.jsp"%> 
          
          <%@ include file="related-window-crypto.jsp"%>
+         
+         <%@ include file="related-go.jsp"%>
 
 		 <%@ include file="related-cryptography.jsp"%>
           <!-- Article Widget -->

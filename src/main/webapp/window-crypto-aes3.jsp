@@ -269,7 +269,7 @@
 &lt;/div&gt;
 </code></pre>
 <hr>
-Download the sample code <a href="https://drive.google.com/file/d/1vyBtxhAU3WPyVNfHA1YYbDA5nfaT-CsE/view?usp=sharing">here </a>
+Download the sample code <a href="https://leanpub.com/cryptojs">here </a>
 
 <hr>
 Next Reading <a href="window-crypto-aes.jsp">Perform AES Encryption Using importKey Method </a>
@@ -300,6 +300,8 @@ Next Reading <a href="window-crypto-aes.jsp">Perform AES Encryption Using import
          <%@ include file="footer_adsense.jsp"%> 
          
          <%@ include file="related-window-crypto.jsp"%>
+         
+         <%@ include file="related-go.jsp"%>
 
 		 <%@ include file="related-cryptography.jsp"%>
           <!-- Article Widget -->
