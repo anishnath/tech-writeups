@@ -130,7 +130,7 @@
 </li>
 <li>
 <p>Invoke the <strong>openssl ocsp client</strong></p>
-<pre><code class="html">  openssl ocsp -no_nonce -issuer cacert.pem -cert 8gwifi.pem  -VAfile cacert.pem -text -url http://ocsp.int-x3.letsencrypt.org/ -header Host ocsp.int-x3.letsencrypt.org -respout ocsptest
+<pre><code class="html">  openssl ocsp -no_nonce -issuer cacert.pem -cert 8gwifi.pem  -VAfile cacert.pem -text -url http://ocsp.int-x3.letsencrypt.org/ -header Host=ocsp.int-x3.letsencrypt.org -respout ocsptest
 </code></pre>
 </li>
 </ul>
