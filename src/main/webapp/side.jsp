@@ -20,6 +20,11 @@
                 <li>
                       <a href="php-ciphermethods.jsp">openssl_get_cipher_methods</a>
                     </li>
+                   
+                    <li>
+                      <a href="php-digestmethod.jsp">openssl_get_md_methods</a>
+                    </li> 
+                    
                 </div>
               </div>
             </div>
