@@ -7,12 +7,7 @@
 
 <p> <mark>Asking for donation sound bad to me, so i'm raising fund from The Modern Cryptography CookBook </mark> for Just  <a href="http://leanpub.com/crypto/c/NPsT3TZmqrNS" target="_blank" rel="noopener"> $9</a>. Avail Discount coupon first <a href="http://leanpub.com/crypto/c/NPsT3TZmqrNS" target="_blank" rel="noopener"> 100 </a>reader. No hurry read the sample chapters <a href="https://8gwifi.org/docs/pki.jsp">here</a> then decide.</p>
 <hr>
-<p><mark>Other Mode of Contributing </mark></p>
-<p> Grab Three Cryptography book Just <a href="https://leanpub.com/b/crypto">$24 </a> </p>
-
-<img class="img-fluid rounded" src="img/3book.png" height="400" width="500" alt="Referefce ">
-
-<hr>
+<p><mark>Other Discounted Book for 8gwifi.org Users </mark></p>
 
 <p> Grab Four Cryptography book Just <a href="https://leanpub.com/b/cryptob">$19 </a> </p>
 <img class="img-fluid rounded" src="img/4book.png" height="400" width="500" alt="Referefce ">
@@ -23,3 +18,10 @@
     <li>Cryptography for JavaScript Developer</li>
     <li>Go lang Cryptography for developers</li>
 </ul>
+
+<p> Grab Three Cryptography book Just <a href="https://leanpub.com/b/crypto">$24 </a> </p>
+
+<img class="img-fluid rounded" src="img/3book.png" height="400" width="500" alt="Referefce ">
+
+<hr>
+
