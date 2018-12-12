@@ -144,7 +144,7 @@ seed-cfb
 seed-ecb
 seed-ofb
 </code></pre>
-<h2><a id="openssl_get_cipher_methods_58"></a>openssl_get_cipher_methods</h2>
+<h2><a id="openssl_get_cipher_methods_58"></a>PHP openssl_get_cipher_methods</h2>
 <p>openssl_get_cipher_methods  Gets available cipher methods. Supported PHP Versions (<strong>PHP 5 &gt;= 5.3.0, PHP 7</strong>)</p>
 <p><strong>Examples</strong></p>
 <p><strong><strong>openssl_get_cipher_methods()</strong>  example</strong>  Shows how the available ciphers might look, and also which aliases might be available.</p>
