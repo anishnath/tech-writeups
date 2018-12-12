@@ -25,6 +25,10 @@
                       <a href="php-digestmethod.jsp">openssl_get_md_methods</a>
                     </li> 
                     
+                    <li>
+                      <a href="php-digest.jsp">openssl_digest</a>
+                    </li> 
+                    
                 </div>
               </div>
             </div>
