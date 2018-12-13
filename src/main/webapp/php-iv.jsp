@@ -37,7 +37,7 @@
     "@type": "WebPage",
     "@id": "https://8gwifi.org/docs/php-iv.jsp"
   },
-  "name" : "go lang encoding decoding",
+  "name" : "Block Cipher Mode Initial Vector Length",
   "author" : {
     "@type" : "Person",
     "name" : "Anish"

@@ -33,6 +33,10 @@
                       <a href="php-iv.jsp">openssl_cipher_iv_length</a>
                     </li> 
                     
+                    <li>
+                      <a href="php-encrypt.jsp">openssl_encrypt/decrypt</a>
+                    </li> 
+                    
                 </div>
               </div>
             </div>
