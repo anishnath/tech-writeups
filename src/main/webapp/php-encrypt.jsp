@@ -145,8 +145,14 @@
 </tbody>
 </table>
 <p><strong>Examples</strong></p>
+
+
+<p> <mark>A Great Feedback by <a href="https://www.facebook.com/spaze">Michal Špaček</a></mark> </p>
+<img class="img-fluid rounded" src="img/php/php-encrypt1.png" height="300" width="400" alt="https://www.facebook.com/spaze ">
+<hr>
+
 <h3><a id="aes128cbc__encryptdecrypt_example_38"></a>aes-128-cbc  encrypt/decrypt example</h3>
-<p></p>
+<p><strong>Note:</strong> AES-CBC mode  vulnerable to padding oracle attacks, Kindly Don't use these</p>
 <pre><code class="language-php"><span class="hljs-comment">/**  
 * Created by https://8gwifi.org  
 * User: Anish Nath  
