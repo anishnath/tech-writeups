@@ -242,7 +242,7 @@ Array
     [80] =&gt; brainpoolP512t1
 )
 </code></pre>
-<p>In <code>openssl</code> You can get a list of available cipher methods by calling</p>
+<p>In <code>openssl</code> You can get a list of available ec curve name by calling</p>
 
 <pre><code class="language-console">$ openssl ecparam -list_curves
 </code></pre>
