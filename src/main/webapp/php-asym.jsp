@@ -42,12 +42,12 @@
     "@type" : "Person",
     "name" : "Anish"
   },
-  "headline": "php openssl tutorial on openssl_get_md_method",
+  "headline": "php openssl tutorial on openssl_pkey_new",
   "image":"https://8gwifi.org/docs/img/php/Keylength.png",
   "datePublished" : "2018-12-12",
   "dateModified": "2018-12-12",
-  "articleSection" : "php openssl tutorial on openssl_get_md_method",
-  "articleBody" : [ "php openssl example ", "php openssl_get_md_method" , "php openssl functions", "php cryptography"],
+  "articleSection" : "php openssl tutorial on openssl_pkey_new",
+  "articleBody" : [ "php openssl example ", "php openssl_pkey_new" , "php openssl functions", "php cryptography" , "php generate rsa key" , "php gerenarate dsa keys" , "php generate ec keys"],
   "publisher" : {
     "@type" : "Organization",
     "name" : "8gwifi.org Tech Blog",

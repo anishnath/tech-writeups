@@ -39,6 +39,9 @@
                      <li>
                       <a href="php-asym.jsp">openssl_pkey_new/(rsa/dsa/ec)</a>
                     </li> 
+                    <li>
+                      <a href="php-eccurvenames.jsp">openssl_get_curve_names</a>
+                    </li> 
                     
                 </div>
               </div>
