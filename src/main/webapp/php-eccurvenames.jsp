@@ -258,7 +258,7 @@ secp160r1 : SECG curve over a 160 bit prime field
 ......
 </code></pre>
 <p>Continue Reading <a href="php-asym.jsp#Generate_EC_Key_Pair_193">how to generate ec key pair</a></p>
-<p><a href="https://8gwifi.org/ecsignverify">Generate EC Curve Online Sign Verify Message</a></p>
+<p><a href="https://8gwifi.org/ecsignverify.jsp">Generate EC Curve Online Sign Verify Message</a></p>
 
 <%@ include file="thanks.jsp"%>
 
