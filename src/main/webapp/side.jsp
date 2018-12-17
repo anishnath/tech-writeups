@@ -36,6 +36,9 @@
                     <li>
                       <a href="php-encrypt.jsp">openssl_encrypt/decrypt</a>
                     </li> 
+                     <li>
+                      <a href="php-asym.jsp">openssl_pkey_new/(rsa/dsa/ec)</a>
+                    </li> 
                     
                 </div>
               </div>
