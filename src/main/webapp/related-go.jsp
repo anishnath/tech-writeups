@@ -12,6 +12,9 @@
                      <li>
                       <a href="go-rsa.jsp">RSA Cryptography</a>
                     </li>
+                     <li>
+                      <a href="go-nacl.jsp">NACL</a>
+                    </li>
                 </div>
               </div>
             </div>
