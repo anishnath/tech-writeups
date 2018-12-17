@@ -370,7 +370,8 @@ MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEWcxIutWEkMXuakdcHhJW3hpOECBo
 -----END PUBLIC KEY-----
 &quot;
 </code></pre>
-<p></p>
+
+<p>Continue Reading Part 2 (php Asymmetric Key Encryption/Decryption/Sign Verify The message)</p>
 
 <%@ include file="thanks.jsp"%>
 
