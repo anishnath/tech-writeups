@@ -7,6 +7,8 @@
 
 <p> <mark>Asking for donation sound bad to me, so i'm raising fund from The Modern Cryptography CookBook </mark> for Just  <a href="http://leanpub.com/crypto/c/NPsT3TZmqrNS" target="_blank" rel="noopener"> $9</a>. Avail Discount coupon first <a href="http://leanpub.com/crypto/c/NPsT3TZmqrNS" target="_blank" rel="noopener"> 100 </a>reader. No hurry read the sample chapters <a href="https://8gwifi.org/docs/pki.jsp">here</a> then decide.</p>
 <hr>
+<strong> smashwords.com/books/ Offer <a href="https://www.smashwords.com/books/view/910261">The Modern Cryptography Cookbook </a></strong> is a title that allows you to set the price. You can either pay nothing ($0.00), or any amount above $0.99 (to cover transaction fees).
+<hr>
 <p><mark>Other Discounted Book for 8gwifi.org Users </mark></p>
 
 <p> Grab Four Cryptography book Just <a href="https://leanpub.com/b/cryptob">$19 </a> </p>
