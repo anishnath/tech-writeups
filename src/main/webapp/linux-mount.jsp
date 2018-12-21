@@ -99,9 +99,10 @@
 				<%@ include file="analytics.jsp"%>
 
 				<hr>
+					<h2 class="mt-4"> mount - mount a filesystem</h2>
 
 				<p>By default, the mount command displays a list of media devices currently mounted on the system:</p>
-<pre><code class="language-console">$ sudo mount
+<pre><code class="html">$ sudo mount
 sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
 udev on /dev type devtmpfs (rw,nosuid,relatime,size=2002872k,nr_inodes=500718,mode=755)
 tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)
@@ -118,7 +119,7 @@ tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)
 <li>The access status of the mounted media</li>
 </ul>
 <p>The basic mount option</p>
-<pre><code class="language-console">mount -t type device directory
+<pre><code class="html">mount -t type device directory
 </code></pre>
 <p><strong>Windows Device type</strong></p>
 <table class="table table-striped table-bordered">
@@ -137,7 +138,7 @@ tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)
 </table>
 <p><strong>Linux Device type</strong></p>
 <p><strong>lsblk</strong> displays block devices</p>
-<pre><code class="language-console">$ lsblk -f
+<pre><code class="html">$ lsblk -f
 NAME  FSTYPE  LABEL UUID MOUNTPOINT
 vda
  vda1  ext2  eb311fb6-841d-4220-9994-046ff3b46721 /boot
@@ -147,10 +148,10 @@ vda
  ubuntu--vg-swap_1 swap  710191d7-7abd-4fb7-b4d9-eae243cd6077 [SWAP]
 </code></pre>
 <p>To mount the USB memory stick at device <strong>/dev/sdb1</strong> at location <strong>/media/disk</strong>, you use the following command:</p>
-<pre><code class="language-console">mount -t vfat /dev/sdb1 /media/disk
+<pre><code class="html">mount -t vfat /dev/sdb1 /media/disk
 </code></pre>
 <p>To mount the CDROM  at device <strong>/dev/cdrom</strong> at location <strong>/mnt/disk</strong>, you use the following command:</p>
-<pre><code class="language-console">mount /dev/cdrom /mnt/cdrom
+<pre><code class="html">mount /dev/cdrom /mnt/cdrom
 </code></pre>
 <p>mount Command options</p>
 <table class="table table-striped table-bordered">
@@ -189,35 +190,35 @@ mount it</td>
 </tbody>
 </table>
 <p>mounts all filesystems except those of type NFS and HFS.</p>
-<pre><code class="language-console">mount -a -t nonfs,hfs
+<pre><code class="html">mount -a -t nonfs,hfs
 </code></pre>
 <p>mounts NFS share</p>
-<pre><code class="language-console">mount -t nfs ip_address:/dirname /mnt/localdiskname
+<pre><code class="html">mount -t nfs ip_address:/dirname /mnt/localdiskname
 </code></pre>
 <h2><a id="The_unmount_command_80"></a>The unmount command</h2>
 <p>To remove a removable media device, you should never just remove it from the system. Instead, you should always unmount it first</p>
-<pre><code class="language-console">umount [directory | device ]
+<pre><code class="html">umount [directory | device ]
 </code></pre>
 <p>To unmount the data directory</p>
-<pre><code class="language-console">sudo umount /data
+<pre><code class="html">sudo umount /data
 </code></pre>
 <p>If any program has a fi le open on a device, the system won't let you unmount it.</p>
-<pre><code class="language-console">$  umount /data
+<pre><code class="html">$  umount /data
 umount: /data: device is busy 
 umount: /data: device is busy
 </code></pre>
 <hr>
 <h2><a id="remotefilesystemmount"></a>Mounting the Remote File System</h2>
 <p>SSHFS is Linux based software that needs to be installed on your local computer</p>
-<pre><code class="language-console">sudo mkdir /data
+<pre><code class="html">sudo mkdir /data
 sudo chown user:group /data
 sudo sshfs -o allow_other,defer_permissions root@<IP_ADDR>:/ /mnt/data
 or for Key Based
 sudo sshfs -o allow_other,defer_permissions,IdentityFile=~/.ssh/id_rsa root@<IP_ADDR>:/ /mnt/data
 </code></pre>
 <h2><a id="How_to_Make_a_Mount_Point_98"></a>How to Make a Mount Point</h2>
-<p>A mount point is "just" a directory. So all you need to do is to create a directory, then mount it, the only tricky part is the device which you are mounting</p>
-<pre><code class="language-console">mkdir /data
+<p>A mount point is "just" a directory. So all you need to do is to create a directory, then mount it, the only <mark>tricky part is the device name </mark>which you are mounting</p>
+<pre><code class="html">mkdir /data
 chown user:group /data
 mount /dev/sdb1 /data
 </code></pre>
