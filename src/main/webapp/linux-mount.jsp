@@ -77,7 +77,7 @@
 			<div class="col-lg-8">
 
 				<!-- Title -->
-				<h1 class="mt-4">Lets Visit Linux Mount and Unmount Again</h1>
+				<h1 class="mt-4">Let's Visit Linux Mount and Unmount Again</h1>
 
 				<!-- Author -->
 				<p class="lead">
