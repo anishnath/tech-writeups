@@ -30,6 +30,10 @@
                      <li>
                       <a href="kube-mysql.jsp">Kubernetes mysql installation</a>
                     </li>
+                     <li>
+                      <a href="kube-jenkins.jsp">Kubernetes Jenkins installation</a>
+                    </li>
+                    
                 </div>
               </div>
             </div>
