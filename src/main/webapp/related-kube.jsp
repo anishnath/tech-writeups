@@ -27,6 +27,9 @@
                      <li>
                       <a href="prometheus-dashboard.jsp">Prometheus Dashboard Access</a>
                     </li>
+                     <li>
+                      <a href="kube-mysql.jsp">Kubernetes mysql installation</a>
+                    </li>
                 </div>
               </div>
             </div>
