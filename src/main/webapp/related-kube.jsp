@@ -33,6 +33,9 @@
                      <li>
                       <a href="kube-jenkins.jsp">Kubernetes Jenkins installation</a>
                     </li>
+                     <li>
+                      <a href="kube-mariadb.jsp">Kubernetes mariadb installation</a>
+                    </li>
                     
                 </div>
               </div>
