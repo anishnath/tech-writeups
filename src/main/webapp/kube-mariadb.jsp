@@ -96,7 +96,7 @@
 <p>In this article we will learn how to to setup jenkins in kubernetes cluster using helm</p>
 <p><a href="helm.sh">Helm</a>: Helm is a tool for managing Kubernetes charts. Charts are packages of pre-configured Kubernetes resources.</p>
 <ul>
-<li>Let’s Begin deploying <strong>mariadb</strong> using helm in <strong>kubernetes</strong> , if you are new to helm then download and initialize helm as follows</li>
+<li>Let's Begin deploying <strong>mariadb</strong> using helm in <strong>kubernetes</strong> , if you are new to helm then download and initialize helm as follows</li>
 </ul>
 <pre><code class="language-console">root@kube-master:#  helm init
 root@kube-master:# kubectl create serviceaccount --namespace kube-system tiller
@@ -357,7 +357,7 @@ MariaDB [my_database]&gt;
 <hr>
 <p><h2>Video Demo </h2> </p>
 <iframe width="420" height="315"
-src="https://youtube.com/embed/ixdQCktXxXA">
+src="https://youtube.com/embed/Cur9N0N4PeI">
 </iframe>
 
           
