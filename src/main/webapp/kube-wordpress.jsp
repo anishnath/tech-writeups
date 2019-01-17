@@ -189,7 +189,7 @@ root@kube-master:# cat wordpress-pvc.yaml
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
-  name: wordpress-pvc
+  name: wordpress-wordpress
 spec:
   storageClassName: &quot;&quot;
   accessModes:
