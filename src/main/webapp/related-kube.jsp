@@ -36,6 +36,9 @@
                      <li>
                       <a href="kube-mariadb.jsp">Kubernetes mariadb installation</a>
                     </li>
+                    <li>
+                      <a href="kube-wordpress.jsp">Kubernetes wordpress installation</a>
+                    </li>
                     
                 </div>
               </div>
