@@ -43,6 +43,10 @@
                       <a href="kube-traefik.jsp">Kubernetes traefik installation</a>
                     </li>
                     
+                    <li>
+                      <a href="kube-debug.jsp">kubernetes service external ip pending ?</a>
+                    </li>
+                    
                 </div>
               </div>
             </div>
