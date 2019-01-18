@@ -39,6 +39,9 @@
                     <li>
                       <a href="kube-wordpress.jsp">Kubernetes wordpress installation</a>
                     </li>
+                    <li>
+                      <a href="kube-traefik.jsp">Kubernetes traefik installation</a>
+                    </li>
                     
                 </div>
               </div>
