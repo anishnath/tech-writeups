@@ -44,6 +44,10 @@
                     </li>
                     
                     <li>
+                      <a href="kube-traefik2.jsp">Kubernetes Ingress traefik </a>
+                    </li>
+                    
+                    <li>
                       <a href="kube-debug.jsp">kubernetes service external ip pending ?</a>
                     </li>
                     
