@@ -245,13 +245,12 @@ cheeses cheeses.minikube 80  1m
 <li>It is advisable to install the traefik in the kube-system namespace</li>
 <li>Always measure your resource needs, and adjust requests and limits accordingly.</li>
 </ul>
-<p>Thanks Happy trae, do poke me for any problems</p>
-
+<p>Thanks Happy traefiking, do poke me for any problems</p>
           
 <hr>
 <p><h2>Video Demo </h2> </p>
  <iframe width="420" height="315"
-src="https://youtube.com/embed/wfNFycQgXLA">
+src="https://youtube.com/embed/fCu-dNd-tqQ">
 </iframe> 
 
 
