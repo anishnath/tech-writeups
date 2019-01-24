@@ -21,6 +21,9 @@
                      <li>
                       <a href="jks.jsp">Java Keytool/Keystore in Nutshell</a>
                     </li>
+                     <li>
+                      <a href="ssh.jsp">Twenty Steps of SSH hardening</a>
+                    </li>
                 </div>
               </div>
             </div>
