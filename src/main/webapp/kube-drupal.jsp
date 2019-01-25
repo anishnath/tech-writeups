@@ -44,8 +44,8 @@
   },
   "headline": "Kubernetes drupal Installation (helm)",
   "image":"https://8gwifi.org/docs/img/kube-drupal.png",
-  "datePublished" : "2019-01-17",
-  "dateModified": "2019-01-17",
+  "datePublished" : "2019-01-25",
+  "dateModified": "2019-01-25",
   "articleSection" : "Kubernetes drupal Installation (helm)",
   "articleBody" : [ "Introduction" ,"kubernetes Installation starts here", "First define the PersistentVolume drupal-pv where the drupal data to be stored. The hostPath tells the drupal directory is in /opt/drupal location" ,"Create PersistentVolume in kube cluster" ,"Define PersistentVolumeClaim drupal-pvc", "drupal Installation starts here, this is done through helm the kubernetes package manager"],
   "publisher" : {
@@ -82,7 +82,7 @@
           <p class="lead">
             by
             <a href="https://www.linkedin.com/in/anishnath">Anish</a>
-            <p>Posted on Thursday Jnauary 17, 2019</p>
+            <p>Posted on Friday January 25, 2019</p>
           </p>
           
           <img class="img-fluid rounded" src="img/drupal2.png" height="400" width="500" alt="Referefce ">
