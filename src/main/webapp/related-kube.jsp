@@ -40,6 +40,9 @@
                       <a href="kube-wordpress.jsp">Kubernetes wordpress installation</a>
                     </li>
                     <li>
+                      <a href="kube-drupal.jsp">Kubernetes drupal installation</a>
+                    </li>
+                    <li>
                       <a href="kube-traefik.jsp">Kubernetes traefik installation</a>
                     </li>
                     
