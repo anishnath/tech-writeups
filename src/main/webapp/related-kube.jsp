@@ -24,6 +24,9 @@
                     <li>
                       <a href="kube-namespaces.jsp">kubernetes Namespace</a>
                     </li>
+                    <li>
+                      <a href="kube-rbac.jsp">kubernetes Role-Based Access Control</a>
+                    </li>
                      <li>
                       <a href="CVE-2018-1002105.jsp">Kubernetes Privilege Escalation Vulnerability</a>
                     </li>
