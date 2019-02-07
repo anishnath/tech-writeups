@@ -95,7 +95,7 @@
 <h3 class="mt-4">Introduction </h3>
 
 <p>You define your RBAC permissions by creating objects from the  <code>rbac.authorization.k8s.io</code>  API group in your cluster. You can create the objects using the  <code>kubectl</code>  command-line interface, or programmatically.</p>
-<p>You’ll need to create two kinds of objects:</p>
+<p>You'll need to create two kinds of objects:</p>
 <ol>
 <li>A  <code>Role</code>  or  <code>ClusterRole</code>  object that defines what resource types and operations are allowed for a set of users.</li>
 <li>A  <code>RoleBinding</code>  or  <code>ClusterRoleBinding</code>  that associates the  <code>Role</code>  (or  <code>ClusterRole</code>) with one or more specific users.</li>
@@ -281,7 +281,7 @@ root@kube-master:# kubectl create -f busybox.yaml -n dev
 pod/busybox created
 </code></pre>
 <p><strong>9. Testing RBAC</strong></p>
-<p>While creating <strong>user1</strong> and <strong>user2</strong> the config context are set, verify it’s working as desired, this is also used for RBAC troubleshootings.</p>
+<p>While creating <strong>user1</strong> and <strong>user2</strong> the config context are set, verify it's working as desired, this is also used for RBAC troubleshootings.</p>
 <pre><code class="language-console">root@kube-master:# kubectl config get-contexts
 CURRENT   NAME                          CLUSTER      AUTHINFO           NAMESPACE
           dev                           kubernetes   user1              dev
@@ -313,6 +313,12 @@ No resources found.
 Error from server (Forbidden): pods is forbidden: User &quot;user1&quot; cannot list pods in the namespace &quot;stage&quot;
 </code></pre>
 
+
+<hr>
+<p><h2>Video Demo </h2> </p>
+ <iframe width="420" height="315"
+src="https://youtube.com/embed/zrZCqYl1ZR0">
+</iframe> 
 
 
 <%@ include file="thanks.jsp"%>
