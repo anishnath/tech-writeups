@@ -118,34 +118,34 @@
 </ul>
 <p><strong>1. Creating dev and stage namespace</strong></p>
 <p>To learn more about namespaces go <a href="kube-namespaces.jsp">here</a></p>
-<pre><code class="language-console">root@kube-master:/home/ansible# kubectl create namespace dev
+<pre><code class="language-console">root@kube-master:# kubectl create namespace dev
 namespace/dev created
-root@kube-master:/home/ansible# kubectl create namespace stage
+root@kube-master:# kubectl create namespace stage
 namespace/stag created
 </code></pre>
 <p><strong>2. Creating user1</strong></p>
 <ul>
 <li>To create <strong>user1</strong>  generate RSA keys for user1 create CSR and get it singed with kubernetes rootCA and rootCA private key</li>
 </ul>
-<pre><code class="language-console">root@kube-master:/home/ansible# openssl genrsa -out user1.key 2048
+<pre><code class="language-console">root@kube-master:# openssl genrsa -out user1.key 2048
 Generating RSA private key, 2048 bit long modulus
 ..................................................................................+++
 .................+++
 e is 65537 (0x10001)
 </code></pre>
 <p>Generate the CSR</p>
-<pre><code class="language-console">root@kube-master:/home/ansible# openssl req -new -key user1.key -out user1.csr -subj &quot;/CN=user1/O=8gwifi.org&quot;
+<pre><code class="language-console">root@kube-master:# openssl req -new -key user1.key -out user1.csr -subj &quot;/CN=user1/O=8gwifi.org&quot;
 </code></pre>
 <p>Sign the CSR  and create the user1 x.509 certificate , sign CSR with the kubernetes rootCA and rootCA key which usually  present in the <code>/etc/kubernetes/pki/</code> location.</p>
-<pre><code class="language-console">root@kube-master:/home/ansible# openssl x509 -req -in user1.csr -CA /etc/kubernetes/pki/ca.crt -CAkey /etc/kubernetes/pki/ca.key -CAcreateserial -out user1.crt -days 365
+<pre><code class="language-console">root@kube-master:# openssl x509 -req -in user1.csr -CA /etc/kubernetes/pki/ca.crt -CAkey /etc/kubernetes/pki/ca.key -CAcreateserial -out user1.crt -days 365
 Signature ok
 subject=/CN=user1/O=8gwifi.org
 Getting CA Private Key
 </code></pre>
 <p>update the kubernetes config and define <code>set-credentials</code> and <code>set-context</code> for <strong>user1</strong></p>
-<pre><code class="language-console">root@kube-master:/home/ansible# kubectl config set-credentials user1 --client-certificate=user1.crt --client-key=user1.key
+<pre><code class="language-console">root@kube-master:# kubectl config set-credentials user1 --client-certificate=user1.crt --client-key=user1.key
 User &quot;user1&quot; set.
-root@kube-master:/home/ansible# kubectl config set-context dev --cluster=kubernetes --namespace=dev --user=user1
+root@kube-master:# kubectl config set-context dev --cluster=kubernetes --namespace=dev --user=user1
 Context &quot;dev&quot; modified.
 </code></pre>
 <p><strong>3. Creating user2</strong></p>
@@ -173,7 +173,7 @@ rules:
 </code></pre>
 
 <p>Apply this role in kubernetes cluster</p>
-<pre><code class="language-console">root@kube-master:/home/ansible# kubectl create -f dev-role.yaml
+<pre><code class="language-console">root@kube-master:# kubectl create -f dev-role.yaml
 role.rbac.authorization.k8s.io/devlopment created
 </code></pre>
 <p><strong>Bind this role to user1</strong></p>
@@ -193,7 +193,7 @@ roleRef:
   apiGroup: &quot;&quot;
 </code></pre>
 <p>Apply this rolebinding in kubernetes cluster</p>
-<pre><code class="language-console">root@kube-master:/home/ansible# kubectl create -f  dev-role-binding.yaml
+<pre><code class="language-console">root@kube-master:# kubectl create -f  dev-role-binding.yaml
 rolebinding.rbac.authorization.k8s.io/dev-role-binding created
 </code></pre>
 <p><strong>5. Create Role and Rolebinding for user2</strong></p>
@@ -231,11 +231,11 @@ roleRef:
 <%@ include file="footer_adsense.jsp"%> 
 <p><strong>6. Verify Roles and RoleBindings</strong></p>
 <p>Verify the namespace points to correct <strong>role,rolebindings and users</strong></p>
-<pre><code class="language-console">root@kube-master:/home/ansible# kubectl get roles -n dev
-root@kube-master:/home/ansible# kubectl get roles -n stage
-root@kube-master:/home/ansible# kubectl get rolebinding -n stage
-root@kube-master:/home/ansible# kubectl get rolebinding -n dev
-root@kube-master:/home/ansible# kubectl describe rolebinding dev-role-binding -n dev
+<pre><code class="language-console">root@kube-master:# kubectl get roles -n dev
+root@kube-master:# kubectl get roles -n stage
+root@kube-master:# kubectl get rolebinding -n stage
+root@kube-master:# kubectl get rolebinding -n dev
+root@kube-master:# kubectl describe rolebinding dev-role-binding -n dev
 Name:         dev-role-binding
 Labels:       &lt;none&gt;
 Annotations:  &lt;none&gt;
@@ -246,7 +246,7 @@ Subjects:
   Kind  Name   Namespace
   ----  ----   ---------
   User  user1  
-root@kube-master:/home/ansible# kubectl describe rolebinding stage-role-binding -n stage
+root@kube-master:# kubectl describe rolebinding stage-role-binding -n stage
 Name:         stage-role-binding
 Labels:       &lt;none&gt;
 Annotations:  &lt;none&gt;
@@ -275,14 +275,14 @@ spec:
   restartPolicy: Always
 </code></pre>
 <p>Creating busybox pods in <strong>stage</strong> and <strong>dev</strong> namespaces</p>
-<pre><code class="language-console">root@kube-master:/home/ansible# kubectl create -f busybox.yaml -n stage 
+<pre><code class="language-console">root@kube-master:# kubectl create -f busybox.yaml -n stage 
 pod/busybox created
-root@kube-master:/home/ansible# kubectl create -f busybox.yaml -n dev
+root@kube-master:# kubectl create -f busybox.yaml -n dev
 pod/busybox created
 </code></pre>
 <p><strong>9. Testing RBAC</strong></p>
 <p>While creating <strong>user1</strong> and <strong>user2</strong> the config context are set, verify it’s working as desired, this is also used for RBAC troubleshootings.</p>
-<pre><code class="language-console">root@kube-master:/home/ansible# kubectl config get-contexts
+<pre><code class="language-console">root@kube-master:# kubectl config get-contexts
 CURRENT   NAME                          CLUSTER      AUTHINFO           NAMESPACE
           dev                           kubernetes   user1              dev
 *         kubernetes-admin@kubernetes   kubernetes   kubernetes-admin   
@@ -291,24 +291,24 @@ CURRENT   NAME                          CLUSTER      AUTHINFO           NAMESPAC
 <ul>
 <li>Valid Use case by using dev and stage context both user1 and user2 will see their respective pods</li>
 </ul>
-<pre><code class="language-console">root@kube-master:/home/ansible# kubectl --context=dev get pods
+<pre><code class="language-console">root@kube-master:# kubectl --context=dev get pods
 NAME      READY     STATUS    RESTARTS   AGE
 busybox   1/1       Running   0          4m
-root@kube-master:/home/ansible# kubectl --context=stage get pods
+root@kube-master:# kubectl --context=stage get pods
 NAME      READY     STATUS    RESTARTS   AGE
 busybox   1/1       Running   0          4m
 </code></pre>
 <ul>
 <li>Valid use case, <strong>user2</strong> will be forbidden to check on <strong>dev</strong> context</li>
 </ul>
-<pre><code class="language-console">root@kube-master:/home/ansible# kubectl --context=dev get pods --user=user2
+<pre><code class="language-console">root@kube-master:# kubectl --context=dev get pods --user=user2
 No resources found.
 Error from server (Forbidden): pods is forbidden: User &quot;user2&quot; cannot list pods in the namespace &quot;dev&quot;
 </code></pre>
 <ul>
 <li>Valid use case <strong>user1</strong> will be forbidden to access <strong>stage</strong> context</li>
 </ul>
-<pre><code class="language-console">root@kube-master:/home/ansible# kubectl --context=stage get pods --user=user1
+<pre><code class="language-console">root@kube-master:# kubectl --context=stage get pods --user=user1
 No resources found.
 Error from server (Forbidden): pods is forbidden: User &quot;user1&quot; cannot list pods in the namespace &quot;stage&quot;
 </code></pre>
