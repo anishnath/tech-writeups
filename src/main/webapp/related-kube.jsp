@@ -25,6 +25,9 @@
                       <a href="kube-namespaces.jsp">kubernetes Namespace</a>
                     </li>
                     <li>
+                      <a href="kube-auth.jsp">kubenetes Auth,Authorization,Admission</a>
+                    </li>
+                    <li>
                       <a href="kube-rbac.jsp">kubernetes Role-Based Access Control</a>
                     </li>
                      <li>
