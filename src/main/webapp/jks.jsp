@@ -421,7 +421,7 @@ Certificate stored in file &lt;path_to_certificate_file&gt;
       <!-- /.container -->
     </footer>
     
-    Here
+    
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

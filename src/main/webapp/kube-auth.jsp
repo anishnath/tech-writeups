@@ -518,7 +518,7 @@ admissionregistration.k8s.io/v1beta1
       <!-- /.container -->
     </footer>
     
-    Here
+    
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
