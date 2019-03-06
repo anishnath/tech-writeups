@@ -95,12 +95,12 @@
 <h3 class="mt-4">Introduction </h3>
 <p>Dashboard is a web-based Kubernetes user interface. You can use Dashboard to deploy containerized applications to a Kubernetes cluster, troubleshoot your containerized application, and manage the cluster itself along with its attendant resources. These are the required steps to to bring up the kubernetes  Dashboard</p>
 
-<p>If you have a <strong>$HOME/.kube/config</strong> file, and it’s not  listed in your <strong>KUBECONFIG</strong> environment variable, then do the following.</p>
+<p>If you have a <strong>$HOME/.kube/config</strong> file, and it's not  listed in your <strong>KUBECONFIG</strong> environment variable, then do the following.</p>
 <p><code>export KUBECONFIG=/etc/kubernetes/admin.conf</code></p>
 
 <h3 id="verifydashboardserviceisrunning">Deploy Kubernetes Dashboard</h3>
 <p>To deploy run the following command:</p>
-<pre><code class="html">kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard.yaml
+<pre><code class="html">kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/master/aio/deploy/recommended/kubernetes-dashboard.yaml
 </code></pre>
 
 <p><strong>The output</strong></p>
