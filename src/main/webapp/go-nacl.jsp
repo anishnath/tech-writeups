@@ -91,7 +91,7 @@
           <%@ include file="footer_adsense.jsp"%>
            <%@ include file="analytics.jsp"%>
            
-           <p><mark>This sample chapter </mark> extracted from the book, <a href="https://leanpub.com/cryptog">Go Lang Cryptography for Developers </a>. The Book theme is<mark>Cryptography is for EveryOne. Learn from Crypto Principle to Applied Cryptography With Practical Example</mark> </p>
+           <p><mark>This sample chapter </mark> extracted from the book, <a href="https://leanpub.com/cryptog">Go Lang Cryptography for Developers </a>. The Book theme is<mark>Cryptography is for EveryOne. Learn from Crypto Principle to Applied Cryptography With Practical Example Grab a Copy </mark> </p>
 		   <p><iframe class="embed-responsive-item" width='160' height='400' src='https://leanpub.com/cryptog/embed' frameborder='0' allowtransparency='true'></iframe></p>
            
           <hr>
