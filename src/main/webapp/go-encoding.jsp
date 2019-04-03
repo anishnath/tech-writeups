@@ -43,7 +43,7 @@
     "name" : "Anish"
   },
   "headline": "how to perform hashing/digest using golang sha,sha-1,sha224,sha-512 ",
-  "image":"https://8gwifi.org/docs/img/base64.png",
+  "image":"https://8gwifi.org/docs/img/go.png",
   "datePublished" : "2018-11-04",
   "dateModified": "2018-11-04",
   "articleSection" : "go lang encoding decoding",

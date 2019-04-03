@@ -43,7 +43,7 @@
     "name" : "Anish"
   },
   "headline": "Go Lang NACL Cryptography",
-  "image":"https://8gwifi.org/docs/img/go-nacl.png",
+  "image":"https://8gwifi.org/docs/img/go.png",
   "datePublished" : "2018-12-17",
   "dateModified": "2018-12-17",
   "articleSection" : "Go Lang NACL Cryptography ",

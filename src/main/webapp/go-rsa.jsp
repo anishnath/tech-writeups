@@ -42,8 +42,8 @@
     "@type" : "Person",
     "name" : "Anish"
   },
-  "headline": ">go lang rsa, go lang generate rsa keys, go lang rsa encryption decryption, go lang GenerateMultiPrimeKey, go lang RSA OAEP, go lang RSA_PKCS1-V1_5 Sign Verify, go lang RSA_PSS Sign/Verify",
-  "image":"https://8gwifi.org/docs/img/golang_png.png",
+  "headline": "go lang rsa, go lang generate rsa keys, go lang rsa encryption decryption, go lang GenerateMultiPrimeKey, go lang RSA OAEP, go lang RSA_PKCS1-V1_5 Sign Verify, go lang RSA_PSS Sign/Verify",
+  "image":"https://8gwifi.org/docs/img/go.png",
   "datePublished" : "2018-11-13",
   "dateModified": "2018-11-13",
   "articleSection" : "Go Lang RSA Cryptography ",
