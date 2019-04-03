@@ -9,6 +9,9 @@
                    <li>
                       <a href="go-hashing.jsp">Hashing Example</a>
                     </li>
+                    <li>
+                      <a href="go-3des.jsp">3DES Encryption/Decryption</a>
+                    </li>
                      <li>
                       <a href="go-rsa.jsp">RSA Cryptography</a>
                     </li>
