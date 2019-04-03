@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="go lang des,3des encryption decryption, go lang tutorial, go lang cryptography ">
-    <meta name="keywords" content="go lang crypto/des, go lang security, go lang cryptography, des,3des ">
+    <meta name="keywords" content="go lang crypto/des, go lang security, go lang cryptography, des,3des,NewTripleDESCipher,NewCipher,crypto/des ">
     <meta name="author" content="Anish nath">
     <meta name="robots" content="index,follow" />
 	<meta name="googlebot" content="index,follow" />
@@ -37,12 +37,12 @@
     "@type": "WebPage",
     "@id": "https://8gwifi.org/docs/go-3des.jsp"
   },
-  "name" : "go lang encoding decoding",
+  "name" : "go lang des,3des encryption decryption",
   "author" : {
     "@type" : "Person",
     "name" : "Anish"
   },
-  "headline": "how to perform hashing/digest using golang sha,sha-1,sha224,sha-512 ",
+  "headline": "go lang des,3des encryption decryption ",
   "image":"https://8gwifi.org/docs/img/go.png",
   "datePublished" : "2019-04-03",
   "dateModified": "2019-04-03",
