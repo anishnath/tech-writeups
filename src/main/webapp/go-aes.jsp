@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="go lang aes encryption decryption, go lang tutorial, go lang cryptography, go aes file encryption, go AES-GCM , go AES-CBC, go AES-CFB, go AES-CTR  ">
-    <meta name="keywords" content="go lang crypto/aes, go lang security, go lang cryptography, crypto/cipher,  ">
+    <meta name="keywords" content="go lang crypto/aes, go lang security, go lang cryptography, crypto/cipher, go aes file encryption, go AES-GCM , go AES-CBC, go AES-CFB, go AES-CTR  ">
     <meta name="author" content="Anish nath">
     <meta name="robots" content="index,follow" />
 	<meta name="googlebot" content="index,follow" />
