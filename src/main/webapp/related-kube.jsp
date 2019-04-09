@@ -63,6 +63,10 @@
                       <a href="kube-debug.jsp">kubernetes service external ip pending ?</a>
                     </li>
                     
+                    <li>
+                      <a href="kube-Istio.jsp">Service Mesh With Istio</a>
+                    </li>
+                    
                 </div>
               </div>
             </div>
