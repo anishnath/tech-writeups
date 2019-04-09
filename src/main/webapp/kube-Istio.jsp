@@ -453,6 +453,7 @@ spec:
 </code></pre>
 <p>To test it, refresh your browser over and over, and you'll see only reviews:v1 and reviews:v3.</p>
 <p><img src="img/traffic.png" alt="Traffic Based routing"></p>
+<%@ include file="footer_adsense.jsp"%>
 <h3><a id="IIstio_Monitor_And_Visualize_426"></a>IIstio Monitor And Visualize</h3>
 <p>First collect new telemetry data and download a YAML file to hold configuration for the new metric and log stream that Istio will generate and collect automatically.</p>
 <pre><code class="language-console">root@kube-master:~/istio-1.1.2# curl -LO https://eksworkshop.com/servicemesh/deploy.files/istio-telemetry.yaml
