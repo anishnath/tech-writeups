@@ -94,6 +94,12 @@
 
 <h3 class="mt-4">Introduction </h3>
 
+<p>This sample chapter extracted from the book,<mark> <a href="https://leanpub.com/crypto">Kubernetes for DevOps </a>. </mark> </p>
+<p><mark>Get this book on Just  <a href="https://leanpub.com/kube/" target="_blank" rel="noopener">  $9 </a> or Ask Author for Discount </mark>   </p>
+<p><iframe class="embed-responsive-item" width='160' height='400' src='https://leanpub.com/kube/embed' frameborder='0' allowtransparency='true'></iframe></p>
+
+<hr>
+
 <p>Multiple steps involved to by the Kubernetes API server, before granting/revoking access for the managed kubernetes resources. it's start with</p>
 <h4><a id="TLS_Security_6"></a>TLS Security</h4>
 <p>Kubernetes cluster, the API serves on port 443. The API server presents a certificate. This certificate is often self-signed, so <code>$USER/.kube/config</code> on the user's machine typically contains the root certificate for the API server's certificate, which when specified is used in place of the system default root certificate</p>

@@ -93,6 +93,13 @@
           <hr>
 
 <h3 class="mt-4">Introduction </h3>
+
+<p>This sample chapter extracted from the book,<mark> <a href="https://leanpub.com/crypto">Kubernetes for DevOps </a>. </mark> </p>
+<p><mark>Get this book on Just  <a href="https://leanpub.com/kube/" target="_blank" rel="noopener">  $9 </a> or Ask Author for Discount </mark>   </p>
+<p><iframe class="embed-responsive-item" width='160' height='400' src='https://leanpub.com/kube/embed' frameborder='0' allowtransparency='true'></iframe></p>
+
+<hr>
+
 <p>In this article we will learn how to to setup jenkins in kubernetes cluster using helm</p>
 <p><a href="helm.sh">Helm</a>: Helm is a tool for managing Kubernetes charts. Charts are packages of pre-configured Kubernetes resources.</p>
 <p>Let’s Begin deploying Jenkins using helm in kubernetes</p>

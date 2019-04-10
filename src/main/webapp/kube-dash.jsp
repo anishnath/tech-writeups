@@ -93,6 +93,13 @@
           <hr>
 
 <h3 class="mt-4">Introduction </h3>
+
+<p>This sample chapter extracted from the book,<mark> <a href="https://leanpub.com/crypto">Kubernetes for DevOps </a>. </mark> </p>
+<p><mark>Get this book on Just  <a href="https://leanpub.com/kube/" target="_blank" rel="noopener">  $9 </a> or Ask Author for Discount </mark>   </p>
+<p><iframe class="embed-responsive-item" width='160' height='400' src='https://leanpub.com/kube/embed' frameborder='0' allowtransparency='true'></iframe></p>
+
+<hr>
+
 <p>Dashboard is a web-based Kubernetes user interface. You can use Dashboard to deploy containerized applications to a Kubernetes cluster, troubleshoot your containerized application, and manage the cluster itself along with its attendant resources. These are the required steps to to bring up the kubernetes  Dashboard</p>
 
 <p>If you have a <strong>$HOME/.kube/config</strong> file, and it's not  listed in your <strong>KUBECONFIG</strong> environment variable, then do the following.</p>

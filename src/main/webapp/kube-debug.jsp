@@ -92,6 +92,12 @@
            
           <hr>
 
+<p>This sample chapter extracted from the book,<mark> <a href="https://leanpub.com/crypto">Kubernetes for DevOps </a>. </mark> </p>
+<p><mark>Get this book on Just  <a href="https://leanpub.com/kube/" target="_blank" rel="noopener">  $9 </a> or Ask Author for Discount </mark>   </p>
+<p><iframe class="embed-responsive-item" width='160' height='400' src='https://leanpub.com/kube/embed' frameborder='0' allowtransparency='true'></iframe></p>
+
+<hr>
+
 <p>Well if you stuck in solving the problem of &quot;<strong>kubernetes service external ip pending</strong>&quot;, let's visit the k8 concept once more time.</p>
 <ul>
 <li>Run a Hello World application in your cluster:</li>

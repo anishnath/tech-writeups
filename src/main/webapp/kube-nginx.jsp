@@ -93,6 +93,13 @@
           <hr>
 
 <h3 class="mt-4">Introduction </h3>
+
+<p>This sample chapter extracted from the book,<mark> <a href="https://leanpub.com/crypto">Kubernetes for DevOps </a>. </mark> </p>
+<p><mark>Get this book on Just  <a href="https://leanpub.com/kube/" target="_blank" rel="noopener">  $9 </a> or Ask Author for Discount </mark>   </p>
+<p><iframe class="embed-responsive-item" width='160' height='400' src='https://leanpub.com/kube/embed' frameborder='0' allowtransparency='true'></iframe></p>
+
+<hr>
+
 <p>In this article we will learn how to deploy nginix with modern TLS versions and Cipher suites in Kubernetes. This lab is tested on the this kubernetes versions</p>
 <p>This example creates a  nginx https service useful in verifying proof of concept, keys, secrets, configmap, and end-to-end https service creation in kubernetes</p>
 <ul>

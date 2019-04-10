@@ -91,6 +91,10 @@
             </div>
             
             <div class="card my-4">
+            <h5 class="card-header">Kubernetes for DevOps</h5>
+           <p> <iframe width='160' height='400' src='https://leanpub.com/kube/embed' frameborder='0' allowtransparency='true'></iframe></p>
+            </div>
+            <div class="card my-4">
     		<h5 class="card-header">Cryptography for Python Developers</h5>
         <p><iframe width='160' height='400' src='https://leanpub.com/cryptop/embed' frameborder='0' allowtransparency='true'></iframe></p>
 			</div>

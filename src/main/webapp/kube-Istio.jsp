@@ -93,6 +93,13 @@
           <hr>
 
 <h3 class="mt-4">Introduction </h3>
+
+<p>This sample chapter extracted from the book,<mark> <a href="https://leanpub.com/crypto">Kubernetes for DevOps </a>. </mark> </p>
+<p><mark>Get this book on Just  <a href="https://leanpub.com/kube/" target="_blank" rel="noopener">  $9 </a> or Ask Author for Discount </mark>   </p>
+<p><iframe class="embed-responsive-item" width='160' height='400' src='https://leanpub.com/kube/embed' frameborder='0' allowtransparency='true'></iframe></p>
+
+<hr>
+
 <p>Istio is an open source independent service mesh that provides the fundamentals you need to successfully run a distributed microservice architecture.</p>
 <p>A service mesh is a dedicated infrastructure layer for handling <strong>service-to-service communication</strong>. It's responsible for the reliable delivery of requests through the complex topology of services that comprise a modern, cloud native application.</p>
 <p>An Istio service mesh is logically split into a  <strong>data plane</strong>  and a  <strong>control plane</strong>.</p>
