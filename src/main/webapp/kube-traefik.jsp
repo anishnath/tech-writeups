@@ -237,7 +237,7 @@ NAME    REVISION  UPDATED                   STATUS    CHART           APP VERSIO
 traefik 1         Fri Jan 18 10:20:11 2019  DEPLOYED  traefik-1.58.0  1.7.6       kube-system
 </code></pre>
 <ul>
-<li>Open the web browser and browse Node port <a href="http://dashboard.traefik:31622/">http://dashboard.traefik:31622/</a> to access Traefik page</li>
+<li>Open the web browser and browse Node port <a href="https://leanpub.com/kube">http://dashboard.traefik:31622/</a> to access Traefik page</li>
 </ul>
 <p><img class="img-fluid rounded" src="img/traefik.png" alt=""></p>
 <ul>
@@ -254,7 +254,7 @@ Re-type new password:&lt;&lt;traefik&gt;&gt;
 <pre><code class="language-console">root@kube-master:# helm install stable/traefik --name traefik --set dashboard.enabled=true,serviceType=NodePort,dashboard.domain=dashboard.traefik,rbac.enabled=true,dashboard.auth.basic.traefik='$apr1$vUmd7ddA$CoklUZpHBbRzvnZUz6eFY.' --namespace kube-system
 </code></pre>
 <ul>
-<li>Open the web browser and browse Node port <a href="http://dashboard.traefik">http://dashboard.traefik</a>:&lt;NODE_PORT&gt;/ to access Traefik page</li>
+<li>Open the web browser and browse Node port <a href="https://leanpub.com/kube">http://dashboard.traefik</a>:&lt;NODE_PORT&gt;/ to access Traefik page</li>
 <li>Give username and password as <strong>traefik:traefik</strong><br>
 <img class="img-fluid rounded" src="img/traefik1.png" alt=""></li>
 <li>Enable SSL, this can be done through by setting the <code>ssl.enabled=true</code></li>
@@ -263,7 +263,7 @@ Re-type new password:&lt;&lt;traefik&gt;&gt;
 <pre><code class="language-console">root@kube-master:# helm install stable/traefik --name traefik --set dashboard.enabled=true,serviceType=NodePort,dashboard.domain=dashboard.traefik,rbac.enabled=true,dashboard.auth.basic.traefik='$apr1$vUmd7ddA$CoklUZpHBbRzvnZUz6eFY.',ssl.enabled=true,ssl.enforced=true --namespace kube-system
 </code></pre>
 <ul>
-<li>Open the web browser and browse secure Node port <a href="https://dashboard.traefik">https://dashboard.traefik</a>:&lt;NODE_PORT&gt;/ to access Traefik page securely<br>
+<li>Open the web browser and browse secure Node port <a href="https://leanpub.com/kube">https://dashboard.traefik</a>:&lt;NODE_PORT&gt;/ to access Traefik page securely<br>
 <img class="img-fluid rounded" src="img/traefik1.png" alt=""></li>
 <li>To learn more about helm traefik chart go <a href="https://github.com/helm/charts/tree/master/stable/traefik">here</a></li>
 </ul>

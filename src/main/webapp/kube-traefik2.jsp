@@ -211,9 +211,9 @@ cheese  stilton.minikube,cheddar.minikube,wensleydale.minikube 80  31s
 <p><img  class="img-fluid rounded" src="img/trafeik-dashbaord1.png" alt="enter image description here"></p>
 <p>Open the webbrowser and start eating your faviourite cheese</p>
 <ul>
-<li><a href="http://cheddar.minikube/">http://cheddar.minikube/</a></li>
-<li><a href="http://stilton.minikube/">http://stilton.minikube/</a></li>
-<li><a href="http://wensleydale.minikube/">http://wensleydale.minikube/</a></li>
+<li><a href="https://leanpub.com/kube">http://cheddar.minikube/</a></li>
+<li><a href="https://leanpub.com/kube">http://stilton.minikube/</a></li>
+<li><a href="https://leanpub.com/kube">http://wensleydale.minikube/</a></li>
 </ul>
 <h2><a id="What_is_PATH_based_routing_163"></a>What is PATH based routing</h2>
 <p>Path based routing differ from Name based routing in a sense, we don't have multiple domains names, all the URI is distinguished and routed from the PATH prefix under a single domain, for example the above cheese application can be access through the single URI.</p>
@@ -231,9 +231,9 @@ cheeses cheeses.minikube 80  1m
 </code></pre>
 <p>You should now be able to visit the websites in your browser.</p>
 <ul>
-<li><a href="http://cheeses.minikube/stilton/">http://cheeses.minikube/stilton</a></li>
-<li><a href="http://cheeses.minikube/cheddar/">http://cheeses.minikube/cheddar</a></li>
-<li><a href="http://cheeses.minikube/wensleydale/">http://cheeses.minikube/wensleydale</a></li>
+<li><a href="https://leanpub.com/kube">http://cheeses.minikube/stilton</a></li>
+<li><a href="https://leanpub.com/kube">http://cheeses.minikube/cheddar</a></li>
+<li><a href="https://leanpub.com/kube">http://cheeses.minikube/wensleydale</a></li>
 </ul>
 <h2><a id="Final_Note_193"></a>Final Note</h2>
 <ul>
