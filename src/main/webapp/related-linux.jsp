@@ -26,6 +26,10 @@
                     </li>
                     
                      <li>
+                      <a href="linux-detectos.jsp">Detecting Linux distribution name</a>
+                    </li>
+                    
+                     <li>
                       <a href="alibabacloud.jsp">Exploring Alibaba cloud Free Trial</a>
                     </li>
                 </div>
