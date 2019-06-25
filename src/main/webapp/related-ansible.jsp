@@ -12,6 +12,9 @@
                      <li>
                       <a href="ansible-sudo-ssh-password.jsp">Pass sudo/ssh password without prompt</a>
                     </li>
+                     <li>
+                      <a href="ansible-windows.jsp">Ansible Windows Commands</a>
+                    </li>
                 </div>
               </div>
             </div>
