@@ -47,7 +47,7 @@
   "datePublished" : "2018-09-24",
   "dateModified": "2018-09-24",
   "articleSection" : "Web Crypto API ECDH generateKey/deriveBits and perform AES encryption and decryption",
-  "articleBody" : [ "Web Crypto API ECDH generateKey/deriveBits and perform AES encryption and decryption","The recognized algorithm name for this algorithm is "ECDH".", "Named Curve reference", "secp256r1=P-256","ECDH Demo", "ECDH Derived Key Master","ECDH Private Key (JWK)", "ECDH Javascript example of using webcrypto api", "ECDH exportKey Example", "ECDH Derive key using name curved algorithms", "ECDH deriveBits", "Performing AES Encryption using ECDH generate Key"],
+  "articleBody" : [ "Web Crypto API ECDH generateKey/deriveBits and perform AES encryption and decryption","The recognized algorithm name for this algorithm is ECDH", "Named Curve reference", "secp256r1=P-256","ECDH Demo", "ECDH Derived Key Master","ECDH Private Key (JWK)", "ECDH Javascript example of using webcrypto api", "ECDH exportKey Example", "ECDH Derive key using name curved algorithms", "ECDH deriveBits", "Performing AES Encryption using ECDH generate Key"],
   "publisher" : {
     "@type" : "Organization",
     "name" : "8gwifi.org Tech Blog",
