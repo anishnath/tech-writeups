@@ -47,7 +47,7 @@
   "datePublished" : "2018-08-15",
   "dateModified": "2018-08-15",
   "articleSection" : "Kubernetes  Port, Targetport and NodePort",
-  "articleBody" : [ "Definition of Modern TLS","Service kubernetes","Port","Target Port","Nodeport"]
+  "articleBody" : [ "Definition of Modern TLS","Service kubernetes","Port","Target Port","Nodeport"],
   "publisher" : {
     "@type" : "Organization",
     "name" : "8gwifi.org Tech Blog",

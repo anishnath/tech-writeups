@@ -47,7 +47,7 @@
   "datePublished" : "2018-09-25",
   "dateModified": "2018-09-25",
   "articleSection" : "Web Crypto Digital Signature Using PBKDF2 and HMAC ",
-  "articleBody" : [ "Web Crypto API Digital Signature Using PBKDF2 and HMAC","PBKDF2,HMAC Digital Signature Demo","pbkdf2,hmac Javascript example of using webcrypto api","The first step is to derive the key from the user supplied password","Once the key is derived, now we are signing the message, using this derived key","To verify the signature of the message, pass the pbdkf2 crypto key,signature and the plain text message"]
+  "articleBody" : [ "Web Crypto API Digital Signature Using PBKDF2 and HMAC","PBKDF2,HMAC Digital Signature Demo","pbkdf2,hmac Javascript example of using webcrypto api","The first step is to derive the key from the user supplied password","Once the key is derived, now we are signing the message, using this derived key","To verify the signature of the message, pass the pbdkf2 crypto key,signature and the plain text message"],
   "publisher" : {
     "@type" : "Organization",
     "name" : "8gwifi.org Tech Blog",

@@ -47,7 +47,7 @@
   "datePublished" : "2019-02-12",
   "dateModified": "2019-02-12",
   "articleSection" : "Kubernetes Authentication, Authorization Admission Control",
-  "articleBody" : [ "Kubernetes Authentication, Authorization Admission Control", "Kubernetes TLS Security" , "Authentication", "ServiceAccounts", "User Accounts", "Authorization" , "Admission Control"]
+  "articleBody" : [ "Kubernetes Authentication, Authorization Admission Control", "Kubernetes TLS Security" , "Authentication", "ServiceAccounts", "User Accounts", "Authorization" , "Admission Control"],
   "publisher" : {
     "@type" : "Organization",
     "name" : "8gwifi.org Tech Blog",

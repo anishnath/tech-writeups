@@ -47,7 +47,7 @@
   "datePublished" : "2018-07-12",
   "dateModified": "2018-07-12",
   "articleSection" : "Did you Missed Nginx Secure Configuration",
-  "articleBody" : [ "Nginx Least Priviledge","OCSP stapling","Nginx HTTP Header Security Parameter","Nginx Set max POST and GET Size","Nginx Rate Limiting","Nginx Adding http2 support on SSL","Nginx TLS Security Parameter with http2 support","LetsEncrypt configuration","Nginx Redirect http to https","Subdomain Redirect","Disable Unwanted HTTP Methods","Basic Auth","Logging to Syslog","Enable Compression","Block unwanted user-agents/robots","Listen to Ipv6","Enable SELinux","PHP Nginx Setting","Wordpress Setting","Drupal Setting","Nginx Modularized File Structure","Reload /Restart Nginx"]
+  "articleBody" : [ "Nginx Least Priviledge","OCSP stapling","Nginx HTTP Header Security Parameter","Nginx Set max POST and GET Size","Nginx Rate Limiting","Nginx Adding http2 support on SSL","Nginx TLS Security Parameter with http2 support","LetsEncrypt configuration","Nginx Redirect http to https","Subdomain Redirect","Disable Unwanted HTTP Methods","Basic Auth","Logging to Syslog","Enable Compression","Block unwanted user-agents/robots","Listen to Ipv6","Enable SELinux","PHP Nginx Setting","Wordpress Setting","Drupal Setting","Nginx Modularized File Structure","Reload /Restart Nginx"],
   "publisher" : {
     "@type" : "Organization",
     "name" : "8gwifi.org Tech Blog",

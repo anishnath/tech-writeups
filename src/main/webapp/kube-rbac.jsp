@@ -47,7 +47,7 @@
   "datePublished" : "2019-02-07",
   "dateModified": "2019-02-07",
   "articleSection" : "Kubernetes Setting up Role-Based Access Control(RBAC)",
-  "articleBody" : [ "Kubernetes Setting up Role-Based Access Control(RBAC)" ,"Role" , "ClusterRole" , "RoleBinding" , "ClusterRoleBinding" , "Create Role and Rolebinding for user1 kubernetes" , "Verify Roles and RoleBindings" , "Testing RBAC kubernetes"]
+  "articleBody" : [ "Kubernetes Setting up Role-Based Access Control(RBAC)" ,"Role" , "ClusterRole" , "RoleBinding" , "ClusterRoleBinding" , "Create Role and Rolebinding for user1 kubernetes" , "Verify Roles and RoleBindings" , "Testing RBAC kubernetes"],
   "publisher" : {
     "@type" : "Organization",
     "name" : "8gwifi.org Tech Blog",

@@ -47,7 +47,7 @@
   "datePublished" : "2019-01-09",
   "dateModified": "2018-01-09",
   "articleSection" : "Prometheus Dashboards Access",
-  "articleBody" : [ "Prometheus ports","Prometheus-Operator UI","Prometheus Alert-Manager UI","Prometheus Grafana UI","prometheus"]
+  "articleBody" : [ "Prometheus ports","Prometheus-Operator UI","Prometheus Alert-Manager UI","Prometheus Grafana UI","prometheus"],
   "publisher" : {
     "@type" : "Organization",
     "name" : "8gwifi.org Tech Blog",

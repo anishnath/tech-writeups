@@ -47,7 +47,7 @@
   "datePublished" : "2018-07-30",
   "dateModified": "2018-07-30",
   "articleSection" : "Adding Native IPv6 Support to ECS Instance",
-  "articleBody" : [ "Tunnel broker", "Hurricane Electric Tunnel broker","Format of assigned IPv6 addresses","Creating HE Tunnel","Configure ECS Interface","el6 configuration","Debian Ubuntu","Windows 10 hurricane electric","Verify the tunnel is working"]
+  "articleBody" : [ "Tunnel broker", "Hurricane Electric Tunnel broker","Format of assigned IPv6 addresses","Creating HE Tunnel","Configure ECS Interface","el6 configuration","Debian Ubuntu","Windows 10 hurricane electric","Verify the tunnel is working"],
   "publisher" : {
     "@type" : "Organization",
     "name" : "8gwifi.org Tech Blog",
