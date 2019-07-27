@@ -47,7 +47,7 @@
   "datePublished" : "2018-08-11",
   "dateModified": "2018-08-11",
   "articleSection" : "PUBLIC KEY INFRASTRUCTURES in Nutshel",
-  "articleBody" : [ "PUBLIC KEY INFRASTRUCTURES","Certification Authority (CA)","Registration Authority (RA)","PKI Users","PKI Architecture","openssl generating hierarchical CA structure", "PKI Data Structure","X.509","CRL" ,"Implement CERTIFICATION REVOCATION LIST","Adding CRL distribution point"]
+  "articleBody" : [ "PUBLIC KEY INFRASTRUCTURES","Certification Authority (CA)","Registration Authority (RA)","PKI Users","PKI Architecture","openssl generating hierarchical CA structure", "PKI Data Structure","X.509","CRL" ,"Implement CERTIFICATION REVOCATION LIST","Adding CRL distribution point"],
   "publisher" : {
     "@type" : "Organization",
     "name" : "8gwifi.org Tech Blog",
