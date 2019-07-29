@@ -67,6 +67,10 @@
                       <a href="kube-Istio.jsp">Service Mesh With Istio</a>
                     </li>
                     
+                     <li>
+                      <a href="docker-privaterepo.jsp">Docker Private repo with SSL and AUTH</a>
+                    </li>
+                    
                 </div>
               </div>
             </div>
