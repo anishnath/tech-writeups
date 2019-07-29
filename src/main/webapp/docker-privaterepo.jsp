@@ -173,6 +173,11 @@ docker push localhost:5000/nginx:latest
 <pre><code class="has-line-data" data-line-start="104" data-line-end="106">docker-compose up -d
 </code></pre>
 
+<p><h2>Video Demo </h2> </p>
+<iframe width="420" height="315"
+src="https://youtube.com/embed/-u-IcqT1hJQ">
+</iframe>
+
 				<p>
 					Next Reading : <a href="linux-monitor-commands.jsp">How to
 						Monitoring All Executed Commands in Linux </a>
