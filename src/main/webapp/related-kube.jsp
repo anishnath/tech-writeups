@@ -68,6 +68,10 @@
                     </li>
                     
                      <li>
+                      <a href="kube-java.jsp">kubernetes Java client example</a>
+                    </li>
+                    
+                     <li>
                       <a href="docker-privaterepo.jsp">Docker Private repo with SSL and AUTH</a>
                     </li>
                     
