@@ -72,6 +72,10 @@
                     </li>
                     
                      <li>
+                      <a href="docker-install.jsp">Right Way to Install Docker</a>
+                    </li>
+                    
+                     <li>
                       <a href="docker-privaterepo.jsp">Docker Private repo with SSL and AUTH</a>
                     </li>
                     
