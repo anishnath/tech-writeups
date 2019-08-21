@@ -71,6 +71,10 @@
                       <a href="kube-java.jsp">kubernetes Java client example</a>
                     </li>
                     
+                    <li>
+                      <a href="kube-java.jsp">kubernetes letsencrypt deploy wild card certificate</a>
+                    </li>
+                    
                      <li>
                       <a href="docker-install.jsp">Right Way to Install Docker</a>
                     </li>
