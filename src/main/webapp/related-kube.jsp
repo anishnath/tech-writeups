@@ -72,7 +72,7 @@
                     </li>
                     
                     <li>
-                      <a href="kube-java.jsp">kubernetes letsencrypt deploy wild card certificate</a>
+                      <a href="kube-lets.jsp">kubernetes letsencrypt deploy wild card certificate</a>
                     </li>
                     
                      <li>
