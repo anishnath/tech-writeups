@@ -67,6 +67,10 @@
                       <a href="kube-Istio.jsp">Service Mesh With Istio</a>
                     </li>
                     
+                    <li>
+                      <a href="kube-externalname.jsp">Access SVC in Another Namespaces</a>
+                    </li>
+                    
                      <li>
                       <a href="kube-java.jsp">kubernetes Java client example</a>
                     </li>
