@@ -1,22 +1,23 @@
 <hr>
+<a href="https://twitter.com/anish2good?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow Me for Updates</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<hr>
 
 <%@ include file="footer_adsense.jsp"%> 
 <p><strong> Thanku for reading !!! Give a Share for Support</strong></p>
 <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a04129f05073300123e3782&product=inline-share-buttons"></script>   
 <div class="sharethis-inline-share-buttons"></div>
 
-<p> <mark>Asking for donation sound bad to me, so i'm raising fund from <strong> The Modern Cryptography CookBook </strong> </mark> for Just  <a href="http://leanpub.com/crypto/c/NPsT3TZmqrNS" target="_blank" rel="noopener"> $9</a>. Leanpub books Discount coupon first <a href="http://leanpub.com/crypto/c/NPsT3TZmqrNS" target="_blank" rel="noopener"> 100 </a>reader. No hurry read the sample chapters <a href="https://8gwifi.org/docs/pki.jsp">here</a> then decide.</p>
-<p> Alternatively to support you can buy <mark> My all four Cryptography book Just <a href="https://leanpub.com/b/cryptob">$10.99 </a> </mark> </p>
-<hr>
-<a href="https://leanpub.com/b/cryptob"><img class="img-fluid rounded" src="img/4book.png" height="400" width="500" alt="Referefce "></a>
+<p>Asking for donation sound bad to me, so i'm raising fund from <strong> by <mark>offering <a href="https://leanpub.com/b/all-my-books" target="_blank">  all my six book for just $9 </a> </mark></strong></p>
+<a href="https://leanpub.com/b/cryptob"><img class="img-fluid rounded" src="img/6book.png" height="400" width="500" alt="Referefce "></a>
 
 <ul>
     <li>The Modern Cryptography Book.</li>
     <li>Go lang Cryptography for developers</li>
     <li>Python Cryptography</li>
     <li>Cryptography for JavaScript Developer</li>
+    <li>Kubernetes for Devops</li>
+    <li>Hello Dockerfile</li>
 </ul>
-
 
 
 <hr>
