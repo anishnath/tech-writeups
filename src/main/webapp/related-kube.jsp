@@ -87,6 +87,10 @@
                       <a href="docker-privaterepo.jsp">Docker Private repo with SSL and AUTH</a>
                     </li>
                     
+                     <li>
+                      <a href="docker-baseimage.jsp">Creating Docker Base Image</a>
+                    </li>
+                    
                 </div>
               </div>
             </div>
