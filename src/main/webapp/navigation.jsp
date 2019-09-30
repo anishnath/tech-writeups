@@ -7,12 +7,15 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="http://leanpub.com/crypto/c/NPsT3TZmqrNS"><small>For Coffee/Beer Amazon Bill Buy My Crytography CookBook</small>
+              <a class="nav-link" href="https://leanpub.com/b/all-my-books"><small>To Support Grab 6 book for Just$9</small>
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="https://8gwifi.org">Cryptography Playground</a>
+            </li>
+             <li class="nav-item active">
+              <a class="nav-link"  href="https://0cloud0.com/playground">Online Linux Terminals</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link"  href="https://www.linkedin.com/in/anishnath">Hire Me!</a>
