@@ -1,6 +1,4 @@
 <hr>
-<a href="https://twitter.com/anish2good?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow Me for Updates</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<hr>
 
 <%@ include file="footer_adsense.jsp"%> 
 <p><strong> Thanku for reading !!! Give a Share for Support</strong></p>
@@ -8,7 +6,7 @@
 <div class="sharethis-inline-share-buttons"></div>
 
 <p>Asking for donation sound bad to me, so i'm raising fund from <strong> by <mark>offering <a href="https://leanpub.com/b/all-my-books" target="_blank">  all my six book for just $9 </a> </mark></strong></p>
-<a href="https://leanpub.com/b/cryptob"><img class="img-fluid rounded" src="img/6book.png" height="400" width="500" alt="Referefce "></a>
+<a href="https://leanpub.com/b/all-my-books"><img class="img-fluid rounded" src="img/6book.png" height="400" width="500" alt="Referefce "></a>
 
 <ul>
     <li>The Modern Cryptography Book.</li>
