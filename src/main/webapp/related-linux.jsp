@@ -32,6 +32,10 @@
                      <li>
                       <a href="alibabacloud.jsp">Exploring Alibaba cloud Free Trial</a>
                     </li>
+                    
+                    <li>
+                      <a href="curl.jsp">HTTPIE, WGET, CURL</a>
+                    </li>
                 </div>
               </div>
             </div>
