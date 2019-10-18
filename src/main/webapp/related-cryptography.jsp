@@ -25,6 +25,9 @@
                       <a href="ssh.jsp">Twenty Steps of SSH hardening</a>
                     </li>
                     <li>
+                      <a href="ssh1.jsp">SSH MFA with Google Authenticator</a>
+                    </li>
+                    <li>
                       <a href="apache-tls-conf.jsp">Apache TLS Configuration</a>
                     </li>
                 </div>
