@@ -3,6 +3,9 @@
             <div class="card-body">
               <div class="row">
                 <div>
+                <li>
+                      <a href="linux-8.jsp">Whats New RHEL8/Centos8</a>
+                    </li>
                    <li>
                       <a href="autofs.jsp">Auto-mounting an NFS share using autofs</a>
                     </li>
