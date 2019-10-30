@@ -226,6 +226,14 @@ systemctl status mariadb
 <p class="has-line-data" data-line-start="102" data-line-end="103">Once MariaDB is started, complete the series of questions likeHow to Secure MariaDB by setting root password</p>
 <pre><code class="html">/usr/bin/mysql_secure_installation
 </code></pre>
+
+<p><h3>Video Demo </h3> </p>
+ <iframe width="420" height="315"
+src="https://youtube.com/embed/oLIz9uE19ws">
+</iframe> 
+
+
+
 <p class="has-line-data" data-line-start="107" data-line-end="108"><strong>That's ALL  (Nope )</strong></p>
 
 				<p>
