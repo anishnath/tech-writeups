@@ -33,6 +33,9 @@
                     <li>
                       <a href="curl.jsp">Productivity HTTPIE, WGET, CURL</a>
                     </li>
+                    <li>
+                      <a href="linux-lamp.jsp">LAMP Stack on Centos8/RH8</a>
+                    </li>
                 </div>
               </div>
             </div>
