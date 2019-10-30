@@ -44,7 +44,7 @@
     "name" : "Anish"
   },
   "headline": "How to set up a LAMP stack on Centos8 / RHEL 8",
-  "image":"https://8gwifi.org/docs/img/linux-8.png",
+  "image":"https://8gwifi.org/docs/img/linux-lamp.png",
   "datePublished" : "2019-10-30",
   "dateModified": "2019-10-30",
   "articleSection" : "How to set up a LAMP stack on Centos8 / RHEL 8",
