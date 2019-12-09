@@ -28,6 +28,9 @@
                       <a href="linux-detectos.jsp">Detecting Linux distribution name</a>
                     </li>
                      <li>
+                      <a href="linux-namespace.jsp">Overview of Linux namespace</a>
+                    </li>
+                     <li>
                       <a href="alibabacloud.jsp">Exploring Alibaba cloud Free Trial</a>
                     </li>
                     <li>
