@@ -30,6 +30,9 @@
                      <li>
                       <a href="linux-namespace.jsp">Overview of Linux namespace</a>
                     </li>
+                    <li>
+                      <a href="linux-cgroup.jsp">Overview of CGroup</a>
+                    </li>
                      <li>
                       <a href="alibabacloud.jsp">Exploring Alibaba cloud Free Trial</a>
                     </li>
