@@ -95,6 +95,10 @@
                       <a href="containers.jsp">Container Runtime (RUNC,RKT,CRI-O,Conatinerd) </a>
                     </li>
                     
+                    <li>
+                      <a href="podman-install.jsp">Podman Install on Ubuntu/Debian</a>
+                    </li>
+                    
                 </div>
               </div>
             </div>
