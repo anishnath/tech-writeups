@@ -43,6 +43,9 @@
                       <a href="kube-jenkins.jsp">Kubernetes Jenkins installation</a>
                     </li>
                      <li>
+                      <a href="podman-jenkins.jsp">Podman Jenkins installation</a>
+                    </li>
+                     <li>
                       <a href="kube-mariadb.jsp">Kubernetes mariadb installation</a>
                     </li>
                     <li>
