@@ -257,12 +257,21 @@ Forwarding from [::1]:9000 -&gt; 8080
 </ul>
 <p><img class="img-fluid rounded"  src="img/jenkins.png" alt="Jenkins UI "></p>
 <p>All right you have successfully created Jenkins start scheduling the jobs</p>
+<hr>
+<p> Related Jenkins </p>
+
+<ul>
+    <li><a href="podman-jenkins.jsp">How to install jenkins using podman </a></li>
+</ul>
 
 <hr>
 <p><h2>Video Demo </h2> </p>
 <iframe width="420" height="315"
 src="https://youtube.com/embed/p_6T5NoTixQ">
 </iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qGLEuXK46gQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/42HAiUOJR3M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
           
 
