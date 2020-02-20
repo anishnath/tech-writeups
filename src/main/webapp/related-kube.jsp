@@ -3,6 +3,9 @@
             <div class="card-body">
               <div class="row">
                 <div>
+                	<li>
+                      <a href="../kube.jsp">kubernetes YAML/JSON Generator</a>
+                    </li>
                     <li>
                       <a href="ansible-kube-install.jsp">kubernetes install on using ansible</a>
                     </li>
