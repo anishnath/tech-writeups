@@ -4,7 +4,10 @@
               <div class="row">
                 <div>
                 	<li>
-                      <a href="../kube.jsp">kubernetes YAML/JSON Generator</a>
+                      <a href="../kube.jsp">kubernetes (pod/deployment/svc) YAML/JSON Generator</a>
+                    </li>
+                    <li>
+                      <a href="../dc.jsp">Docker compose Generator</a>
                     </li>
                     <li>
                       <a href="ansible-kube-install.jsp">kubernetes install on using ansible</a>
