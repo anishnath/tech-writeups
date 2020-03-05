@@ -13,6 +13,9 @@
                       <a href="../dc1.jsp">Docker run to compose Generator</a>
                     </li>
                     <li>
+                      <a href="../dc2.jsp">Docker compose to docker run Generator</a>
+                    </li>
+                    <li>
                       <a href="ansible-kube-install.jsp">kubernetes install on using ansible</a>
                     </li>
                      <li>
