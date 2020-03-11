@@ -7,6 +7,10 @@
                       <a href="../kube.jsp">kubernetes (pod/deployment/svc) YAML/JSON Generator</a>
                     </li>
                     <li>
+                    <li>
+                      <a href="../kube1.jsp">Docker compose to kubernetes Generator</a>
+                    </li>
+                    <li>
                       <a href="../dc.jsp">Docker compose Generator</a>
                     </li>
                     <li>
