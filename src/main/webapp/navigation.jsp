@@ -15,7 +15,8 @@
               <a class="nav-link" href="https://8gwifi.org">Cryptography Playground</a>
             </li>
              <li class="nav-item active">
-              <a class="nav-link"  href="https://0cloud0.com/playground">Online Linux Terminals</a>
+              <a class="nav-link" href="../covid.jsp" target="_blank" rel="noopener">COVID-19 Analytics
+              </a>
             </li>
             <li class="nav-item active">
               <a class="nav-link"  href="https://www.linkedin.com/in/anishnath">Hire Me!</a>
