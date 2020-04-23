@@ -52,6 +52,9 @@
                      <li>
                       <a href="CVE-2018-1002105.jsp">Kubernetes Privilege Escalation Vulnerability</a>
                     </li>
+                    <li>
+                      <a href="kube-upgrade.jsp">Upgrading kubernetes cluster</a>
+                    </li>
                      <li>
                       <a href="prometheus-dashboard.jsp">Prometheus Dashboard Access</a>
                     </li>
