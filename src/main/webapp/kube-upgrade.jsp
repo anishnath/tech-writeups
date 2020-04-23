@@ -294,6 +294,12 @@ apt-mark hold kubelet kubectl
 
 <p>since it's kubernetes you may encounter some issues, feel free to poke me</p>
 
+<p>Video Demo for RHEL I will update the Ubuntu shortly keep coming back  </p>
+
+<iframe width="420" height="315"
+src="https://youtube.com/embed/GuWPqpjncyo">
+</iframe>
+
 
 <%@ include file="thanks.jsp"%>
 
