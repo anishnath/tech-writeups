@@ -7,7 +7,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="https://leanpub.com/b/8bookfor10">Grab 8 book for Just$9
+              <a class="nav-link" href="https://leanpub.com/b/9book">Grab 9 book for Just$9
                 <span class="sr-only">(current)</span>
               </a>
             </li>
@@ -15,7 +15,8 @@
               <a class="nav-link" href="https://8gwifi.org">Cryptography Playground</a>
             </li>
              <li class="nav-item active">
-              <a class="nav-link"  href="https://0cloud0.com/playground">Online Linux Terminals</a>
+              <a class="nav-link" href="../covid.jsp" target="_blank" rel="noopener">COVID-19 Analytics
+              </a>
             </li>
             <li class="nav-item active">
               <a class="nav-link"  href="https://www.linkedin.com/in/anishnath">Hire Me!</a>

@@ -7,10 +7,20 @@
                       <a href="../kube.jsp">kubernetes (pod/deployment/svc) YAML/JSON Generator</a>
                     </li>
                     <li>
+                    <li>
+                      <a href="../kube1.jsp">Docker compose to kubernetes Generator</a>
+                    </li>
+                    <li>
+                      <a href="../kube2.jsp">kubernetes to Docker Compose Generator</a>
+                    </li>
+                    <li>
                       <a href="../dc.jsp">Docker compose Generator</a>
                     </li>
                     <li>
                       <a href="../dc1.jsp">Docker run to compose Generator</a>
+                    </li>
+                    <li>
+                      <a href="../dc2.jsp">Docker compose to docker run Generator</a>
                     </li>
                     <li>
                       <a href="ansible-kube-install.jsp">kubernetes install on using ansible</a>
@@ -41,6 +51,9 @@
                     </li>
                      <li>
                       <a href="CVE-2018-1002105.jsp">Kubernetes Privilege Escalation Vulnerability</a>
+                    </li>
+                    <li>
+                      <a href="kube-upgrade.jsp">Upgrading kubernetes cluster</a>
                     </li>
                      <li>
                       <a href="prometheus-dashboard.jsp">Prometheus Dashboard Access</a>
