@@ -5,8 +5,8 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="How to create docker base image for cents7,debian,ubuntu,redhat,alpine">
-<meta name="keywords"content="How to create docker base image for cents7,debian,ubuntu,redhat,alpine, docker interview questions">
+<meta name="description" content="onlinie learning Pre-Primary Teacher">
+<meta name="keywords"content="online learning, effective way to teach online">
 <meta name="author" content="Anish nath">
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
@@ -36,7 +36,7 @@
   "@type" : "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://8gwifi.org/docs/docker-baseimage.jsp"
+    "@id": "https://8gwifi.org/docs/gen-learning.jsp"
   },
   "name" : "5 Reasons why Online learning is New Danger to Pre-Primary Teacher",
   "author" : {
@@ -44,11 +44,11 @@
     "name" : "Anish"
   },
   "headline": "5 Reasons why Online learning is New Danger to Pre-Primary Teacher",
-  "image":"https://8gwifi.org/docs/img/baseimage.png",
-  "datePublished" : "2019-09-30",
-  "dateModified": "2019-09-30",
-  "articleSection" : "How to create docker base image",
-  "articleBody" : [ "How to create docker base image","FROM scratch", "The Dockerfile of creating Centos7 base Image", "The Dockerfile of creating debian base Image"],
+  "image":"https://8gwifi.org/docs/img/gen-l1.jpg",
+  "datePublished" : "2020-05-17",
+  "dateModified": "2020-05-17",
+  "articleSection" : "5 Reasons why Online learning is New Danger to Pre-Primary Teacher",
+  "articleBody" : [ "online teaching" , "online teaching with kids"],
   "publisher" : {
     "@type" : "Organization",
     "name" : "8gwifi.org Tech Blog",
